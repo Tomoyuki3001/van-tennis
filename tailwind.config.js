@@ -5,6 +5,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         top: "url('./assets/top.jpg')",
+        play: "url('./assets/play.jpg')",
+        game: "url('./assets/game.jpg')",
+        shopping: "url('./assets/shopping.jpg')",
+      },
+      backdropBrightness: {
+        50: ".5",
       },
     },
   },
