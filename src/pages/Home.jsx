@@ -1,5 +1,5 @@
 import React from "react";
-import TopImage from "../assets/home-top.jpg";
+import TopImage from "../assets/home/about.jpg";
 import Play from "../assets/home/play.jpg";
 import Game from "../assets/home/game.jpg";
 import Shop from "../assets/home/shopping.jpg";
@@ -7,32 +7,35 @@ import Shop from "../assets/home/shopping.jpg";
 const Home = () => {
   return (
     <div>
-      <div className="bg-top bg-cover bg-center h-screen text-center flex flex-col justify-center">
-        <div className="lg:text-[15rem] text-white">We Play Tennis</div>
+      <div className="text-white font-bold bg-top bg-cover bg-center h-screen flex flex-col justify-center">
+        <div className="pl-20">
+          <p className="lg:text-[11rem] font-bold m-0 uppercase">We</p>
+          <p className="lg:text-[11rem] font-bold m-0 uppercase">Play</p>
+          <p className="lg:text-[11rem] font-bold m-0 uppercase">Tennis</p>
+        </div>
       </div>
       <div className="px-40">
-        <div className="bg-green-400 flex">
-          <div className="w-1/2 p-20">
-            <h1>Tennis</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              itaque, enim iure officiis ducimus veritatis aperiam laborum! Eos
-              iste maiores deserunt corrupti tempora quas ex ab repellendus,
-              amet cum iusto?
-            </p>
-          </div>
-          <div className="w-1/2 p-20 flex flex-col items-center">
-            <div className="relative w-64 h-64 overflow-hidden">
-              <img
-                className="absolute inset-0 w-full h-full object-cover"
-                src={TopImage}
-                alt="Iamge"
-              />
+        <div className="text-center mt-20">
+          <h2 className="text-[5rem] font-bold">Tennis in Vancouver</h2>
+          <div className="flex">
+            <div className="w-1/2 py-20 pr-20 flex flex-col justify-between">
+              <p className="text-lg text-left">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam itaque, enim iure officiis ducimus veritatis aperiam
+                laborum! Eos iste maiores deserunt corrupti tempora quas ex ab
+                repellendus, amet cum iusto?
+              </p>
+              <button className="border px-20 py-10 w-1/2 text-lg hover:bg-black hover:text-white">
+                ABOUT VTG
+              </button>
+            </div>
+            <div className="w-1/2 py-20 flex flex-col items-center">
+              <img className="w-full" src={TopImage} alt="Iamge" />
             </div>
           </div>
         </div>
-        <div className="bg-red-400">
-          <h2>Let's enjoy tennis!</h2>
+        <div className="text-center mt-20">
+          <h2 className="text-[5rem] font-bold my-10">Let's enjoy!</h2>
           <div className="grid lg:grid-rows-2 sm:grid-rows-4 grid-flow-col">
             <div className="relative">
               <img
@@ -85,8 +88,7 @@ const Home = () => {
                 <button>Learn more</button>
               </div>
             </div>
-
-            <div className="relative">
+            <div className="relative bg-black">
               <div className="p-10 absolute top-0 text-white">
                 <h2>And more...</h2>
                 <button>Learn more</button>
