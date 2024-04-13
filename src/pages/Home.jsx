@@ -1,8 +1,8 @@
 import React from "react";
 import TopImage from "../assets/home-top.jpg";
-import Play from "../assets/play.jpg";
-import Game from "../assets/game.jpg";
-import Shop from "../assets/shopping.jpg";
+import Play from "../assets/home/play.jpg";
+import Game from "../assets/home/game.jpg";
+import Shop from "../assets/home/shopping.jpg";
 
 const Home = () => {
   return (
