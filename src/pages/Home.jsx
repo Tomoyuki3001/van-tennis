@@ -7,7 +7,9 @@ import Shop from "../assets/shopping.jpg";
 const Home = () => {
   return (
     <div>
-      <div className="bg-top h-screen">Top</div>
+      <div className="bg-top bg-cover bg-center h-screen text-center flex flex-col justify-center">
+        <div className="lg:text-[15rem] text-white">We Play Tennis</div>
+      </div>
       <div className="px-40">
         <div className="bg-green-400 flex">
           <div className="w-1/2 p-20">
@@ -31,89 +33,63 @@ const Home = () => {
         </div>
         <div className="bg-red-400">
           <h2>Let's enjoy tennis!</h2>
-          <div>
-            <div className="flex">
-              <div className="w-1/2  relative">
-                <img
-                  className="w-full h-auto brightness-50"
-                  src={Play}
-                  alt="Playing tennis"
-                />
-                <div className="p-10 absolute top-0 text-white">
-                  <h2>Play</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                    quo quis accusantium illum, officia fugiat natus distinctio
-                    sunt exercitationem quia similique facilis dignissimos
-                    laboriosam, omnis quam architecto dolor repudiandae earum?
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                    quo quis accusantium illum, officia fugiat natus distinctio
-                    sunt exercitationem quia similique facilis dignissimos
-                    laboriosam, omnis quam architecto dolor repudiandae earum?
-                  </p>
-                  <button>Learn more</button>
-                </div>
-              </div>
-              <div className="w-1/2 relative">
-                <img
-                  className="w-full h-full brightness-50"
-                  src={Game}
-                  alt="Playing tennis"
-                />
-                <div className="p-10 absolute top-0 text-white">
-                  <h2>Watch</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                    quo quis accusantium illum, officia fugiat natus distinctio
-                    sunt exercitationem quia similique facilis dignissimos
-                    laboriosam, omnis quam architecto dolor repudiandae earum?
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                    quo quis accusantium illum, officia fugiat natus distinctio
-                    sunt exercitationem quia similique facilis dignissimos
-                    laboriosam, omnis quam architecto dolor repudiandae earum?
-                  </p>
-                  <button>Learn more</button>
-                </div>
+          <div className="grid lg:grid-rows-2 sm:grid-rows-4 grid-flow-col">
+            <div className="relative">
+              <img
+                className="w-full h-full brightness-50"
+                src={Play}
+                alt="Playing tennis"
+              />
+              <div className="p-10 absolute top-0 text-white">
+                <h2>Play</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                  quo quis accusantium illum, officia fugiat natus distinctio
+                  sunt exercitationem quia similique facilis dignissimos
+                  laboriosam, omnis quam architecto dolor repudiandae earum?
+                </p>
+                <button>Learn more</button>
               </div>
             </div>
-            <div className="flex">
-              <div className="w-1/2  relative">
-                <img
-                  className="w-full h-auto brightness-50"
-                  src={Shop}
-                  alt="Playing tennis"
-                />
-                <div className="p-10 absolute top-0 text-white">
-                  <h2>Shopping</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                    quo quis accusantium illum, officia fugiat natus distinctio
-                    sunt exercitationem quia similique facilis dignissimos
-                    laboriosam, omnis quam architecto dolor repudiandae earum?
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                    quo quis accusantium illum, officia fugiat natus distinctio
-                    sunt exercitationem quia similique facilis dignissimos
-                    laboriosam, omnis quam architecto dolor repudiandae earum?
-                  </p>
-                  <button>Learn more</button>
-                </div>
+            <div className="relative">
+              <img
+                className="w-full h-auto brightness-50"
+                src={Shop}
+                alt="Playing tennis"
+              />
+              <div className="p-10 absolute top-0 text-white">
+                <h2>Shopping</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                  quo quis accusantium illum, officia fugiat natus distinctio
+                  sunt exercitationem quia similique facilis dignissimos
+                  laboriosam, omnis quam architecto dolor repudiandae earum?
+                </p>
+                <button>Learn more</button>
               </div>
-              <div className="w-1/2 relative">
-                <img
-                  className="w-full h-full brightness-50"
-                  src={Game}
-                  alt="Playing tennis"
-                />
-                <div className="p-10 absolute top-0 text-white">
-                  <h2>And more...</h2>
-                  <button>Learn more</button>
-                </div>
+            </div>
+            <div className="relative">
+              <img
+                className="w-full h-full brightness-50"
+                src={Game}
+                alt="Playing tennis"
+              />
+              <div className="p-10 absolute top-0 text-white">
+                <h2>Watch</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                  quo quis accusantium illum, officia fugiat natus distinctio
+                  sunt exercitationem quia similique facilis dignissimos
+                  laboriosam, omnis quam architecto dolor repudiandae earum?
+                </p>
+                <button>Learn more</button>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="p-10 absolute top-0 text-white">
+                <h2>And more...</h2>
+                <button>Learn more</button>
               </div>
             </div>
           </div>
