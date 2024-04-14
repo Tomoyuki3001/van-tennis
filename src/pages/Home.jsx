@@ -4,15 +4,27 @@ import Play from "../assets/home/play.jpg";
 import Game from "../assets/home/game.jpg";
 import Shop from "../assets/home/shopping.jpg";
 import Profile from "../assets/home/profile.jpg";
+import { ReactTyped } from "react-typed";
 
 const Home = () => {
   return (
     <div>
       <div className="text-white font-bold bg-top bg-cover bg-center h-screen flex flex-col justify-center py-10">
         <div className="pl-20">
-          <div className="lg:text-[10rem] font-bold m-0 uppercase">We</div>
-          <div className="lg:text-[10rem] font-bold m-0 uppercase">Play</div>
-          <div className="lg:text-[10rem] font-bold m-0 uppercase">Tennis</div>
+          <h1 className="lg:text-[10rem] font-bold m-0 uppercase relative">
+            WE
+          </h1>
+          <h1 className="lg:text-[10rem] font-bold m-0 uppercase relative">
+            <ReactTyped
+              strings={["Play", "Enjoy", "Like"]}
+              typeSpeed={250}
+              loop
+              backSpeed={40}
+            />
+          </h1>
+          <h1 className="lg:text-[10rem] font-bold m-0 uppercase relative">
+            TENNIS
+          </h1>
         </div>
       </div>
       <div className="px-40">
