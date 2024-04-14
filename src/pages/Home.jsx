@@ -5,26 +5,24 @@ import Game from "../assets/home/game.jpg";
 import Shop from "../assets/home/shopping.jpg";
 import Profile from "../assets/home/profile.jpg";
 import { ReactTyped } from "react-typed";
+import Facebook from "../assets/home/facebook.png";
+import LinkedIn from "../assets/home/linkedin.png";
 
 const Home = () => {
   return (
     <div>
       <div className="text-white font-bold bg-top bg-cover bg-center h-screen flex flex-col justify-center py-10">
         <div className="pl-20">
-          <h1 className="lg:text-[10rem] font-bold m-0 uppercase relative">
-            WE
-          </h1>
-          <h1 className="lg:text-[10rem] font-bold m-0 uppercase relative">
+          <h1 className="lg:text-[8rem] font-bold m-0">WE</h1>
+          <h1 className="lg:text-[8rem] font-bold m-0 uppercase">
             <ReactTyped
               strings={["Play", "Enjoy", "Like"]}
               typeSpeed={250}
               loop
-              backSpeed={40}
+              backSpeed={50}
             />
           </h1>
-          <h1 className="lg:text-[10rem] font-bold m-0 uppercase relative">
-            TENNIS
-          </h1>
+          <h1 className="lg:text-[8rem] font-bold m-0">TENNIS</h1>
         </div>
       </div>
       <div className="px-40">
@@ -127,6 +125,22 @@ const Home = () => {
           <h2 className="mt-10">Tomoyuki Fujii</h2>
           <p>Worked at DUNLOP (Tennis)</p>
           <p>If you have any concerns about tennis, just let me know!</p>
+          <div className="w-1/12 flex justify-around">
+            <a
+              href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={LinkedIn} alt="" />
+            </a>
+            <a
+              href="https://www.facebook.com/tomoyk113"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Facebook} alt="" />
+            </a>
+          </div>
           <button className="mt-16 border px-20 py-5 hover:bg-black hover:text-white">
             CONTACT
           </button>

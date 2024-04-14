@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/logo.png";
 import LinkedIn from "../assets/linkedin.png";
-import Mail from "../assets/email.png";
+import Facebook from "../assets/facebook-white.png";
 
 const Footer = () => {
   return (
@@ -20,13 +20,14 @@ const Footer = () => {
               <img className="w-2/3" src={LinkedIn} alt="" />
             </a>
             <a
-              href="mailto:mjr01300828@gmail.com"
+              href="https://www.facebook.com/tomoyk113"
               target="_blank"
               rel="noreferrer"
             >
-              <img className="w-2/3" src={Mail} alt="" />
+              <img className="w-2/3" src={Facebook} alt="" />
             </a>
           </div>
+          <p className="mt-10">mjr01300828@gmail.com</p>
         </div>
         <p>
           <a className="text-2xl text-white no-underline" href="/about">
