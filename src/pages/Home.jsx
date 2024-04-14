@@ -60,16 +60,15 @@ const Home = () => {
                 src={Play}
                 alt="Playing tennis"
               />
-              <div className="hidden p-5 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-blue-600">
+              <div className="hidden p-3 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-blue-600">
                 <h2>PLAY</h2>
-                <p>
+                <p className="lg:text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                   quo quis accusantium illum, officia fugiat natus distinctio
                   sunt exercitationem quia similique facilis dignissimos
-                  laboriosam, omnis quam architecto dolor repudiandae earum?
                 </p>
                 <a href="/play">
-                  <button className="text-white border px-20 py-5 hover:bg-black">
+                  <button className="text-white border px-10 py-3 hover:bg-black">
                     LEARN MORE
                   </button>
                 </a>
@@ -81,16 +80,15 @@ const Home = () => {
                 src={Shop}
                 alt="Playing tennis"
               />
-              <div className="hidden p-5 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-gray-600">
+              <div className="hidden p-3 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-gray-600">
                 <h2>SHOPPING</h2>
-                <p>
+                <p className="lg:text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                   quo quis accusantium illum, officia fugiat natus distinctio
                   sunt exercitationem quia similique facilis dignissimos
-                  laboriosam, omnis quam architecto dolor repudiandae earum?
                 </p>
                 <a href="/gear">
-                  <button className="text-white border px-20 py-5 hover:bg-black">
+                  <button className="text-white border px-10 py-3 hover:bg-black">
                     LEARN MORE
                   </button>
                 </a>
@@ -102,16 +100,15 @@ const Home = () => {
                 src={Game}
                 alt="Playing tennis"
               />
-              <div className="hidden p-5 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-stone-600">
+              <div className="hidden p-3 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-stone-600">
                 <h2>WATCH</h2>
-                <p>
+                <p className="lg:text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                   quo quis accusantium illum, officia fugiat natus distinctio
                   sunt exercitationem quia similique facilis dignissimos
-                  laboriosam, omnis quam architecto dolor repudiandae earum?
                 </p>
                 <a href="/watch">
-                  <button className="text-white border px-20 py-5 hover:bg-black">
+                  <button className="text-white border px-10 py-3 hover:bg-black">
                     LEARN MORE
                   </button>
                 </a>
@@ -121,7 +118,7 @@ const Home = () => {
               <div className="p-10 absolute bottom-0 right-0 text-white">
                 <h2 className="mb-10">And more...</h2>
                 <a className="text-white" href="/gear">
-                  <button className="border px-20 py-5 hover:bg-white hover:text-black">
+                  <button className="border px-10 py-3 hover:bg-white hover:text-black">
                     CONTACT
                   </button>
                 </a>
@@ -154,7 +151,7 @@ const Home = () => {
             </a>
           </div>
           <a className="text-black" href="/contact">
-            <button className="mt-16 w-60 p-5 btn">CONTACT</button>
+            <button className="mt-16 w-40 p-4 btn">CONTACT</button>
           </a>
         </div>
       </div>

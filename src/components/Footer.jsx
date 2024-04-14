@@ -7,27 +7,27 @@ const Footer = () => {
   return (
     <div className=" bg-black text-white pt-10 pb-15 px-20 bottom-0 text-center">
       <div className="flex justify-around">
-        <div className="w-1/12">
+        <div>
           <a href="/">
-            <img src={Logo} alt="" />
+            <img className="w-64" src={Logo} alt="" />
           </a>
-          <div className="mt-3 flex justify-around">
+          <div className="mt-3 flex">
             <a
               href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
               target="_blank"
               rel="noreferrer"
             >
-              <img className="w-2/3" src={LinkedIn} alt="" />
+              <img className="w-10 mr-5" src={LinkedIn} alt="" />
             </a>
             <a
               href="https://www.facebook.com/tomoyk113"
               target="_blank"
               rel="noreferrer"
             >
-              <img className="w-2/3" src={Facebook} alt="" />
+              <img className="w-10" src={Facebook} alt="" />
             </a>
           </div>
-          <p className="mt-10">mjr01300828@gmail.com</p>
+          <p className="mt-10 text-left">mjr01300828@gmail.com</p>
         </div>
         <p>
           <a className="text-2xl text-white no-underline" href="/about">
