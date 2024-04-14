@@ -8,6 +8,7 @@ module.exports = {
         play: "url('./assets/play.jpg')",
         game: "url('./assets/game.jpg')",
         shopping: "url('./assets/shopping.jpg')",
+        aboutTop: "url('./assets/about/court.jpg')",
       },
       backdropBrightness: {
         50: ".5",
