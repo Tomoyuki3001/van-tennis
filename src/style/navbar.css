@@ -55,10 +55,6 @@
   color: #ffffff;
 }
 
-.nav-link-tag:hover {
-  color: blue;
-}
-
 .nav-link-tag-mobile {
   padding: 2rem 0;
   text-decoration: none;
@@ -72,6 +68,38 @@
   border: none;
   padding: 0;
   cursor: pointer;
+}
+
+.nav-link-tag {
+  background-image: linear-gradient(to left, #ffffff, #fff 50%, #0ebac5 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link-tag:before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link-tag:hover {
+  background-position: 0;
+}
+
+.nav-link-tag:hover::before {
+  width: 100%;
 }
 
 @media screen and (min-width: 769px) {

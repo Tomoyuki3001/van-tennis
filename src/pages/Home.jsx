@@ -7,6 +7,7 @@ import Profile from "../assets/home/profile.jpg";
 import { ReactTyped } from "react-typed";
 import Facebook from "../assets/home/facebook.png";
 import LinkedIn from "../assets/home/linkedin.png";
+import "../style/button.css";
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
           <h1 className="lg:text-[8rem] font-bold m-0">WE</h1>
           <h1 className="lg:text-[8rem] font-bold m-0 uppercase">
             <ReactTyped
-              strings={["Play", "Enjoy", "Like"]}
+              strings={["play", "enjoy", "love"]}
               typeSpeed={250}
               loop
               backSpeed={50}
@@ -36,9 +37,12 @@ const Home = () => {
                 laborum! Eos iste maiores deserunt corrupti tempora quas ex ab
                 repellendus, amet cum iusto?
               </p>
-              <button className="border px-10 py-5 w-1/3 hover:bg-black hover:text-white">
-                ABOUT VTG
-              </button>
+              <a
+                className="text-black flex items-start no-underline"
+                href="/contact"
+              >
+                <button className="px-10 py-5 w-1/3 btn">ABOUT VTG</button>
+              </a>
             </div>
             <div className="w-1/2 py-20 flex flex-col items-center">
               <img className="w-full" src={TopImage} alt="Iamge" />
@@ -56,7 +60,7 @@ const Home = () => {
                 src={Play}
                 alt="Playing tennis"
               />
-              <div className="hidden group-hover:block p-10 absolute bottom-0 text-white">
+              <div className="hidden p-5 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-blue-600">
                 <h2>PLAY</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
@@ -64,9 +68,11 @@ const Home = () => {
                   sunt exercitationem quia similique facilis dignissimos
                   laboriosam, omnis quam architecto dolor repudiandae earum?
                 </p>
-                <button className="border px-20 py-5 hover:bg-black hover:text-white">
-                  LEARN MORE
-                </button>
+                <a href="/play">
+                  <button className="text-white border px-20 py-5 hover:bg-black">
+                    LEARN MORE
+                  </button>
+                </a>
               </div>
             </div>
             <div className="relative group">
@@ -75,7 +81,7 @@ const Home = () => {
                 src={Shop}
                 alt="Playing tennis"
               />
-              <div className="p-10 hidden group-hover:block absolute bottom-0 text-white">
+              <div className="hidden p-5 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-gray-600">
                 <h2>SHOPPING</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
@@ -83,9 +89,11 @@ const Home = () => {
                   sunt exercitationem quia similique facilis dignissimos
                   laboriosam, omnis quam architecto dolor repudiandae earum?
                 </p>
-                <button className="border px-20 py-5 hover:bg-black hover:text-white">
-                  LEARN MORE
-                </button>
+                <a href="/gear">
+                  <button className="text-white border px-20 py-5 hover:bg-black">
+                    LEARN MORE
+                  </button>
+                </a>
               </div>
             </div>
             <div className="relative group">
@@ -94,7 +102,7 @@ const Home = () => {
                 src={Game}
                 alt="Playing tennis"
               />
-              <div className="p-10 hidden group-hover:block absolute bottom-0 text-white">
+              <div className="hidden p-5 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-stone-600">
                 <h2>WATCH</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
@@ -102,17 +110,21 @@ const Home = () => {
                   sunt exercitationem quia similique facilis dignissimos
                   laboriosam, omnis quam architecto dolor repudiandae earum?
                 </p>
-                <button className="border px-20 py-5 hover:bg-black hover:text-white">
-                  LEARN MORE
-                </button>
+                <a href="/watch">
+                  <button className="text-white border px-20 py-5 hover:bg-black">
+                    LEARN MORE
+                  </button>
+                </a>
               </div>
             </div>
             <div className="relative bg-black">
-              <div className="p-10 absolute bottom-0 text-white">
-                <h2>And more...</h2>
-                <button className="border px-20 py-10 hover:bg-black hover:text-white">
-                  LEARN MORE
-                </button>
+              <div className="p-10 absolute bottom-0 right-0 text-white">
+                <h2 className="mb-10">And more...</h2>
+                <a className="text-white" href="/gear">
+                  <button className="border px-20 py-5 hover:bg-white hover:text-black">
+                    CONTACT
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -141,9 +153,9 @@ const Home = () => {
               <img src={Facebook} alt="" />
             </a>
           </div>
-          <button className="mt-16 border px-20 py-5 hover:bg-black hover:text-white">
-            CONTACT
-          </button>
+          <a className="text-black" href="/contact">
+            <button className="mt-16 w-60 p-5 btn">CONTACT</button>
+          </a>
         </div>
       </div>
     </div>
