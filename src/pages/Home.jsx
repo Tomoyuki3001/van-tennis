@@ -7,7 +7,6 @@ import Profile from "../assets/home/profile.jpg";
 import { ReactTyped } from "react-typed";
 import Facebook from "../assets/home/facebook.png";
 import LinkedIn from "../assets/home/linkedin.png";
-import "../style/button.css";
 
 const Home = () => {
   return (
@@ -39,9 +38,11 @@ const Home = () => {
               </p>
               <a
                 className="text-black flex items-start no-underline"
-                href="/contact"
+                href="/about"
               >
-                <button className="px-10 py-5 w-1/3 btn">ABOUT VTG</button>
+                <button className="border transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10">
+                  ABOUT VTG
+                </button>
               </a>
             </div>
             <div className="w-1/2 py-20 flex flex-col items-center">
@@ -151,7 +152,9 @@ const Home = () => {
             </a>
           </div>
           <a className="text-black" href="/contact">
-            <button className="mt-16 w-40 p-4 btn">CONTACT</button>
+            <button className="mt-10 border transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10">
+              CONTACT
+            </button>
           </a>
         </div>
       </div>

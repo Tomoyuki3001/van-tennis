@@ -57,21 +57,21 @@ const NavbarComponent = () => {
           </a>
           <a
             className={`${isMobile ? "nav-link-tag-mobile" : "nav-link-tag"}`}
-            href="/about"
+            href="/play"
             onClick={() => removeMenus()}
           >
             Play
           </a>
           <a
             className={`${isMobile ? "nav-link-tag-mobile" : "nav-link-tag"}`}
-            href="/about"
+            href="/watch"
             onClick={() => removeMenus()}
           >
             Watch
           </a>
           <a
             className={`${isMobile ? "nav-link-tag-mobile" : "nav-link-tag"}`}
-            href="/about"
+            href="/gear"
             onClick={() => removeMenus()}
           >
             Gear
