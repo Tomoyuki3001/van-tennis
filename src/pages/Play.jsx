@@ -49,16 +49,16 @@ const Play = () => {
                 </div>
               </div>
               <h3 className="my-10">Indoor courts</h3>
-              <div className="grid grid-cols-2 gap-16 px-80">
-                <div className="">
+              <div className="flex justify-center">
+                <div className="mr-16">
                   <div className="flex flex-col items-center">
-                    <img className="w-full h-[20rem]" src={North} alt="" />
+                    <img className="w-[30rem] h-[20rem]" src={North} alt="" />
                   </div>
                   <h4 className="my-10">North Vancouver Tennis Centre</h4>
                 </div>
-                <div className="">
+                <div className="ml-16">
                   <div className="flex flex-col items-center">
-                    <img className="w-full h-[20rem]" src={UBC} alt="" />
+                    <img className="w-[30rem] h-[20rem]" src={UBC} alt="" />
                   </div>
                   <h4 className="my-10">UBC Tennis Centre</h4>
                 </div>
@@ -76,7 +76,7 @@ const Play = () => {
           </p>
           <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col px-32">
             <div className="flex flex-col items-center text-center">
-              <img className="w-48" src={Facebook} alt="" />
+              <img className="w-36" src={Facebook} alt="" />
               <h2 className="my-10">Facebook</h2>
               <p className="w-1/2">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
@@ -85,7 +85,7 @@ const Play = () => {
               </p>
             </div>
             <div className="flex flex-col items-center text-center">
-              <img className="w-48" src={Meetup} alt="" />
+              <img className="w-36" src={Meetup} alt="" />
               <h2 className="my-10">Meetup</h2>
               <p className="w-1/2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
