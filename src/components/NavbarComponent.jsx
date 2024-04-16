@@ -8,6 +8,9 @@ const NavbarComponent = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 769);
   const [remove, setRemove] = useState("nav-links-mobile-removed");
   const [icon, setIcon] = useState(Menu);
+  const [scrollNav, setScrollNav] = useState("nav-top");
+  const [scrollLink, setScrollLink] = useState("nav-links-top");
+  const [scrollLogo, setScrollLogo] = useState("logo-scroll");
 
   const changeStyle = () => {
     if (remove !== "nav-links-mobile-removed") {
@@ -39,15 +42,30 @@ const NavbarComponent = () => {
     );
   }, [isMobile]);
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 30) {
+        setScrollNav("nav-scroll");
+        setScrollLink("nav-links-scroll");
+        setScrollLogo("logo-scroll");
+      } else {
+        setScrollNav("nav-top");
+        setScrollLink("nav-links-top");
+        setScrollLogo("logo-top");
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  }, []);
+
   return (
-    <nav className="nav-container">
+    <nav className={`${scrollNav} nav-container`}>
       <div className="nav-logo">
         <a href="/">
-          <img className="logo" src={Logo} alt="" />
+          <img className={scrollLogo} src={Logo} alt="" />
         </a>
       </div>
       <div className="nav-links-container">
-        <div className={`${isMobile ? remove : "nav-links"}`}>
+        <div className={`${isMobile ? remove : `nav-links ${scrollLink}`}`}>
           <a
             className={`${isMobile ? "nav-link-tag-mobile" : "nav-link-tag"}`}
             href="/about"

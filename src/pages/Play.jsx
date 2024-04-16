@@ -96,7 +96,9 @@ const Play = () => {
           </div>
         </div>
         <div className="flex flex-col items-center my-40">
-          <h2 className="text-[3rem] font-bold">How to improve your tennis?</h2>
+          <h2 className="text-[3rem] font-bold">
+            How to level up your tennis?
+          </h2>
           <p className="text-center px-40 my-10">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
             tempora molestias dolore iusto autem error fuga neque explicabo,
@@ -109,6 +111,7 @@ const Play = () => {
                 <img className="w-[30rem]" src={Coach} alt="" />
               </div>
               <div className="w-1/2">
+                <h3>Lessons/Coaches</h3>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Natus libero sapiente doloribus itaque sunt quasi porro ipsam
@@ -122,6 +125,7 @@ const Play = () => {
                 <img className="w-[30rem]" src={Youtube} alt="" />
               </div>
               <div className="w-1/2">
+                <h3>Online</h3>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Natus libero sapiente doloribus itaque sunt quasi porro ipsam

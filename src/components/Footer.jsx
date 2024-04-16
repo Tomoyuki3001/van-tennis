@@ -5,7 +5,7 @@ import Facebook from "../assets/facebook-white.png";
 
 const Footer = () => {
   return (
-    <div className=" bg-black text-white pt-10 pb-15 px-20 bottom-0 text-center">
+    <div className=" bg-[#0F375D] text-white pt-10 pb-15 px-20 bottom-0 text-center">
       <div className="flex justify-around">
         <div>
           <a href="/">

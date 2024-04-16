@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <div className="flex h-[25rem]">
       <div className="w-1/2 bg-contact bg-cover bg-center"></div>
-      <div className="w-1/2 flex flex-col items-end justify-around pr-10 bg-[#0F375D] text-white">
+      <div className="w-1/2 flex flex-col items-end justify-around pr-10 bg-[#5d350e] text-white">
         <h2 className="text-[3rem] text-right font-bold">
           Do you have any questions?
         </h2>
