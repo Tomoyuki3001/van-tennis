@@ -7,8 +7,10 @@ import Profile from "../assets/home/profile.jpg";
 import { ReactTyped } from "react-typed";
 import Facebook from "../assets/home/facebook.png";
 import LinkedIn from "../assets/home/linkedin.png";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="text-white font-bold bg-top bg-cover bg-center h-screen flex flex-col justify-center py-10">
@@ -36,14 +38,14 @@ const Home = () => {
                 laborum! Eos iste maiores deserunt corrupti tempora quas ex ab
                 repellendus, amet cum iusto?
               </p>
-              <a
-                className="text-black flex items-start no-underline"
-                href="/about"
+              <button
+                onClick={() => {
+                  navigate("/about");
+                }}
+                className="w-1/3 border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
               >
-                <button className="border transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10">
-                  ABOUT VTG
-                </button>
-              </a>
+                ABOUT VTG
+              </button>
             </div>
             <div className="w-1/2 py-20 flex flex-col items-center">
               <img className="w-full" src={TopImage} alt="Iamge" />
@@ -68,11 +70,14 @@ const Home = () => {
                   quo quis accusantium illum, officia fugiat natus distinctio
                   sunt exercitationem quia similique facilis dignissimos
                 </p>
-                <a href="/play">
-                  <button className="text-white border px-10 py-3 hover:bg-black">
-                    LEARN MORE
-                  </button>
-                </a>
+                <button
+                  onClick={() => {
+                    navigate("/play");
+                  }}
+                  className="border-2 px-10 py-3 hover:bg-white hover:text-black"
+                >
+                  LEARN MORE
+                </button>
               </div>
             </div>
             <div className="relative group">
@@ -88,11 +93,14 @@ const Home = () => {
                   quo quis accusantium illum, officia fugiat natus distinctio
                   sunt exercitationem quia similique facilis dignissimos
                 </p>
-                <a href="/gear">
-                  <button className="text-white border px-10 py-3 hover:bg-black">
-                    LEARN MORE
-                  </button>
-                </a>
+                <button
+                  onClick={() => {
+                    navigate("/gear");
+                  }}
+                  className="border-2 px-10 py-3 hover:bg-white hover:text-black"
+                >
+                  LEARN MORE
+                </button>
               </div>
             </div>
             <div className="relative group">
@@ -108,21 +116,27 @@ const Home = () => {
                   quo quis accusantium illum, officia fugiat natus distinctio
                   sunt exercitationem quia similique facilis dignissimos
                 </p>
-                <a href="/watch">
-                  <button className="text-white border px-10 py-3 hover:bg-black">
-                    LEARN MORE
-                  </button>
-                </a>
+                <button
+                  onClick={() => {
+                    navigate("/watch");
+                  }}
+                  className="border-2 px-10 py-3 hover:bg-white hover:text-black"
+                >
+                  LEARN MORE
+                </button>
               </div>
             </div>
             <div className="relative bg-black">
               <div className="p-10 absolute bottom-0 right-0 text-white">
                 <h2 className="mb-10">And more...</h2>
-                <a className="text-white" href="/gear">
-                  <button className="border px-10 py-3 hover:bg-white hover:text-black">
-                    CONTACT
-                  </button>
-                </a>
+                <button
+                  onClick={() => {
+                    navigate("/contact");
+                  }}
+                  className="border-2 px-10 py-3 hover:bg-white hover:text-black"
+                >
+                  CONTACT
+                </button>
               </div>
             </div>
           </div>
@@ -151,11 +165,14 @@ const Home = () => {
               <img src={Facebook} alt="" />
             </a>
           </div>
-          <a className="text-black" href="/contact">
-            <button className="mt-10 border transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10">
-              CONTACT
-            </button>
-          </a>
+          <button
+            onClick={() => {
+              navigate("/contact");
+            }}
+            className="w-1/6 my-10 border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
+          >
+            CONTACT
+          </button>
         </div>
       </div>
     </div>

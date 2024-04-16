@@ -12,7 +12,7 @@ const About = () => {
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">ABOUT VTG</h1>
       </div>
       <div className="px-40">
-        <div className="flex flex-col items-center my-20">
+        <div className="flex flex-col items-center my-40">
           <h2 className="text-[3rem] font-bold">What's VTG?</h2>
           <img className="w-1/4 my-20" src={Logo} alt="" />
           <p className="w-1/2 text-center">
@@ -21,7 +21,10 @@ const About = () => {
             incidunt iusto ducimus nemo, ab soluta cupiditate excepturi non iste
             unde molestias nihil alias?
           </p>
-          <div className="flex my-10">
+        </div>
+        <div className="my-10">
+          <h2 className="text-[3rem] font-bold text-center my-20">About me</h2>
+          <div className="flex">
             <div className="w-1/2 flex flex-col items-center">
               <img className="w-1/2 h-auto" src={Profile} alt="" />
             </div>
@@ -40,24 +43,29 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col px-20">
-          <div className="flex flex-col items-center text-center">
-            <img src={Health} alt="" />
-            <h2>Health</h2>
-            <p className="w-1/2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
-              porro quo architecto nulla quisquam provident, nesciunt sit
-              placeat neque modi.
-            </p>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <img src={Group} alt="" />
-            <h2>Social</h2>
-            <p className="w-1/2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
-              harum quos deleniti voluptas fugit officiis voluptatem
-              necessitatibus adipisci, qui explicabo!
-            </p>
+        <div className="my-40">
+          <h3 className="text-center font-bold text-[2rem]">
+            I think Tennis makes...
+          </h3>
+          <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col px-32">
+            <div className="flex flex-col items-center text-center">
+              <img src={Health} alt="" />
+              <h2>Health</h2>
+              <p className="w-1/2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+                porro quo architecto nulla quisquam provident, nesciunt sit
+                placeat neque modi.
+              </p>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <img src={Group} alt="" />
+              <h2>Social</h2>
+              <p className="w-1/2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quisquam harum quos deleniti voluptas fugit officiis voluptatem
+                necessitatibus adipisci, qui explicabo!
+              </p>
+            </div>
           </div>
         </div>
       </div>
