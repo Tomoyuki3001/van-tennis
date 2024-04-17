@@ -10,7 +10,7 @@ const NavbarComponent = () => {
   const [icon, setIcon] = useState(Menu);
   const [scrollNav, setScrollNav] = useState("nav-top");
   const [scrollLink, setScrollLink] = useState("nav-links-top");
-  const [scrollLogo, setScrollLogo] = useState("logo-scroll");
+  const [scrollLogo, setScrollLogo] = useState("logo-top");
 
   const changeStyle = () => {
     if (remove !== "nav-links-mobile-removed") {

@@ -14,7 +14,7 @@ import Coach from "../assets/play/coach.jpg";
 const Watch = () => {
   return (
     <div>
-      <div className="text-white font-bold bg-aboutTop bg-cover bg-center py-40">
+      <div className="text-white font-bold bg-watchHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">WATCH</h1>
       </div>
       <div className="px-40">
