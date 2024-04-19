@@ -9,6 +9,7 @@ import Facebook from "../assets/play/fb.png";
 import Meetup from "../assets/play/meetup.png";
 import Youtube from "../assets/play/youtube.png";
 import Coach from "../assets/play/coach.jpg";
+import VTA from "../assets/play/VTA.jpg";
 
 const Play = () => {
   return (
@@ -74,7 +75,7 @@ const Play = () => {
             dolores reiciendis, iusto similique nesciunt explicabo nobis ad
             esse, natus velit?
           </p>
-          <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col px-32">
+          <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-3 grid-flow-col px-32">
             <div className="flex flex-col items-center text-center">
               <img className="w-36" src={Facebook} alt="" />
               <h2 className="my-10">Facebook</h2>
@@ -87,6 +88,15 @@ const Play = () => {
             <div className="flex flex-col items-center text-center">
               <img className="w-36" src={Meetup} alt="" />
               <h2 className="my-10">Meetup</h2>
+              <p className="w-1/2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quisquam harum quos deleniti voluptas fugit officiis voluptatem
+                necessitatibus adipisci, qui explicabo!
+              </p>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <img className="w-36" src={VTA} alt="" />
+              <h2 className="my-10">Vancouver Tennis Association</h2>
               <p className="w-1/2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quisquam harum quos deleniti voluptas fugit officiis voluptatem

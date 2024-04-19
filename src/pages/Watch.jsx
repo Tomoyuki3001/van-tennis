@@ -6,12 +6,15 @@ import Wb from "../assets/watch/wb.jpg";
 import Uo from "../assets/watch/us.jpg";
 import Atp from "../assets/watch/atp.png";
 import Wta from "../assets/watch/wta.png";
-import Facebook from "../assets/play/fb.png";
-import Meetup from "../assets/play/meetup.png";
-import Youtube from "../assets/play/youtube.png";
-import Coach from "../assets/play/coach.jpg";
+import Van from "../assets/watch/vanopen.png";
+import van1 from "../assets/watch/tennis1.jpg";
+import van2 from "../assets/watch/tennis2.jpg";
+import van3 from "../assets/watch/tennis3.jpg";
+import van4 from "../assets/watch/tennis4.jpg";
+import SimpleImageSlider from "react-simple-image-slider";
 
 const Watch = () => {
+  const images = [van1, van2, van3, van4];
   return (
     <div>
       <div className="text-white font-bold bg-watchHeader bg-cover bg-center py-40">
@@ -95,61 +98,22 @@ const Watch = () => {
           </p>
           <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col px-32">
             <div className="flex flex-col items-center text-center">
-              <img className="w-36" src={Facebook} alt="" />
-              <h2 className="my-10">Facebook</h2>
+              <img className="w-50" src={Van} alt="" />
+              <h2 className="my-10">Odlum Brown VanOpen</h2>
               <p className="w-1/2">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
                 porro quo architecto nulla quisquam provident, nesciunt sit
                 placeat neque modi.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center">
-              <img className="w-36" src={Meetup} alt="" />
-              <h2 className="my-10">Meetup</h2>
-              <p className="w-1/2">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quisquam harum quos deleniti voluptas fugit officiis voluptatem
-                necessitatibus adipisci, qui explicabo!
-              </p>
-            </div>
           </div>
-        </div>
-        <div className="flex flex-col items-center my-40">
-          <h2 className="text-[3rem] font-bold">How to improve your tennis?</h2>
-          <p className="text-center px-40 my-10">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
-            tempora molestias dolore iusto autem error fuga neque explicabo,
-            amet voluptas quia assumenda adipisci! Atque veritatis ipsa totam
-            mollitia, fugiat dolore!
-          </p>
-          <div>
-            <div className="flex my-20">
-              <div className="w-1/2 flex flex-col items-center">
-                <img className="w-[30rem]" src={Coach} alt="" />
-              </div>
-              <div className="w-1/2">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Natus libero sapiente doloribus itaque sunt quasi porro ipsam
-                  aliquid quidem tenetur minus odio, aspernatur, debitis
-                  repellat perferendis, at vel distinctio quis.
-                </p>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="w-1/2 flex flex-col items-center">
-                <img className="w-[30rem]" src={Youtube} alt="" />
-              </div>
-              <div className="w-1/2">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Natus libero sapiente doloribus itaque sunt quasi porro ipsam
-                  aliquid quidem tenetur minus odio, aspernatur, debitis
-                  repellat perferendis, at vel distinctio quis.
-                </p>
-              </div>
-            </div>
-          </div>
+          <SimpleImageSlider
+            width={600}
+            height={400}
+            images={images}
+            showNavs={true}
+            showBullets={true}
+          />
         </div>
       </div>
       <ContactPage />
