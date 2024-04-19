@@ -7,10 +7,11 @@ import Footer from "./components/Footer";
 import Play from "./pages/Play";
 import Watch from "./pages/Watch";
 import Gear from "./pages/Gear";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <>
+    <ScrollToTop>
       <NavbarComponent />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +22,7 @@ function App() {
         <Route path="/gear" element={<Gear />} />
       </Routes>
       <Footer />
-    </>
+    </ScrollToTop>
   );
 }
 
