@@ -17,11 +17,11 @@ const Play = () => {
       <div className="text-white font-bold bg-playHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">PLAY</h1>
       </div>
-      <div className="px-40">
+      <div className="lg:px-40">
         <div className="flex flex-col items-center my-40 text-center">
           <h2 className="text-[3rem] font-bold">Where can we play?</h2>
           <div>
-            <p className="px-40 my-10">
+            <p className="lg:px-40 my-10">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
               unde optio possimus aperiam quas quidem vel accusamus cumque
               placeat quisquam debitis ipsum, facilis, inventore, enim quis
@@ -29,7 +29,7 @@ const Play = () => {
             </p>
             <div>
               <h3 className="my-10">Outdoor courts</h3>
-              <div className="grid lg:grid-rows-1 sm:grid-rows-3 grid-flow-col gap-16">
+              <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-16">
                 <div>
                   <div className="flex flex-col items-center">
                     <img className="w-[30rem] h-[20rem]" src={Stanley} alt="" />
@@ -50,14 +50,14 @@ const Play = () => {
                 </div>
               </div>
               <h3 className="my-10">Indoor courts</h3>
-              <div className="flex justify-center">
-                <div className="mr-16">
+              <div className="lg:flex justify-center">
+                <div className="lg:mr-16">
                   <div className="flex flex-col items-center">
                     <img className="w-[30rem] h-[20rem]" src={North} alt="" />
                   </div>
                   <h4 className="my-10">North Vancouver Tennis Centre</h4>
                 </div>
-                <div className="ml-16">
+                <div className="lg:ml-16">
                   <div className="flex flex-col items-center">
                     <img className="w-[30rem] h-[20rem]" src={UBC} alt="" />
                   </div>
@@ -69,17 +69,17 @@ const Play = () => {
         </div>
         <div className="flex flex-col items-center my-40">
           <h2 className="text-[3rem] font-bold">How to find tennis lovers?</h2>
-          <p className="text-center px-40 my-10">
+          <p className="text-center lg:px-40 my-10">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             ipsum quaerat at repellat dolore illo earum expedita suscipit odio
             dolores reiciendis, iusto similique nesciunt explicabo nobis ad
             esse, natus velit?
           </p>
-          <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-3 grid-flow-col px-32">
+          <div className="my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col lg:px-32">
             <div className="flex flex-col items-center text-center">
               <img className="w-36" src={Facebook} alt="" />
               <h2 className="my-10">Facebook</h2>
-              <p className="w-1/2">
+              <p className="lg:w-1/2">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
                 porro quo architecto nulla quisquam provident, nesciunt sit
                 placeat neque modi.
@@ -88,7 +88,7 @@ const Play = () => {
             <div className="flex flex-col items-center text-center">
               <img className="w-36" src={Meetup} alt="" />
               <h2 className="my-10">Meetup</h2>
-              <p className="w-1/2">
+              <p className="lg:w-1/2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quisquam harum quos deleniti voluptas fugit officiis voluptatem
                 necessitatibus adipisci, qui explicabo!
@@ -97,7 +97,7 @@ const Play = () => {
             <div className="flex flex-col items-center text-center">
               <img className="w-36" src={VTA} alt="" />
               <h2 className="my-10">Vancouver Tennis Association</h2>
-              <p className="w-1/2">
+              <p className="lg:w-1/2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quisquam harum quos deleniti voluptas fugit officiis voluptatem
                 necessitatibus adipisci, qui explicabo!
@@ -109,18 +109,18 @@ const Play = () => {
           <h2 className="text-[3rem] font-bold">
             How to level up your tennis?
           </h2>
-          <p className="text-center px-40 my-10">
+          <p className="text-center lg:px-40 my-10">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
             tempora molestias dolore iusto autem error fuga neque explicabo,
             amet voluptas quia assumenda adipisci! Atque veritatis ipsa totam
             mollitia, fugiat dolore!
           </p>
           <div>
-            <div className="flex my-20">
-              <div className="w-1/2 flex flex-col items-center">
+            <div className="lg:flex my-20">
+              <div className="lg:w-1/2 flex flex-col items-center">
                 <img className="w-[30rem]" src={Coach} alt="" />
               </div>
-              <div className="w-1/2">
+              <div className="lg:w-1/2">
                 <h3>Lessons/Coaches</h3>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -130,11 +130,11 @@ const Play = () => {
                 </p>
               </div>
             </div>
-            <div className="flex">
-              <div className="w-1/2 flex flex-col items-center">
+            <div className="lg:flex">
+              <div className="lg:w-1/2 flex flex-col items-center">
                 <img className="w-[30rem]" src={Youtube} alt="" />
               </div>
-              <div className="w-1/2">
+              <div className="lg:w-1/2">
                 <h3>Online</h3>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.

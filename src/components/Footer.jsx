@@ -5,9 +5,9 @@ import Facebook from "../assets/facebook-white.png";
 
 const Footer = () => {
   return (
-    <div className=" bg-[#0F375D] text-white pt-10 pb-15 px-20 bottom-0 text-center">
+    <div className="bg-[#0F375D] text-white pt-10 pb-15 px-5 bottom-0 text-center">
       <div className="flex justify-around">
-        <div>
+        <div className="w-2/5 lg:pl-20">
           <a href="/">
             <img className="w-64" src={Logo} alt="" />
           </a>
@@ -29,31 +29,33 @@ const Footer = () => {
           </div>
           <p className="mt-10 text-left">mjr01300828@gmail.com</p>
         </div>
-        <p>
-          <a className="text-2xl text-white no-underline" href="/about">
-            About
-          </a>
-        </p>
-        <p>
-          <a className="text-2xl text-white no-underline" href="/play">
-            Play
-          </a>
-        </p>
-        <p>
-          <a className="text-2xl text-white no-underline" href="/watch">
-            Watch
-          </a>
-        </p>
-        <p>
-          <a className="text-2xl text-white no-underline" href="/gear">
-            Gear
-          </a>
-        </p>
-        <p>
-          <a className="text-2xl text-white no-underline" href="/contact">
-            Contact
-          </a>
-        </p>
+        <div className="lg:flex lg:justify-around w-3/5">
+          <p>
+            <a className="text-2xl text-white no-underline" href="/about">
+              About
+            </a>
+          </p>
+          <p>
+            <a className="text-2xl text-white no-underline" href="/play">
+              Play
+            </a>
+          </p>
+          <p>
+            <a className="text-2xl text-white no-underline" href="/watch">
+              Watch
+            </a>
+          </p>
+          <p>
+            <a className="text-2xl text-white no-underline" href="/gear">
+              Gear
+            </a>
+          </p>
+          <p>
+            <a className="text-2xl text-white no-underline" href="/contact">
+              Contact
+            </a>
+          </p>
+        </div>
       </div>
       <p className="m-0 py-10">Tomoyuki Fujii | Copyright 2024</p>
     </div>

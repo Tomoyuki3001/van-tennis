@@ -14,9 +14,9 @@ const Home = () => {
   return (
     <div>
       <div className="text-white font-bold bg-top bg-cover bg-center h-screen flex flex-col justify-center py-10">
-        <div className="pl-20">
-          <h1 className="lg:text-[8rem] font-bold m-0">WE</h1>
-          <h1 className="lg:text-[8rem] font-bold m-0 uppercase">
+        <div className="lg:pl-20 pl-5">
+          <h1 className="lg:text-[8rem] text-[5rem] font-bold m-0">WE</h1>
+          <h1 className="lg:text-[8rem] text-[5rem]  font-bold m-0 uppercase">
             <ReactTyped
               strings={["play", "enjoy", "love"]}
               typeSpeed={250}
@@ -24,31 +24,33 @@ const Home = () => {
               backSpeed={50}
             />
           </h1>
-          <h1 className="lg:text-[8rem] font-bold m-0">TENNIS</h1>
+          <h1 className="lg:text-[8rem] text-[5rem]  font-bold m-0">TENNIS</h1>
         </div>
       </div>
-      <div className="px-40">
+      <div className="sm:px-5 lg:px-40">
         <div className="text-center mt-20">
           <h2 className="text-[3rem] font-bold">Tennis in Vancouver</h2>
-          <div className="flex">
-            <div className="w-1/2 py-20 pr-20 flex flex-col justify-between">
-              <p className="text-lg text-left">
+          <div className="lg:flex">
+            <div className="lg:w-1/2 py-20 flex flex-col items-center">
+              <img className="w-full" src={TopImage} alt="Iamge" />
+            </div>
+            <div className="lg:w-1/2 py-20 lg:pl-20 flex flex-col justify-between">
+              <p className="text-lg lg:text-right">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Aliquam itaque, enim iure officiis ducimus veritatis aperiam
                 laborum! Eos iste maiores deserunt corrupti tempora quas ex ab
                 repellendus, amet cum iusto?
               </p>
-              <button
-                onClick={() => {
-                  navigate("/about");
-                }}
-                className="w-1/3 border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
-              >
-                ABOUT VTG
-              </button>
-            </div>
-            <div className="w-1/2 py-20 flex flex-col items-center">
-              <img className="w-full" src={TopImage} alt="Iamge" />
+              <div className="lg:flex flex-col items-end">
+                <button
+                  onClick={() => {
+                    navigate("/about");
+                  }}
+                  className="lg:w-1/3 border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
+                >
+                  ABOUT VTG
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -56,14 +58,14 @@ const Home = () => {
           <div className="text-center">
             <h2 className="text-[3rem] font-bold my-10">Let's enjoy!</h2>
           </div>
-          <div className="mt-20 grid lg:grid-rows-2 sm:grid-rows-4 grid-flow-col">
+          <div className="mt-20 grid lg:grid-rows-2 grid-rows-4 grid-flow-col">
             <div className="relative group">
               <img
                 className="w-full h-full brightness-50"
                 src={Play}
                 alt="Playing tennis"
               />
-              <div className="hidden p-3 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-blue-600">
+              <div className="lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-blue-600">
                 <h2>PLAY</h2>
                 <p className="lg:text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
@@ -86,7 +88,7 @@ const Home = () => {
                 src={Shop}
                 alt="Playing tennis"
               />
-              <div className="hidden p-3 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-gray-600">
+              <div className="lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-gray-600">
                 <h2>SHOPPING</h2>
                 <p className="lg:text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
@@ -109,7 +111,7 @@ const Home = () => {
                 src={Game}
                 alt="Playing tennis"
               />
-              <div className="hidden p-3 group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-stone-600">
+              <div className="lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-stone-600">
                 <h2>WATCH</h2>
                 <p className="lg:text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
@@ -145,7 +147,7 @@ const Home = () => {
           <div className="text-center">
             <h2 className="text-[3rem] font-bold my-10">Let's connect!</h2>
           </div>
-          <img className="w-1/4 h-auto" src={Profile} alt="" />
+          <img className="lg:w-1/4 h-auto" src={Profile} alt="" />
           <h2 className="mt-10">Tomoyuki Fujii</h2>
           <p>Worked at DUNLOP (Tennis)</p>
           <p>If you have any concerns about tennis, just let me know!</p>
@@ -169,7 +171,7 @@ const Home = () => {
             onClick={() => {
               navigate("/contact");
             }}
-            className="w-1/6 my-10 border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
+            className="lg:w-1/6 my-10 border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
           >
             CONTACT
           </button>
