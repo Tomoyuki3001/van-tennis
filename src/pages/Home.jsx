@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import TopImage from "../assets/home/about.jpg";
 import Play from "../assets/home/play.jpg";
 import Game from "../assets/home/game.jpg";
@@ -11,6 +11,20 @@ import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 769);
+  useEffect(() => {
+    window.addEventListener(
+      "resize",
+      () => {
+        const ismobile = window.innerWidth < 769;
+        if (ismobile !== isMobile) {
+          setIsMobile(ismobile);
+        }
+      },
+      false
+    );
+  }, [isMobile]);
+
   return (
     <div>
       <div className="text-white font-bold bg-top bg-cover bg-center h-screen flex flex-col justify-center py-10">
@@ -46,7 +60,11 @@ const Home = () => {
                   onClick={() => {
                     navigate("/about");
                   }}
-                  className="lg:w-[15rem] border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
+                  className={`lg:w-[15rem] border-2 px-5 py-10 border-[#0f375d] bg-[#0f375d] text-white ${
+                    isMobile
+                      ? "hover:bg-white bg:text-black"
+                      : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:text-black"
+                  } `}
                 >
                   ABOUT VTG
                 </button>
@@ -147,31 +165,38 @@ const Home = () => {
           <div className="text-center">
             <h2 className="text-[3rem] font-bold my-10">Let's connect!</h2>
           </div>
-          <img className="rounded lg:w-1/4 h-auto" src={Profile} alt="" />
+          <img className="rounded lg:w-1/4 h-auto my-10" src={Profile} alt="" />
           <h2 className="mt-10">Tomoyuki Fujii</h2>
           <p>Worked at DUNLOP (Tennis)</p>
-          <p>If you have any concerns about tennis, just let me know!</p>
-          <div className="w-1/12 flex justify-around">
+          <p className="w-1/2 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ad
+            hic numquam dolor fugit dicta ratione amet quod nemo delectus.
+          </p>
+          <div className="my-10 w-1/6 flex justify-around">
             <a
               href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={LinkedIn} alt="" />
+              <img width={70} src={LinkedIn} alt="" />
             </a>
             <a
               href="https://www.facebook.com/tomoyk113"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={Facebook} alt="" />
+              <img width={70} src={Facebook} alt="" />
             </a>
           </div>
           <button
             onClick={() => {
               navigate("/contact");
             }}
-            className="lg:w-[15rem] my-10 border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
+            className={`lg:w-[15rem] mt-5 border-2 px-5 py-10 border-[#0f375d] bg-[#0f375d] text-white ${
+              isMobile
+                ? "hover:bg-white bg:text-black"
+                : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:text-black"
+            } `}
           >
             CONTACT
           </button>

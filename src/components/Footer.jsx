@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/logo.png";
-import LinkedIn from "../assets/linkedin.png";
+import LinkedIn from "../assets/linkedin-white.png";
 import Facebook from "../assets/facebook-white.png";
 
 const Footer = () => {
