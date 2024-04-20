@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const ContactPage = () => {
   const navigate = useNavigate();
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 769);
+  useEffect(() => {
+    window.addEventListener(
+      "resize",
+      () => {
+        const ismobile = window.innerWidth < 769;
+        if (ismobile !== isMobile) {
+          setIsMobile(ismobile);
+        }
+      },
+      false
+    );
+  }, [isMobile]);
   return (
     <div className="lg:flex lg:h-[25rem]">
       <div className="lg:w-1/2 bg-contact bg-cover bg-center"></div>
@@ -18,7 +31,11 @@ const ContactPage = () => {
             onClick={() => {
               navigate("/contact");
             }}
-            className="border-2 transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white lg:px-5 lg:py-10 p-3"
+            className={`lg:w-[15rem] mt-5 border-2 px-5 py-10 border-white ${
+              isMobile
+                ? "hover:bg-white bg:text-black"
+                : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:text-black"
+            } `}
           >
             LEARN MORE
           </button>

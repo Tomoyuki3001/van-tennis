@@ -46,7 +46,7 @@ const Home = () => {
           <h2 className="text-[3rem] font-bold">Tennis in Vancouver</h2>
           <div className="lg:flex">
             <div className="lg:w-1/2 py-20 flex flex-col items-center">
-              <img className="w-full" src={TopImage} alt="Iamge" />
+              <img className="w-full rounded" src={TopImage} alt="Iamge" />
             </div>
             <div className="lg:w-1/2 py-20 lg:pl-20 flex flex-col justify-between">
               <p className="text-lg lg:text-right">
@@ -60,10 +60,10 @@ const Home = () => {
                   onClick={() => {
                     navigate("/about");
                   }}
-                  className={`lg:w-[15rem] border-2 px-5 py-10 border-[#0f375d] bg-[#0f375d] text-white ${
+                  className={`lg:w-[15rem] border-2 px-5 py-10 border-[#0f375d] ${
                     isMobile
                       ? "hover:bg-white bg:text-black"
-                      : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:text-black"
+                      : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-[#0f375d] hover:text-white"
                   } `}
                 >
                   ABOUT VTG
@@ -165,7 +165,11 @@ const Home = () => {
           <div className="text-center">
             <h2 className="text-[3rem] font-bold my-10">Let's connect!</h2>
           </div>
-          <img className="rounded lg:w-1/4 h-auto my-10" src={Profile} alt="" />
+          <img
+            className="rounded lg:w-1/4 h-auto my-10 p-1 border"
+            src={Profile}
+            alt=""
+          />
           <h2 className="mt-10">Tomoyuki Fujii</h2>
           <p>Worked at DUNLOP (Tennis)</p>
           <p className="w-1/2 text-center">
@@ -192,10 +196,10 @@ const Home = () => {
             onClick={() => {
               navigate("/contact");
             }}
-            className={`lg:w-[15rem] mt-5 border-2 px-5 py-10 border-[#0f375d] bg-[#0f375d] text-white ${
+            className={`lg:w-[15rem] mt-5 border-2 px-5 py-10 border-[#0f375d] ${
               isMobile
                 ? "hover:bg-white bg:text-black"
-                : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:text-black"
+                : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-[#0f375d] hover:text-white"
             } `}
           >
             CONTACT

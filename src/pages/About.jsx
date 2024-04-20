@@ -26,7 +26,11 @@ const About = () => {
           <h2 className="text-[3rem] font-bold text-center my-20">About me</h2>
           <div className="lg:flex">
             <div className="lg:w-1/2 flex flex-col items-center">
-              <img className="w-1/2 h-auto" src={Profile} alt="" />
+              <img
+                className="w-1/2 h-auto rounded p-1 border"
+                src={Profile}
+                alt=""
+              />
             </div>
             <div className="lg:w-1/2 text-center py-5 px-10">
               <p className="m-0">

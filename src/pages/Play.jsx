@@ -17,49 +17,69 @@ const Play = () => {
       <div className="text-white font-bold bg-playHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">PLAY</h1>
       </div>
-      <div className="lg:px-40">
-        <div className="flex flex-col items-center my-40 text-center">
+      <div>
+        <div className="flex flex-col items-center my-40 text-center lg:px-40">
           <h2 className="text-[3rem] font-bold">Where can we play?</h2>
           <div>
-            <p className="lg:px-40 my-10">
+            <p className="lg:px-40 my-20">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
               unde optio possimus aperiam quas quidem vel accusamus cumque
               placeat quisquam debitis ipsum, facilis, inventore, enim quis
               ratione totam vitae dignissimos!
             </p>
             <div>
-              <h3 className="my-10">Outdoor courts</h3>
+              <h3 className="my-20">Outdoor courts</h3>
               <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-16">
                 <div>
                   <div className="flex flex-col items-center">
-                    <img className="w-[30rem] h-[20rem]" src={Stanley} alt="" />
+                    <img
+                      className="w-[30rem] h-[20rem] rounded"
+                      src={Stanley}
+                      alt=""
+                    />
                   </div>
                   <h4 className="my-10">Stanley Park</h4>
                 </div>
                 <div>
                   <div className="flex flex-col items-center">
-                    <img className="w-[30rem] h-[20rem]" src={Queen} alt="" />
+                    <img
+                      className="w-[30rem] h-[20rem] rounded"
+                      src={Queen}
+                      alt=""
+                    />
                   </div>
                   <h4 className="my-10">Queen Elizabeth Park</h4>
                 </div>
                 <div>
                   <div className="flex flex-col items-center">
-                    <img className="w-[30rem] h-[20rem]" src={Slocan} alt="" />
+                    <img
+                      className="w-[30rem] h-[20rem] rounded"
+                      src={Slocan}
+                      alt=""
+                    />
                   </div>
                   <h4 className="my-10">Slocan Park</h4>
                 </div>
               </div>
-              <h3 className="my-10">Indoor courts</h3>
+              <h3 className="my-20">Indoor courts</h3>
               <div className="lg:flex justify-center">
                 <div className="lg:mr-16">
                   <div className="flex flex-col items-center">
-                    <img className="w-[30rem] h-[20rem]" src={North} alt="" />
+                    <img
+                      className="w-[30rem] h-[20rem] rounded"
+                      src={North}
+                      alt=""
+                    />
                   </div>
                   <h4 className="my-10">North Vancouver Tennis Centre</h4>
                 </div>
                 <div className="lg:ml-16">
                   <div className="flex flex-col items-center">
-                    <img className="w-[30rem] h-[20rem]" src={UBC} alt="" />
+                    <img
+                      className="w-[30rem] h-[20rem] rounded"
+                      src={UBC}
+                      alt=""
+                    />
                   </div>
                   <h4 className="my-10">UBC Tennis Centre</h4>
                 </div>
@@ -67,9 +87,9 @@ const Play = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center my-40">
+        <div className="flex flex-col items-center my-40 bg-[#0f375d] text-white lg:px-40 py-20">
           <h2 className="text-[3rem] font-bold">How to find tennis lovers?</h2>
-          <p className="text-center lg:px-40 my-10">
+          <p className="text-center lg:px-40 my-20">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             ipsum quaerat at repellat dolore illo earum expedita suscipit odio
             dolores reiciendis, iusto similique nesciunt explicabo nobis ad
@@ -105,7 +125,7 @@ const Play = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center my-40">
+        <div className="flex flex-col items-center my-40 lg:px-40">
           <h2 className="text-[3rem] font-bold">
             How to level up your tennis?
           </h2>

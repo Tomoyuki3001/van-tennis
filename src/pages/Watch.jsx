@@ -74,7 +74,7 @@ const Watch = () => {
                 </div>
               </div>
               <h3 className="my-10">ATP/WTA Tournaments</h3>
-              <p className="lg:px-40 my-10">
+              <p className="lg:px-40 my-20">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Provident a, odit consequatur sint quis, accusamus ratione
                 sapiente repellendus odio et minima beatae ipsum cumque ipsa
@@ -82,18 +82,16 @@ const Watch = () => {
               </p>
               <div className="lg:flex justify-center">
                 <div className="mr-16 flex flex-col items-center">
-                  <div className="w-[20rem] h-[10rem]">
+                  <div className="w-[15rem] h-[10rem]">
                     <img src={Atp} alt="" />
                   </div>
-                  <h4 className="my-10">
-                    ATP (Association of Tennis Professionals)
-                  </h4>
+                  <h4>ATP (Association of Tennis Professionals)</h4>
                 </div>
                 <div className="ml-16 flex flex-col items-center">
-                  <div className="w-[20rem] h-[10rem]">
+                  <div className="w-[15rem] h-[10rem]">
                     <img src={Wta} alt="" />
                   </div>
-                  <h4 className="my-10">WTA (Women's Tennis Association)</h4>
+                  <h4>WTA (Women's Tennis Association)</h4>
                 </div>
               </div>
             </div>

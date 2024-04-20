@@ -11,7 +11,7 @@ const Footer = () => {
           <a href="/">
             <img className="w-64" src={Logo} alt="" />
           </a>
-          <div className="mt-3 flex">
+          <div className="mt-10 flex">
             <a
               href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
               target="_blank"
