@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ContactPage from "../components/ContactPage";
 import Ao from "../assets/watch/ao.jpg";
 import Rg from "../assets/watch/rg.jpg";
@@ -12,15 +12,26 @@ import van2 from "../assets/watch/tennis2.jpg";
 import van3 from "../assets/watch/tennis3.jpg";
 import van4 from "../assets/watch/tennis4.jpg";
 import SimpleImageSlider from "react-simple-image-slider";
+import useResizeObserver from "use-resize-observer";
 
 const Watch = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    function handleResize() {
+      setIsMobile(window.innerWidth <= 768);
+    }
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   const images = [van1, van2, van3, van4];
+  const { ref, width = 1, height = 1 } = useResizeObserver();
   return (
     <div>
       <div className="text-white font-bold bg-watchHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">WATCH</h1>
       </div>
-      <div className="px-40">
+      <div className="lg:px-40">
         <div className="flex flex-col items-center my-40 text-center">
           <h2 className="text-[3rem] font-bold">Tennis games</h2>
           <div>
@@ -32,7 +43,7 @@ const Watch = () => {
             </p>
             <div>
               <h3 className="my-10">Grand Slam</h3>
-              <div className="grid lg:grid-rows-2 sm:grid-rows-4 grid-flow-col lg:px-20">
+              <div className="grid lg:grid-rows-2 grid-rows-4 grid-flow-col lg:px-20">
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
                     <img className="w-[30rem] h-[20rem]" src={Ao} alt="" />
@@ -63,13 +74,13 @@ const Watch = () => {
                 </div>
               </div>
               <h3 className="my-10">ATP/WTA Tournaments</h3>
-              <p className="px-40 my-10">
+              <p className="lg:px-40 my-10">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Provident a, odit consequatur sint quis, accusamus ratione
                 sapiente repellendus odio et minima beatae ipsum cumque ipsa
                 labore quibusdam ullam adipisci aut.
               </p>
-              <div className="flex justify-center">
+              <div className="lg:flex justify-center">
                 <div className="mr-16 flex flex-col items-center">
                   <div className="w-[20rem] h-[10rem]">
                     <img src={Atp} alt="" />
@@ -107,13 +118,22 @@ const Watch = () => {
               </p>
             </div>
           </div>
-          <SimpleImageSlider
-            width={600}
-            height={400}
-            images={images}
-            showNavs={true}
-            showBullets={true}
-          />
+          <div
+            ref={ref}
+            style={
+              isMobile
+                ? { width: "100%", height: "20rem" }
+                : { width: "50%", height: "40rem" }
+            }
+          >
+            <SimpleImageSlider
+              width={width}
+              height={height}
+              images={images}
+              showNavs={true}
+              showBullets={true}
+            />
+          </div>
         </div>
       </div>
       <ContactPage />

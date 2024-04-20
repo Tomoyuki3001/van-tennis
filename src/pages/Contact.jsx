@@ -71,7 +71,7 @@ const Contact = () => {
       <div className="text-white font-bold bg-contactHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">CONTACT</h1>
       </div>
-      <div className="px-40 text-center">
+      <div className="lg:px-40 text-center">
         <h2>Let's connect!</h2>
         <div className="flex flex-col items-center">
           <img className="w-1/4 h-auto" src={Profile} alt="" />
@@ -80,7 +80,7 @@ const Contact = () => {
         <p>Worked at DUNLOP (Tennis)</p>
         <p>If you have any concerns about tennis, just let me know!</p>
         <div className="flex flex-col items-center">
-          <div className="w-1/12 flex justify-around">
+          <div className="lg:w-1/12 flex justify-around">
             <a
               href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
               target="_blank"
