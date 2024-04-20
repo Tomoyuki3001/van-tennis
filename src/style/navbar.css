@@ -33,6 +33,13 @@
   transition: width 0.5s ease;
 }
 
+@media only screen and (max-width: 768px) {
+  .logo-scroll {
+    width: 40%;
+    transition: width 0.5s ease;
+  }
+}
+
 .nav-links-container {
   padding-right: 5%;
 }

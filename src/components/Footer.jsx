@@ -5,7 +5,7 @@ import Facebook from "../assets/facebook-white.png";
 
 const Footer = () => {
   return (
-    <div className="bg-[#0F375D] text-white pt-10 pb-15 px-5 bottom-0 text-center">
+    <div className="bg-[#0F375D] text-white pt-10 pb-15 px-4 lg:px-20 bottom-0 text-center">
       <div className="flex justify-around">
         <div className="w-2/5 lg:pl-20">
           <a href="/">
@@ -27,9 +27,16 @@ const Footer = () => {
               <img className="w-10" src={Facebook} alt="" />
             </a>
           </div>
-          <p className="mt-10 text-left">mjr01300828@gmail.com</p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:mjr01300828@gmail.com"
+            className="text-white no-underline"
+          >
+            <p className="mt-10 text-left">mjr01300828@gmail.com</p>
+          </a>
         </div>
-        <div className="lg:flex lg:justify-around w-3/5">
+        <div className="lg:flex lg:justify-around w-3/5 text-right">
           <p>
             <a className="text-2xl text-white no-underline" href="/about">
               About

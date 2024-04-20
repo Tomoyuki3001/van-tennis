@@ -6,14 +6,14 @@ const ContactPage = () => {
   return (
     <div className="lg:flex lg:h-[25rem]">
       <div className="lg:w-1/2 bg-contact bg-cover bg-center"></div>
-      <div className="lg:w-1/2 lg:flex flex-col items-end justify-around lg:pr-10 bg-[#5d350e] text-white">
+      <div className="p-4 lg:w-1/2 lg:flex flex-col items-end justify-around lg:pr-10 bg-[#5d350e] text-white">
         <h2 className="lg:text-[3rem] text-center lg:text-right font-bold">
           Do you have any questions?
         </h2>
         <h2 className="lg:text-[3rem] text-center lg:text-right font-bold">
           Let's talk!
         </h2>
-        <div className="flex flex-col items-center lg:items-end">
+        <div className="flex flex-col items-center lg:items-end mt-5">
           <button
             onClick={() => {
               navigate("/contact");

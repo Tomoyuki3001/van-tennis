@@ -46,7 +46,7 @@ const Home = () => {
                   onClick={() => {
                     navigate("/about");
                   }}
-                  className="lg:w-1/3 border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
+                  className="lg:w-[15rem] border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
                 >
                   ABOUT VTG
                 </button>
@@ -65,9 +65,9 @@ const Home = () => {
                 src={Play}
                 alt="Playing tennis"
               />
-              <div className="lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-blue-600">
+              <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-blue-600">
                 <h2>PLAY</h2>
-                <p className="lg:text-lg">
+                <p className="text-sm lg:text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                   quo quis accusantium illum, officia fugiat natus distinctio
                   sunt exercitationem quia similique facilis dignissimos
@@ -82,15 +82,15 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <div className="relative group">
+            <div className="relative group w-full">
               <img
                 className="w-full h-auto brightness-50"
                 src={Shop}
                 alt="Playing tennis"
               />
-              <div className="lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-gray-600">
-                <h2>SHOPPING</h2>
-                <p className="lg:text-lg">
+              <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-gray-600">
+                <h2>GEAR</h2>
+                <p className="text-sm lg:text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                   quo quis accusantium illum, officia fugiat natus distinctio
                   sunt exercitationem quia similique facilis dignissimos
@@ -111,9 +111,9 @@ const Home = () => {
                 src={Game}
                 alt="Playing tennis"
               />
-              <div className="lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white bg-opacity-70 bg-stone-600">
+              <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-stone-600">
                 <h2>WATCH</h2>
-                <p className="lg:text-lg">
+                <p className="text-sm lg:text-lg">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
                   quo quis accusantium illum, officia fugiat natus distinctio
                   sunt exercitationem quia similique facilis dignissimos
@@ -147,7 +147,7 @@ const Home = () => {
           <div className="text-center">
             <h2 className="text-[3rem] font-bold my-10">Let's connect!</h2>
           </div>
-          <img className="lg:w-1/4 h-auto" src={Profile} alt="" />
+          <img className="rounded lg:w-1/4 h-auto" src={Profile} alt="" />
           <h2 className="mt-10">Tomoyuki Fujii</h2>
           <p>Worked at DUNLOP (Tennis)</p>
           <p>If you have any concerns about tennis, just let me know!</p>
@@ -171,7 +171,7 @@ const Home = () => {
             onClick={() => {
               navigate("/contact");
             }}
-            className="lg:w-1/6 my-10 border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
+            className="lg:w-[15rem] my-10 border-2 border-black transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white px-5 py-10"
           >
             CONTACT
           </button>
