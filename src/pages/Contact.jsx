@@ -123,57 +123,59 @@ const Contact = () => {
             referrerpolicy="no-referrer-when-downgrade"
             className="w-1/2 google-map"
           ></iframe>
-          <form
-            ref={form}
-            onSubmit={sendEmail}
-            className="flex flex-col items-center text-center my-20 w-1/2"
-          >
-            <label className="font-bold my-2">Name</label>
-            <input
-              className="border rounded-sm w-[20rem] p-2"
-              type="text"
-              name="user_name"
-              value={name}
-              placeholder="Name"
-              onChange={handleChangeName}
-            />
-            <label className="font-bold my-2">Email</label>
-            <input
-              className="border rounded-sm w-[20rem] p-2"
-              type="email"
-              name="user_email"
-              value={email}
-              placeholder="Email"
-              onChange={handleChangeEmail}
-            />
-            <label className="font-bold my-2">Subject</label>
-            <input
-              className="border rounded-sm w-[20rem] p-2"
-              type="subject"
-              name="user_subject"
-              value={subject}
-              placeholder="Subject"
-              onChange={handleChangeSubject}
-            />
-            <label className="font-bold my-2">Message</label>
-            <textarea
-              className="border rounded-sm w-[20rem] h-[20rem] p-2"
-              name="message"
-              value={text}
-              placeholder="Message here..."
-              onChange={handleChangeText}
-            />
-            <input
-              className={`mt-3 border-2 px-5 py-2 border-[#0f375d] ${
-                isMobile
-                  ? "hover:bg-white bg:text-black"
-                  : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-[#0f375d] hover:text-white"
-              } `}
-              type="submit"
-              value="Send"
-              o
-            />
-          </form>
+          <div className="w-full flex flex-col items-center">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className="flex flex-col items-center text-center my-20 lg:w-1/2"
+            >
+              <label className="font-bold my-2">Name</label>
+              <input
+                className="border-2 border-[#0f375d] rounded-sm w-[20rem] p-2"
+                type="text"
+                name="user_name"
+                value={name}
+                placeholder="Name"
+                onChange={handleChangeName}
+              />
+              <label className="font-bold my-2">Email</label>
+              <input
+                className="border-2 border-[#0f375d] rounded-sm w-[20rem] p-2"
+                type="email"
+                name="user_email"
+                value={email}
+                placeholder="Email"
+                onChange={handleChangeEmail}
+              />
+              <label className="font-bold my-2">Subject</label>
+              <input
+                className="border-2 border-[#0f375d] rounded-sm w-[20rem] p-2"
+                type="subject"
+                name="user_subject"
+                value={subject}
+                placeholder="Subject"
+                onChange={handleChangeSubject}
+              />
+              <label className="font-bold my-2">Message</label>
+              <textarea
+                className="border-2 border-[#0f375d] rounded-sm w-[20rem] h-[20rem] p-2"
+                name="message"
+                value={text}
+                placeholder="Message here..."
+                onChange={handleChangeText}
+              />
+              <input
+                className={`mt-3 border-2 px-8 py-3 border-[#0f375d] ${
+                  isMobile
+                    ? "hover:bg-white bg:text-black"
+                    : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-[#0f375d] hover:text-white"
+                } `}
+                type="submit"
+                value="SEND"
+                o
+              />
+            </form>
+          </div>
         </div>
       </div>
     </div>

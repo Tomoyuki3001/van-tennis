@@ -182,14 +182,14 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img width={70} src={LinkedIn} alt="" />
+              <img className="w-[4rem]" src={LinkedIn} alt="" />
             </a>
             <a
               href="https://www.facebook.com/tomoyk113"
               target="_blank"
               rel="noreferrer"
             >
-              <img width={70} src={Facebook} alt="" />
+              <img className="w-[4rem]" src={Facebook} alt="" />
             </a>
           </div>
           <button

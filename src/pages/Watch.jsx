@@ -101,7 +101,7 @@ const Watch = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center my-40">
+        <div className="flex flex-col items-center my-40 text-center">
           <h2 className="text-[3rem] font-bold">Tournaments in Vancouver</h2>
           <p className="text-center lg:px-40 my-10">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
@@ -113,7 +113,7 @@ const Watch = () => {
             <div className="flex flex-col items-center text-center">
               <img className="w-[20rem]" src={Van} alt="" />
               <h2 className="my-10">Odlum Brown VanOpen</h2>
-              <p className="w-1/2">
+              <p className="lg:w-1/2">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
                 porro quo architecto nulla quisquam provident, nesciunt sit
                 placeat neque modi.

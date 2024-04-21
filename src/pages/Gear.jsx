@@ -19,7 +19,7 @@ const Gear = () => {
       </div>
       <div className="px-3 lg:px-40 flex flex-col items-center text-center my-40">
         <h2 className="text-[3rem] font-bold">What you need to play?</h2>
-        <p className="px-40 my-20">
+        <p className="lg:px-40 my-20">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta unde
           optio possimus aperiam quas quidem vel accusamus cumque placeat
           quisquam debitis ipsum, facilis, inventore, enim quis ratione totam
@@ -28,7 +28,7 @@ const Gear = () => {
         <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col lg:px-20">
           <div className="mb-10">
             <div className="flex flex-col items-center">
-              <img className="w-[13rem] h-[20rem]" src={Ball} alt="" />
+              <img className="lg:w-[13rem] h-[20rem]" src={Ball} alt="" />
             </div>
             <h4 className="mt-5">Balls</h4>
             <p>
@@ -39,7 +39,7 @@ const Gear = () => {
           </div>
           <div className="mb-10">
             <div className="flex flex-col items-center">
-              <img className="w-[9rem] h-[20rem]" src={Racket} alt="" />
+              <img className="lg:w-[9rem] h-[20rem]" src={Racket} alt="" />
             </div>
             <h4 className="mt-5">Rackets</h4>
             <p>
@@ -50,7 +50,7 @@ const Gear = () => {
           </div>
           <div className="mb-10">
             <div className="flex flex-col items-center">
-              <img className="w-[30rem] h-[20rem]" src={Shoes} alt="" />
+              <img className="lg:w-[30rem] h-[20rem]" src={Shoes} alt="" />
             </div>
             <h4 className="mt-5">Shoes</h4>
             <p>
@@ -94,7 +94,7 @@ const Gear = () => {
       </div>
       <div className="bg-[#0f375d] text-white flex flex-col items-center text-center px-3 lg:px-40 py-20">
         <h3>How to select rackets and strings?</h3>
-        <p className="text-center px-40 my-20">
+        <p className="text-center lg:px-40 lg:my-20 my-10">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut tempora
           molestias dolore iusto autem error fuga neque explicabo, amet voluptas
           quia assumenda adipisci! Atque veritatis ipsa totam mollitia, fugiat
@@ -106,7 +106,7 @@ const Gear = () => {
               <img className="w-[40rem]" src={Rackets} alt="" />
             </div>
             <div className="lg:w-1/2">
-              <h3>Racket weight/face size</h3>
+              <h3 className="my-10">Racket weight/face size</h3>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
                 libero sapiente doloribus itaque sunt quasi porro ipsam aliquid
@@ -120,7 +120,7 @@ const Gear = () => {
               <img className="w-[40rem]" src={String} alt="" />
             </div>
             <div className="lg:w-1/2">
-              <h3>Strings types/tension</h3>
+              <h3 className="my-10">Strings types/tension</h3>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
                 libero sapiente doloribus itaque sunt quasi porro ipsam aliquid
@@ -131,7 +131,7 @@ const Gear = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center my-40 px-3 lg:px-40">
+      <div className="flex flex-col items-center my-40 px-3 lg:px-40 text-center">
         <h2 className="text-[3rem] font-bold">Tennis shops in Vancouver</h2>
         <p className="text-center lg:px-40 my-10">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum
@@ -139,9 +139,9 @@ const Gear = () => {
           reiciendis, iusto similique nesciunt explicabo nobis ad esse, natus
           velit?
         </p>
-        <div className="my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-8 lg:px-32">
+        <div className="lg:my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-8 lg:px-32">
           <div className="flex flex-col items-center text-center">
-            <img className="w-full lg:w-50 h-[20rem]" src={RR} alt="" />
+            <img className="w-full lg:w-[30rem] lg:h-[20rem]" src={RR} alt="" />
             <h2 className="my-10">Rackets & Runners</h2>
             <p className="lg:w-1/2">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
@@ -150,7 +150,7 @@ const Gear = () => {
             </p>
           </div>
           <div className="flex flex-col items-center text-center">
-            <img className="w-full lg:w-50 h-[20rem]" src={K8} alt="" />
+            <img className="w-full lg:w-[30rem] lg:h-[20rem]" src={K8} alt="" />
             <h2 className="my-10">K8 Strings</h2>
             <p className="lg:w-1/2">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
@@ -159,7 +159,11 @@ const Gear = () => {
             </p>
           </div>
           <div className="flex flex-col items-center text-center">
-            <img className="w-full lg:w-50 h-[20rem]" src={Tad} alt="" />
+            <img
+              className="w-full lg:w-[30rem] lg:h-[20rem]"
+              src={Tad}
+              alt=""
+            />
             <h2 className="my-10">Tad's Sporting Goods</h2>
             <p className="lg:w-1/2">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias

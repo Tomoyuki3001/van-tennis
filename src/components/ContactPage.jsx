@@ -31,13 +31,13 @@ const ContactPage = () => {
             onClick={() => {
               navigate("/contact");
             }}
-            className={`lg:w-[15rem] mt-3 border-2 px-4 py-6 border-white ${
+            className={`lg:w-[15rem] mt-3 border-2 px-8 py-6 border-white ${
               isMobile
                 ? "hover:bg-white bg:text-black"
                 : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:text-black"
             } `}
           >
-            LEARN MORE
+            CONTACT
           </button>
         </div>
       </div>

@@ -18,7 +18,7 @@ const Play = () => {
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">PLAY</h1>
       </div>
       <div>
-        <div className="flex flex-col items-center my-40 text-center lg:px-40">
+        <div className="flex flex-col items-center my-40 text-center lg:px-40 px-3">
           <h2 className="text-[3rem] font-bold">Where can we play?</h2>
           <div>
             <p className="lg:px-40 my-20">
@@ -28,7 +28,7 @@ const Play = () => {
               ratione totam vitae dignissimos!
             </p>
             <div>
-              <h3 className="my-20">Outdoor courts</h3>
+              <h3 className="my-20 underline">Outdoor courts</h3>
               <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-16">
                 <div>
                   <div className="flex flex-col items-center">
@@ -61,7 +61,7 @@ const Play = () => {
                   <h4 className="my-10">Slocan Park</h4>
                 </div>
               </div>
-              <h3 className="my-20">Indoor courts</h3>
+              <h3 className="my-20 underline">Indoor courts</h3>
               <div className="lg:flex justify-center">
                 <div className="lg:mr-16">
                   <div className="flex flex-col items-center">
@@ -87,8 +87,10 @@ const Play = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center my-40 bg-[#0f375d] text-white lg:px-40 py-20">
-          <h2 className="text-[3rem] font-bold">How to find tennis lovers?</h2>
+        <div className="flex flex-col items-center my-40 bg-[#0f375d] text-white lg:px-40 px-3 py-20">
+          <h2 className="text-[3rem] font-bold text-center">
+            How to find tennis lovers?
+          </h2>
           <p className="text-center lg:px-40 my-20">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             ipsum quaerat at repellat dolore illo earum expedita suscipit odio
@@ -96,8 +98,8 @@ const Play = () => {
             esse, natus velit?
           </p>
           <div className="my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col lg:px-32">
-            <div className="flex flex-col items-center text-center">
-              <img className="w-36" src={Facebook} alt="" />
+            <div className="flex flex-col items-center text-center my-3">
+              <img className="lg:w-36 w-28" src={Facebook} alt="" />
               <h2 className="my-10">Facebook</h2>
               <p className="lg:w-1/2">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
@@ -105,8 +107,8 @@ const Play = () => {
                 placeat neque modi.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center">
-              <img className="w-36" src={Meetup} alt="" />
+            <div className="flex flex-col items-center text-center my-3">
+              <img className="lg:w-36 w-28" src={Meetup} alt="" />
               <h2 className="my-10">Meetup</h2>
               <p className="lg:w-1/2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -114,8 +116,8 @@ const Play = () => {
                 necessitatibus adipisci, qui explicabo!
               </p>
             </div>
-            <div className="flex flex-col items-center text-center">
-              <img className="w-36" src={VTA} alt="" />
+            <div className="flex flex-col items-center text-center my-3">
+              <img className="lg:w-36 w-28" src={VTA} alt="" />
               <h2 className="my-10">Vancouver Tennis Association</h2>
               <p className="lg:w-1/2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -125,8 +127,8 @@ const Play = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center my-40 lg:px-40">
-          <h2 className="text-[3rem] font-bold">
+        <div className="text-center flex flex-col items-center my-40 lg:px-40 px-3">
+          <h2 className="text-[3rem] font-bold text-center">
             How to level up your tennis?
           </h2>
           <p className="text-center lg:px-40 my-10">
@@ -141,7 +143,7 @@ const Play = () => {
                 <img className="w-[30rem]" src={Coach} alt="" />
               </div>
               <div className="lg:w-1/2">
-                <h3>Lessons/Coaches</h3>
+                <h3 className="my-5">Lessons/Coaches</h3>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Natus libero sapiente doloribus itaque sunt quasi porro ipsam
@@ -155,7 +157,7 @@ const Play = () => {
                 <img className="w-[30rem]" src={Youtube} alt="" />
               </div>
               <div className="lg:w-1/2">
-                <h3>Online</h3>
+                <h3 className="my-5">Online</h3>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Natus libero sapiente doloribus itaque sunt quasi porro ipsam
