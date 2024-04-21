@@ -85,13 +85,17 @@ const Watch = () => {
                   <div className="w-[10rem] lg:w-[15rem] lg:h-[10rem]">
                     <img src={Atp} alt="" />
                   </div>
-                  <h4>ATP (Association of Tennis Professionals)</h4>
+                  <h4 className="font-bold lg:text-xl text-base">
+                    ATP (Association of Tennis Professionals)
+                  </h4>
                 </div>
                 <div className="mt-20 lg:mt-0 lg:ml-16 flex flex-col items-center">
                   <div className="w-[10rem] lg:w-[15rem] lg:h-[10rem]">
                     <img src={Wta} alt="" />
                   </div>
-                  <h4>WTA (Women's Tennis Association)</h4>
+                  <h4 className="font-bold lg:text-xl text-base">
+                    WTA (Women's Tennis Association)
+                  </h4>
                 </div>
               </div>
             </div>
