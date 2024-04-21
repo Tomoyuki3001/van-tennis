@@ -41,7 +41,7 @@
 }
 
 .nav-links-container {
-  padding-right: 5%;
+  padding-right: 3%;
 }
 
 .nav-links {
@@ -160,7 +160,7 @@
     text-decoration: none;
   }
   .nav-logo {
-    padding-left: 10%;
+    padding-left: 5%;
   }
 
   .nav-menu-cancel-icon {
