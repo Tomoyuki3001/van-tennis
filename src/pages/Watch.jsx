@@ -46,28 +46,28 @@ const Watch = () => {
               <div className="grid lg:grid-rows-2 grid-rows-4 grid-flow-col lg:px-20">
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
-                    <img className="w-[30rem] h-[20rem]" src={Ao} alt="" />
+                    <img className="lg:w-[30rem] h-[20rem]" src={Ao} alt="" />
                   </div>
                   <h4 className="mt-5">Australian Open</h4>
                   <h5>in January</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
-                    <img className="w-[30rem] h-[20rem]" src={Rg} alt="" />
+                    <img className="lg:w-[30rem] h-[20rem]" src={Rg} alt="" />
                   </div>
                   <h4 className="mt-5">French Open</h4>
                   <h5>late May to early June</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
-                    <img className="w-[30rem] h-[20rem]" src={Wb} alt="" />
+                    <img className="lg:w-[30rem] h-[20rem]" src={Wb} alt="" />
                   </div>
                   <h4 className="mt-5">Wimbledon</h4>
                   <h5>late June to early July</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
-                    <img className="w-[30rem] h-[20rem]" src={Uo} alt="" />
+                    <img className="lg:w-[30rem] h-[20rem]" src={Uo} alt="" />
                   </div>
                   <h4 className="mt-5">US Open</h4>
                   <h5>late August to early September</h5>
@@ -81,14 +81,14 @@ const Watch = () => {
                 labore quibusdam ullam adipisci aut.
               </p>
               <div className="lg:flex justify-center">
-                <div className="mr-16 flex flex-col items-center">
-                  <div className="w-[15rem] h-[10rem]">
+                <div className="lg:mr-16 flex flex-col items-center">
+                  <div className="w-[10rem] lg:w-[15rem] lg:h-[10rem]">
                     <img src={Atp} alt="" />
                   </div>
                   <h4>ATP (Association of Tennis Professionals)</h4>
                 </div>
-                <div className="ml-16 flex flex-col items-center">
-                  <div className="w-[15rem] h-[10rem]">
+                <div className="mt-20 lg:mt-0 lg:ml-16 flex flex-col items-center">
+                  <div className="w-[10rem] lg:w-[15rem] lg:h-[10rem]">
                     <img src={Wta} alt="" />
                   </div>
                   <h4>WTA (Women's Tennis Association)</h4>
@@ -99,15 +99,15 @@ const Watch = () => {
         </div>
         <div className="flex flex-col items-center my-40">
           <h2 className="text-[3rem] font-bold">Tournaments in Vancouver</h2>
-          <p className="text-center px-40 my-10">
+          <p className="text-center lg:px-40 my-10">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             ipsum quaerat at repellat dolore illo earum expedita suscipit odio
             dolores reiciendis, iusto similique nesciunt explicabo nobis ad
             esse, natus velit?
           </p>
-          <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col px-32">
+          <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col lg:px-32">
             <div className="flex flex-col items-center text-center">
-              <img className="w-50" src={Van} alt="" />
+              <img className="w-[20rem]" src={Van} alt="" />
               <h2 className="my-10">Odlum Brown VanOpen</h2>
               <p className="w-1/2">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
