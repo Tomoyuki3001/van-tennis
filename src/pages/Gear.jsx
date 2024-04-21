@@ -17,7 +17,7 @@ const Gear = () => {
       <div className="text-white font-bold bg-gearHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">GEAR</h1>
       </div>
-      <div className="lg:px-40 flex flex-col items-center text-center my-40">
+      <div className="px-3 lg:px-40 flex flex-col items-center text-center my-40">
         <h2 className="text-[3rem] font-bold">What you need to play?</h2>
         <p className="px-40 my-20">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta unde
@@ -92,7 +92,7 @@ const Gear = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#0f375d] text-white flex flex-col items-center text-center lg:px-40 py-20">
+      <div className="bg-[#0f375d] text-white flex flex-col items-center text-center px-3 lg:px-40 py-20">
         <h3>How to select rackets and strings?</h3>
         <p className="text-center px-40 my-20">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut tempora
@@ -131,7 +131,7 @@ const Gear = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center my-40 lg:px-40">
+      <div className="flex flex-col items-center my-40 px-3 lg:px-40">
         <h2 className="text-[3rem] font-bold">Tennis shops in Vancouver</h2>
         <p className="text-center lg:px-40 my-10">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum

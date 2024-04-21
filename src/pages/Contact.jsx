@@ -88,7 +88,7 @@ const Contact = () => {
         <h2 className="lg:text-[4rem] font-bold my-20">Let's connect!</h2>
         <div className="flex flex-col items-center">
           <img
-            className="w-1/4 h-auto rounded p-1 border"
+            className="w-1/2 lg:w-1/4 h-auto rounded p-1 border"
             src={Profile}
             alt=""
           />

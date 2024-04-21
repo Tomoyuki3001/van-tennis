@@ -43,7 +43,7 @@ const Watch = () => {
             </p>
             <div>
               <h3 className="my-10">Grand Slam</h3>
-              <div className="grid lg:grid-rows-2 grid-rows-4 grid-flow-col lg:px-20 px-3">
+              <div className="grid lg:grid-rows-2 grid-rows-4 grid-flow-col lg:px-20">
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
                     <img className="lg:w-[30rem] h-[20rem]" src={Ao} alt="" />
