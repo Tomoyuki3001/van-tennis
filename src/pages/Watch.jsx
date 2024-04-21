@@ -31,7 +31,7 @@ const Watch = () => {
       <div className="text-white font-bold bg-watchHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">WATCH</h1>
       </div>
-      <div className="px-3 lg:px-40">
+      <div className="sm:px-3 lg:px-40">
         <div className="flex flex-col items-center my-40 text-center">
           <h2 className="text-[3rem] font-bold">Tennis games</h2>
           <div>

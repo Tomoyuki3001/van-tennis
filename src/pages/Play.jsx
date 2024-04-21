@@ -18,7 +18,7 @@ const Play = () => {
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">PLAY</h1>
       </div>
       <div>
-        <div className="flex flex-col items-center my-40 text-center lg:px-40 px-3">
+        <div className="flex flex-col items-center my-40 text-center lg:px-40 sm:px-3">
           <h2 className="text-[3rem] font-bold">Where can we play?</h2>
           <div>
             <p className="lg:px-40 my-20">
@@ -87,7 +87,7 @@ const Play = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center my-40 bg-[#0f375d] text-white lg:px-40 px-3 py-20">
+        <div className="flex flex-col items-center my-40 bg-[#0f375d] text-white lg:px-40 sm:px-3 py-20">
           <h2 className="text-[3rem] font-bold text-center">
             How to find tennis lovers?
           </h2>
@@ -127,7 +127,7 @@ const Play = () => {
             </div>
           </div>
         </div>
-        <div className="text-center flex flex-col items-center my-40 lg:px-40 px-3">
+        <div className="text-center flex flex-col items-center my-40 lg:px-40 sm:px-3">
           <h2 className="text-[3rem] font-bold text-center">
             How to level up your tennis?
           </h2>

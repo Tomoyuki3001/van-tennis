@@ -84,7 +84,7 @@ const Contact = () => {
       <div className="text-white font-bold bg-contactHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">CONTACT</h1>
       </div>
-      <div className="lg:px-40 text-center">
+      <div className="sm:px-3 lg:px-40 text-center">
         <h2 className="lg:text-[4rem] font-bold my-20">Let's connect!</h2>
         <div className="flex flex-col items-center">
           <img
@@ -116,22 +116,22 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="flex w-full">
+        <div className="flex w-full lg:mb-20 sm:mb-0">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.37148313464!2d-123.20630488144621!3d49.2578181906132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1710879539088!5m2!1sen!2sca"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            className="w-1/2 google-map"
+            className="w-full p-28 google-map"
           ></iframe>
           <div className="w-full flex flex-col items-center">
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="flex flex-col items-center text-center my-20 lg:w-1/2"
+              className="flex flex-col items-center text-center my-20"
             >
               <label className="font-bold my-2">Name</label>
               <input
-                className="border-2 border-[#0f375d] rounded-sm w-[20rem] p-2"
+                className="border-2 border-[#0f375d] rounded-sm sm:w-[20rem] lg:w-[30rem] p-2"
                 type="text"
                 name="user_name"
                 value={name}
@@ -140,7 +140,7 @@ const Contact = () => {
               />
               <label className="font-bold my-2">Email</label>
               <input
-                className="border-2 border-[#0f375d] rounded-sm w-[20rem] p-2"
+                className="border-2 border-[#0f375d] rounded-sm w-[20rem] lg:w-[30rem] p-2"
                 type="email"
                 name="user_email"
                 value={email}
@@ -149,7 +149,7 @@ const Contact = () => {
               />
               <label className="font-bold my-2">Subject</label>
               <input
-                className="border-2 border-[#0f375d] rounded-sm w-[20rem] p-2"
+                className="border-2 border-[#0f375d] rounded-sm w-[20rem] lg:w-[30rem] p-2"
                 type="subject"
                 name="user_subject"
                 value={subject}
@@ -158,7 +158,7 @@ const Contact = () => {
               />
               <label className="font-bold my-2">Message</label>
               <textarea
-                className="border-2 border-[#0f375d] rounded-sm w-[20rem] h-[20rem] p-2"
+                className="border-2 border-[#0f375d] rounded-sm w-[20rem] lg:w-[30rem] h-[20rem] p-2"
                 name="message"
                 value={text}
                 placeholder="Message here..."

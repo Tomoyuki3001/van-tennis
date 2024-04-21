@@ -17,7 +17,7 @@ const Gear = () => {
       <div className="text-white font-bold bg-gearHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">GEAR</h1>
       </div>
-      <div className="px-3 lg:px-40 flex flex-col items-center text-center my-40">
+      <div className="sm:px-3 lg:px-40 flex flex-col items-center text-center my-40">
         <h2 className="text-[3rem] font-bold">What you need to play?</h2>
         <p className="lg:px-40 my-20">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta unde
@@ -92,7 +92,7 @@ const Gear = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#0f375d] text-white flex flex-col items-center text-center px-3 lg:px-40 py-20">
+      <div className="bg-[#0f375d] text-white flex flex-col items-center text-center sm:px-3 lg:px-40 py-20">
         <h3>How to select rackets and strings?</h3>
         <p className="text-center lg:px-40 lg:my-20 my-10">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut tempora
@@ -131,19 +131,19 @@ const Gear = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center my-40 px-3 lg:px-40 text-center">
+      <div className="flex flex-col items-center my-40 sm:px-3 lg:px-28 text-center">
         <h2 className="text-[3rem] font-bold">Tennis shops in Vancouver</h2>
         <p className="text-center lg:px-40 my-10">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum
-          quaerat at repellat dolore illo earum expedita suscipit odio dolores
-          reiciendis, iusto similique nesciunt explicabo nobis ad esse, natus
-          velit?
+          sm: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+          ipsum quaerat at repellat dolore illo earum expedita suscipit odio
+          dolores reiciendis, iusto similique nesciunt explicabo nobis ad esse,
+          natus velit?
         </p>
-        <div className="lg:my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-8 lg:px-32">
+        <div className="lg:my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-10 lg:px-32">
           <div className="flex flex-col items-center text-center">
             <img className="w-full lg:w-[30rem] lg:h-[20rem]" src={RR} alt="" />
             <h2 className="my-10">Rackets & Runners</h2>
-            <p className="lg:w-1/2">
+            <p className="px-10">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
               porro quo architecto nulla quisquam provident, nesciunt sit
               placeat neque modi.
@@ -152,7 +152,7 @@ const Gear = () => {
           <div className="flex flex-col items-center text-center">
             <img className="w-full lg:w-[30rem] lg:h-[20rem]" src={K8} alt="" />
             <h2 className="my-10">K8 Strings</h2>
-            <p className="lg:w-1/2">
+            <p className="px-10">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
               porro quo architecto nulla quisquam provident, nesciunt sit
               placeat neque modi.
@@ -165,7 +165,7 @@ const Gear = () => {
               alt=""
             />
             <h2 className="my-10">Tad's Sporting Goods</h2>
-            <p className="lg:w-1/2">
+            <p className="px-10">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
               porro quo architecto nulla quisquam provident, nesciunt sit
               placeat neque modi.

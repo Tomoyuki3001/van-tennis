@@ -41,171 +41,169 @@ const Home = () => {
           <h1 className="lg:text-[8rem] text-[5rem]  font-bold m-0">TENNIS</h1>
         </div>
       </div>
-      <div className="sm:px-5 lg:px-40">
-        <div className="text-center mt-20">
-          <h2 className="text-[3rem] font-bold">Tennis in Vancouver</h2>
-          <div className="lg:flex">
-            <div className="lg:w-1/2 py-20 flex flex-col items-center">
-              <img className="w-full rounded" src={TopImage} alt="Iamge" />
+      <div className="text-center mt-20 lg:px-40 sm:px-3">
+        <h2 className="text-[3rem] font-bold">Tennis in Vancouver</h2>
+        <div className="lg:flex">
+          <div className="lg:w-1/2 py-20 flex flex-col items-center">
+            <img className="w-full rounded" src={TopImage} alt="Iamge" />
+          </div>
+          <div className="lg:w-1/2 py-20 lg:pl-20 flex flex-col justify-between">
+            <p className="text-lg lg:text-right">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              itaque, enim iure officiis ducimus veritatis aperiam laborum! Eos
+              iste maiores deserunt corrupti tempora quas ex ab repellendus,
+              amet cum iusto?
+            </p>
+            <div className="lg:flex flex-col items-end">
+              <button
+                onClick={() => {
+                  navigate("/about");
+                }}
+                className={`lg:w-[15rem] border-2 px-5 py-10 border-[#0f375d] ${
+                  isMobile
+                    ? "hover:bg-white bg:text-black"
+                    : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-[#0f375d] hover:text-white"
+                } `}
+              >
+                ABOUT VTG
+              </button>
             </div>
-            <div className="lg:w-1/2 py-20 lg:pl-20 flex flex-col justify-between">
-              <p className="text-lg lg:text-right">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aliquam itaque, enim iure officiis ducimus veritatis aperiam
-                laborum! Eos iste maiores deserunt corrupti tempora quas ex ab
-                repellendus, amet cum iusto?
+          </div>
+        </div>
+      </div>
+      <div className="mt-20 lg:px-40 sm:px-3">
+        <div className="text-center">
+          <h2 className="text-[3rem] font-bold my-10">Let's enjoy!</h2>
+        </div>
+        <div className="mt-20 grid lg:grid-rows-2 grid-rows-4 grid-flow-col">
+          <div className="relative group">
+            <img
+              className="w-full h-full brightness-50"
+              src={Play}
+              alt="Playing tennis"
+            />
+            <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-blue-600">
+              <h2>PLAY</h2>
+              <p className="text-sm lg:text-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo
+                quis accusantium illum, officia fugiat natus distinctio sunt
+                exercitationem quia similique facilis dignissimos
               </p>
-              <div className="lg:flex flex-col items-end">
-                <button
-                  onClick={() => {
-                    navigate("/about");
-                  }}
-                  className={`lg:w-[15rem] border-2 px-5 py-10 border-[#0f375d] ${
-                    isMobile
-                      ? "hover:bg-white bg:text-black"
-                      : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-[#0f375d] hover:text-white"
-                  } `}
-                >
-                  ABOUT VTG
-                </button>
-              </div>
+              <button
+                onClick={() => {
+                  navigate("/play");
+                }}
+                className="border-2 px-10 py-3 hover:bg-white hover:text-black"
+              >
+                SEE MORE
+              </button>
+            </div>
+          </div>
+          <div className="relative group w-full">
+            <img
+              className="w-full h-auto brightness-50"
+              src={Shop}
+              alt="Playing tennis"
+            />
+            <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-gray-600">
+              <h2>GEAR</h2>
+              <p className="text-sm lg:text-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo
+                quis accusantium illum, officia fugiat natus distinctio sunt
+                exercitationem quia similique facilis dignissimos
+              </p>
+              <button
+                onClick={() => {
+                  navigate("/gear");
+                }}
+                className="border-2 px-10 py-3 hover:bg-white hover:text-black"
+              >
+                SEE MORE
+              </button>
+            </div>
+          </div>
+          <div className="relative group">
+            <img
+              className="w-full h-full brightness-50"
+              src={Game}
+              alt="Playing tennis"
+            />
+            <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-stone-600">
+              <h2>WATCH</h2>
+              <p className="text-sm lg:text-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo
+                quis accusantium illum, officia fugiat natus distinctio sunt
+                exercitationem quia similique facilis dignissimos
+              </p>
+              <button
+                onClick={() => {
+                  navigate("/watch");
+                }}
+                className="border-2 px-10 py-3 hover:bg-white hover:text-black"
+              >
+                SEE MORE
+              </button>
+            </div>
+          </div>
+          <div className="relative bg-black">
+            <div className="p-10 absolute bottom-0 right-0 text-white">
+              <h2 className="mb-10">And more...</h2>
+              <button
+                onClick={() => {
+                  navigate("/contact");
+                }}
+                className="border-2 px-10 py-3 hover:bg-white hover:text-black"
+              >
+                CONTACT
+              </button>
             </div>
           </div>
         </div>
-        <div className="mt-20">
-          <div className="text-center">
-            <h2 className="text-[3rem] font-bold my-10">Let's enjoy!</h2>
-          </div>
-          <div className="mt-20 grid lg:grid-rows-2 grid-rows-4 grid-flow-col">
-            <div className="relative group">
-              <img
-                className="w-full h-full brightness-50"
-                src={Play}
-                alt="Playing tennis"
-              />
-              <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-blue-600">
-                <h2>PLAY</h2>
-                <p className="text-sm lg:text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                  quo quis accusantium illum, officia fugiat natus distinctio
-                  sunt exercitationem quia similique facilis dignissimos
-                </p>
-                <button
-                  onClick={() => {
-                    navigate("/play");
-                  }}
-                  className="border-2 px-10 py-3 hover:bg-white hover:text-black"
-                >
-                  SEE MORE
-                </button>
-              </div>
-            </div>
-            <div className="relative group w-full">
-              <img
-                className="w-full h-auto brightness-50"
-                src={Shop}
-                alt="Playing tennis"
-              />
-              <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-gray-600">
-                <h2>GEAR</h2>
-                <p className="text-sm lg:text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                  quo quis accusantium illum, officia fugiat natus distinctio
-                  sunt exercitationem quia similique facilis dignissimos
-                </p>
-                <button
-                  onClick={() => {
-                    navigate("/gear");
-                  }}
-                  className="border-2 px-10 py-3 hover:bg-white hover:text-black"
-                >
-                  SEE MORE
-                </button>
-              </div>
-            </div>
-            <div className="relative group">
-              <img
-                className="w-full h-full brightness-50"
-                src={Game}
-                alt="Playing tennis"
-              />
-              <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-stone-600">
-                <h2>WATCH</h2>
-                <p className="text-sm lg:text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                  quo quis accusantium illum, officia fugiat natus distinctio
-                  sunt exercitationem quia similique facilis dignissimos
-                </p>
-                <button
-                  onClick={() => {
-                    navigate("/watch");
-                  }}
-                  className="border-2 px-10 py-3 hover:bg-white hover:text-black"
-                >
-                  SEE MORE
-                </button>
-              </div>
-            </div>
-            <div className="relative bg-black">
-              <div className="p-10 absolute bottom-0 right-0 text-white">
-                <h2 className="mb-10">And more...</h2>
-                <button
-                  onClick={() => {
-                    navigate("/contact");
-                  }}
-                  className="border-2 px-10 py-3 hover:bg-white hover:text-black"
-                >
-                  CONTACT
-                </button>
-              </div>
-            </div>
-          </div>
+      </div>
+      <div className="py-32 flex flex-col items-center lg:px-40 sm:px-3">
+        <div className="text-center">
+          <h2 className="text-[3rem] font-bold my-10">Let's connect!</h2>
         </div>
-        <div className="py-32 flex flex-col items-center px-3">
-          <div className="text-center">
-            <h2 className="text-[3rem] font-bold my-10">Let's connect!</h2>
-          </div>
-          <img
-            className="rounded w-[20rem] lg:w-1/4 h-auto my-10 p-1 border"
-            src={Profile}
-            alt=""
-          />
-          <h2 className="mt-10">Tomoyuki Fujii</h2>
-          <p>Worked at DUNLOP (Tennis)</p>
-          <p className="lg:w-1/2 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ad
-            hic numquam dolor fugit dicta ratione amet quod nemo delectus.
-          </p>
-          <div className="my-10 lg:w-1/6 flex">
-            <a
-              href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
-              target="_blank"
-              rel="noreferrer"
-              className="mr-10"
-            >
-              <img className="w-[4rem] lg:w-[4rem]" src={LinkedIn} alt="" />
-            </a>
-            <a
-              href="https://www.facebook.com/tomoyk113"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img className="w-[4rem] lg:w-[4rem]" src={Facebook} alt="" />
-            </a>
-          </div>
-          <button
-            onClick={() => {
-              navigate("/contact");
-            }}
-            className={`lg:w-[15rem] mt-5 border-2 px-5 py-10 border-[#0f375d] ${
-              isMobile
-                ? "hover:bg-white bg:text-black"
-                : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-[#0f375d] hover:text-white"
-            } `}
+        <img
+          className="rounded w-[20rem] lg:w-1/4 h-auto my-10 p-1 border"
+          src={Profile}
+          alt=""
+        />
+        <h2 className="mt-10">Tomoyuki Fujii</h2>
+        <p>Worked at DUNLOP (Tennis)</p>
+        <p className="lg:w-1/2 text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ad
+          hic numquam dolor fugit dicta ratione amet quod nemo delectus.
+        </p>
+        <div className="my-10 flex">
+          <a
+            href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
+            target="_blank"
+            rel="noreferrer"
+            className="mr-10"
           >
-            CONTACT
-          </button>
+            <img className="w-[3rem] lg:w-[4rem]" src={LinkedIn} alt="" />
+          </a>
+          <a
+            href="https://www.facebook.com/tomoyk113"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="w-[3rem] lg:w-[4rem]" src={Facebook} alt="" />
+          </a>
         </div>
+        <button
+          onClick={() => {
+            navigate("/contact");
+          }}
+          className={`lg:w-[15rem] mt-5 border-2 border-[#0f375d] ${
+            isMobile
+              ? "hover:bg-white bg:text-black px-8 py-4"
+              : "px-5 py-10 transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-[#0f375d] hover:text-white"
+          } `}
+        >
+          CONTACT
+        </button>
       </div>
     </div>
   );

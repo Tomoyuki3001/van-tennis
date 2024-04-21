@@ -11,7 +11,7 @@ const About = () => {
       <div className="text-white font-bold bg-aboutTop bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">ABOUT VTG</h1>
       </div>
-      <div className="lg:px-40 px-3">
+      <div className="lg:px-40 sm:px-3">
         <div className="flex flex-col items-center my-40">
           <h2 className="text-[3rem] font-bold">What's VTG?</h2>
           <img className="w-1/4 my-20" src={Logo} alt="" />
