@@ -96,7 +96,7 @@ const Home = () => {
                   }}
                   className="border-2 px-10 py-3 hover:bg-white hover:text-black"
                 >
-                  LEARN MORE
+                  SEE MORE
                 </button>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Home = () => {
                   }}
                   className="border-2 px-10 py-3 hover:bg-white hover:text-black"
                 >
-                  LEARN MORE
+                  SEE MORE
                 </button>
               </div>
             </div>
@@ -142,7 +142,7 @@ const Home = () => {
                   }}
                   className="border-2 px-10 py-3 hover:bg-white hover:text-black"
                 >
-                  LEARN MORE
+                  SEE MORE
                 </button>
               </div>
             </div>
@@ -161,35 +161,36 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="py-32 flex flex-col items-center">
+        <div className="py-32 flex flex-col items-center px-3">
           <div className="text-center">
             <h2 className="text-[3rem] font-bold my-10">Let's connect!</h2>
           </div>
           <img
-            className="rounded lg:w-1/4 h-auto my-10 p-1 border"
+            className="rounded w-[20rem] lg:w-1/4 h-auto my-10 p-1 border"
             src={Profile}
             alt=""
           />
           <h2 className="mt-10">Tomoyuki Fujii</h2>
           <p>Worked at DUNLOP (Tennis)</p>
-          <p className="w-1/2 text-center">
+          <p className="lg:w-1/2 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ad
             hic numquam dolor fugit dicta ratione amet quod nemo delectus.
           </p>
-          <div className="my-10 w-1/6 flex justify-around">
+          <div className="my-10 lg:w-1/6 flex">
             <a
               href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
               target="_blank"
               rel="noreferrer"
+              className="mr-10"
             >
-              <img className="w-[4rem]" src={LinkedIn} alt="" />
+              <img className="w-[4rem] lg:w-[4rem]" src={LinkedIn} alt="" />
             </a>
             <a
               href="https://www.facebook.com/tomoyk113"
               target="_blank"
               rel="noreferrer"
             >
-              <img className="w-[4rem]" src={Facebook} alt="" />
+              <img className="w-[4rem] lg:w-[4rem]" src={Facebook} alt="" />
             </a>
           </div>
           <button
