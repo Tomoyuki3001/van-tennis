@@ -31,11 +31,11 @@ const Watch = () => {
       <div className="text-white font-bold bg-watchHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">WATCH</h1>
       </div>
-      <div className="lg:px-40">
+      <div className="px-3 lg:px-40">
         <div className="flex flex-col items-center my-40 text-center">
           <h2 className="text-[3rem] font-bold">Tennis games</h2>
           <div>
-            <p className="px-40 my-10">
+            <p className="lg:px-40 my-10">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
               unde optio possimus aperiam quas quidem vel accusamus cumque
               placeat quisquam debitis ipsum, facilis, inventore, enim quis
@@ -43,33 +43,33 @@ const Watch = () => {
             </p>
             <div>
               <h3 className="my-10">Grand Slam</h3>
-              <div className="grid lg:grid-rows-2 grid-rows-4 grid-flow-col lg:px-20">
+              <div className="grid lg:grid-rows-2 grid-rows-4 grid-flow-col lg:px-20 px-3">
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
                     <img className="lg:w-[30rem] h-[20rem]" src={Ao} alt="" />
                   </div>
-                  <h4 className="mt-5">Australian Open</h4>
+                  <h4 className="font-bold mt-5">Australian Open</h4>
                   <h5>in January</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
                     <img className="lg:w-[30rem] h-[20rem]" src={Rg} alt="" />
                   </div>
-                  <h4 className="mt-5">French Open</h4>
+                  <h4 className="font-bold mt-5">French Open</h4>
                   <h5>late May to early June</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
                     <img className="lg:w-[30rem] h-[20rem]" src={Wb} alt="" />
                   </div>
-                  <h4 className="mt-5">Wimbledon</h4>
+                  <h4 className="font-bold mt-5">Wimbledon</h4>
                   <h5>late June to early July</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
                     <img className="lg:w-[30rem] h-[20rem]" src={Uo} alt="" />
                   </div>
-                  <h4 className="mt-5">US Open</h4>
+                  <h4 className="font-bold mt-5">US Open</h4>
                   <h5>late August to early September</h5>
                 </div>
               </div>
