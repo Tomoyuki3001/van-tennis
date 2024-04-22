@@ -172,7 +172,6 @@ const Contact = () => {
                 } `}
                 type="submit"
                 value="SEND"
-                o
               />
             </form>
           </div>

@@ -48,29 +48,31 @@ const Watch = () => {
                   <div className="flex flex-col items-center">
                     <img className="lg:w-[30rem] h-[20rem]" src={Ao} alt="" />
                   </div>
-                  <h4 className="font-bold mt-5">Australian Open</h4>
-                  <h5>in January</h5>
+                  <h4 className="font-bold mt-5">
+                    Australian Open - Australia
+                  </h4>
+                  <h5>In January</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
                     <img className="lg:w-[30rem] h-[20rem]" src={Rg} alt="" />
                   </div>
-                  <h4 className="font-bold mt-5">French Open</h4>
-                  <h5>late May to early June</h5>
+                  <h4 className="font-bold mt-5">French Open - France</h4>
+                  <h5>Late May to Early June</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
                     <img className="lg:w-[30rem] h-[20rem]" src={Wb} alt="" />
                   </div>
-                  <h4 className="font-bold mt-5">Wimbledon</h4>
-                  <h5>late June to early July</h5>
+                  <h4 className="font-bold mt-5">Wimbledon - UK</h4>
+                  <h5>Late June to Early July</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
                     <img className="lg:w-[30rem] h-[20rem]" src={Uo} alt="" />
                   </div>
-                  <h4 className="font-bold mt-5">US Open</h4>
-                  <h5>late August to early September</h5>
+                  <h4 className="font-bold mt-5">US Open - USA</h4>
+                  <h5>Late August to Early September</h5>
                 </div>
               </div>
               <h3 className="my-10">ATP/WTA Tournaments</h3>
