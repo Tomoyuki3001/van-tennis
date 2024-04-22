@@ -18,10 +18,10 @@ const Play = () => {
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">PLAY</h1>
       </div>
       <div>
-        <div className="flex flex-col items-center my-40 text-center lg:px-40 sm:px-3">
+        <div className="flex flex-col items-center my-40 text-center pl-3 pr-3 lg:pl-40 lg:pr-40">
           <h2 className="text-[3rem] font-bold">Where can we play?</h2>
           <div>
-            <p className="lg:px-40 my-20">
+            <p className="lg:pl-40 lg:pr-40 my-20">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
               unde optio possimus aperiam quas quidem vel accusamus cumque
               placeat quisquam debitis ipsum, facilis, inventore, enim quis
@@ -87,7 +87,7 @@ const Play = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center my-40 bg-[#0f375d] text-white lg:px-40 sm:px-3 py-20">
+        <div className="flex flex-col items-center my-40 bg-[#0f375d] text-white py-10 lg:py-20 pl-3 pr-3 lg:pl-40 lg:pr-40">
           <h2 className="text-[3rem] font-bold text-center">
             How to find tennis lovers?
           </h2>
@@ -97,11 +97,11 @@ const Play = () => {
             dolores reiciendis, iusto similique nesciunt explicabo nobis ad
             esse, natus velit?
           </p>
-          <div className="my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col lg:px-32">
+          <div className="my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-16">
             <div className="flex flex-col items-center text-center my-3">
               <img className="lg:w-36 w-28" src={Facebook} alt="" />
               <h2 className="my-10">Facebook</h2>
-              <p className="lg:w-1/2">
+              <p className="w-full lg:w-[25rem]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
                 porro quo architecto nulla quisquam provident, nesciunt sit
                 placeat neque modi.
@@ -110,7 +110,7 @@ const Play = () => {
             <div className="flex flex-col items-center text-center my-3">
               <img className="lg:w-36 w-28" src={Meetup} alt="" />
               <h2 className="my-10">Meetup</h2>
-              <p className="lg:w-1/2">
+              <p className="w-full lg:w-[25rem]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quisquam harum quos deleniti voluptas fugit officiis voluptatem
                 necessitatibus adipisci, qui explicabo!
@@ -118,8 +118,8 @@ const Play = () => {
             </div>
             <div className="flex flex-col items-center text-center my-3">
               <img className="lg:w-36 w-28" src={VTA} alt="" />
-              <h2 className="my-10">Vancouver Tennis Association</h2>
-              <p className="lg:w-1/2">
+              <h2 className="my-10">VTA</h2>
+              <p className="w-full lg:w-[25rem]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quisquam harum quos deleniti voluptas fugit officiis voluptatem
                 necessitatibus adipisci, qui explicabo!
@@ -127,7 +127,7 @@ const Play = () => {
             </div>
           </div>
         </div>
-        <div className="text-center flex flex-col items-center my-40 lg:px-40 sm:px-3">
+        <div className="text-center flex flex-col items-center my-40 pl-3 pr-3 lg:pl-40 lg:pr-40">
           <h2 className="text-[3rem] font-bold text-center">
             How to level up your tennis?
           </h2>
@@ -143,8 +143,8 @@ const Play = () => {
                 <img className="w-[30rem]" src={Coach} alt="" />
               </div>
               <div className="lg:w-1/2">
-                <h3 className="my-5">Lessons/Coaches</h3>
-                <p>
+                <h3 className="mt-10 lg:mt-0">Lessons/Coaches</h3>
+                <p className="mt-10">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Natus libero sapiente doloribus itaque sunt quasi porro ipsam
                   aliquid quidem tenetur minus odio, aspernatur, debitis
@@ -157,8 +157,8 @@ const Play = () => {
                 <img className="w-[30rem]" src={Youtube} alt="" />
               </div>
               <div className="lg:w-1/2">
-                <h3 className="my-5">Online</h3>
-                <p>
+                <h3 className="mt-10 lg:mt-0">Online</h3>
+                <p className="mt-10">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Natus libero sapiente doloribus itaque sunt quasi porro ipsam
                   aliquid quidem tenetur minus odio, aspernatur, debitis

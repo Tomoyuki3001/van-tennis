@@ -84,11 +84,11 @@ const Contact = () => {
       <div className="text-white font-bold bg-contactHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">CONTACT</h1>
       </div>
-      <div className="sm:px-3 lg:px-40 text-center">
+      <div className="pl-3 pr-3 lg:pl-40 lg:pr-40 text-center">
         <h2 className="lg:text-[4rem] font-bold my-20">Let's connect!</h2>
         <div className="flex flex-col items-center">
           <img
-            className="w-1/2 lg:w-1/4 h-auto rounded p-1 border"
+            className="w-[20rem] lg:w-[30rem] h-auto rounded p-1 border"
             src={Profile}
             alt=""
           />
@@ -105,14 +105,14 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img width={70} src={LinkedIn} alt="" />
+              <img className="w-[3rem] lg:w-[4rem]" src={LinkedIn} alt="" />
             </a>
             <a
               href="https://www.facebook.com/tomoyk113"
               target="_blank"
               rel="noreferrer"
             >
-              <img width={70} src={Facebook} alt="" />
+              <img className="w-[3rem] lg:w-[4rem]" src={Facebook} alt="" />
             </a>
           </div>
         </div>
@@ -131,7 +131,7 @@ const Contact = () => {
             >
               <label className="font-bold my-2">Name</label>
               <input
-                className="border-2 border-[#0f375d] rounded-sm sm:w-[20rem] lg:w-[30rem] p-2"
+                className="border-2 border-[#0f375d] rounded-sm w-[20rem] lg:w-[30rem] p-2"
                 type="text"
                 name="user_name"
                 value={name}

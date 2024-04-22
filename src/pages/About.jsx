@@ -11,15 +11,15 @@ const About = () => {
       <div className="text-white font-bold bg-aboutTop bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">ABOUT VTG</h1>
       </div>
-      <div className="lg:px-40 sm:px-3">
-        <div className="flex flex-col items-center my-40">
+      <div className="pl-3 pr-3 lg:pl-40 lg:pr-40">
+        <div className="flex flex-col items-center my-40 lg:pl-40 lg:pr-40">
           <h2 className="text-[3rem] font-bold">What's VTG?</h2>
-          <img className="w-1/4 my-20" src={Logo} alt="" />
-          <p className="lg:w-1/2 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            asperiores consequuntur autem distinctio maiores voluptatem sit,
-            incidunt iusto ducimus nemo, ab soluta cupiditate excepturi non iste
-            unde molestias nihil alias?
+          <img className="w-[15rem] lg:w-[30rem] my-20" src={Logo} alt="" />
+          <p className="text-center lg:pl-20 lg:pr-20">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            accusamus facilis illum voluptatem eaque laborum quos nihil natus
+            animi, doloribus magnam deleniti repudiandae quidem iusto obcaecati
+            soluta libero placeat maiores.
           </p>
         </div>
         <div className="my-10">
@@ -27,7 +27,7 @@ const About = () => {
           <div className="lg:flex">
             <div className="lg:w-1/2 flex flex-col items-center">
               <img
-                className="w-1/2 h-auto rounded p-1 border"
+                className="w-[20rem] lg:w-[30rem] rounded p-1 border mb-16 lg:mb-0"
                 src={Profile}
                 alt=""
               />
@@ -47,24 +47,24 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="lg:my-40 my-20">
+        <div className="my-20 lg:my-40">
           <h3 className="text-center font-bold text-[2rem]">
             I think Tennis makes...
           </h3>
           <div className="my-20 grid lg:grid-rows-1 grid-rows-2 grid-flow-col lg:px-32">
             <div className="flex flex-col items-center text-center">
-              <img src={Health} alt="" />
-              <h2>Health</h2>
-              <p className="lg:-1/2">
+              <img className="w-[5rem] lg:w-[7rem]" src={Health} alt="" />
+              <h2 className="my-10">Health</h2>
+              <p className="w-full lg:w-[40rem]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
                 porro quo architecto nulla quisquam provident, nesciunt sit
                 placeat neque modi.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center">
-              <img src={Group} alt="" />
-              <h2>Social</h2>
-              <p className="lg:w-1/2">
+            <div className="flex flex-col items-center text-center mt-10 lg:mt-0">
+              <img className="w-[5rem] lg:w-[7rem]" src={Group} alt="" />
+              <h2 className="my-10">Social</h2>
+              <p className="w-full lg:w-[40rem]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quisquam harum quos deleniti voluptas fugit officiis voluptatem
                 necessitatibus adipisci, qui explicabo!

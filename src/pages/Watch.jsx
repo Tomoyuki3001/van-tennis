@@ -31,11 +31,11 @@ const Watch = () => {
       <div className="text-white font-bold bg-watchHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">WATCH</h1>
       </div>
-      <div className="sm:px-3 lg:px-40">
+      <div className="pl-3 pr-3 lg:pl-40 lg:pr-40">
         <div className="flex flex-col items-center my-40 text-center">
           <h2 className="text-[3rem] font-bold">Tennis games</h2>
           <div>
-            <p className="lg:px-40 my-10">
+            <p className="lg:pl-40 lg:pr-40 my-10">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
               unde optio possimus aperiam quas quidem vel accusamus cumque
               placeat quisquam debitis ipsum, facilis, inventore, enim quis
@@ -74,7 +74,7 @@ const Watch = () => {
                 </div>
               </div>
               <h3 className="my-10">ATP/WTA Tournaments</h3>
-              <p className="lg:px-40 my-20">
+              <p className="lg:pl-40 lg:pr-40 my-20">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Provident a, odit consequatur sint quis, accusamus ratione
                 sapiente repellendus odio et minima beatae ipsum cumque ipsa
@@ -103,7 +103,7 @@ const Watch = () => {
         </div>
         <div className="flex flex-col items-center my-40 text-center">
           <h2 className="text-[3rem] font-bold">Tournaments in Vancouver</h2>
-          <p className="text-center lg:px-40 my-10">
+          <p className="text-center lg:pl-40 lg:pr-40 my-10">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             ipsum quaerat at repellat dolore illo earum expedita suscipit odio
             dolores reiciendis, iusto similique nesciunt explicabo nobis ad
@@ -111,9 +111,9 @@ const Watch = () => {
           </p>
           <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col lg:px-32">
             <div className="flex flex-col items-center text-center">
-              <img className="w-[20rem]" src={Van} alt="" />
+              <img className="w-[20rem] lg:w-[30rem]" src={Van} alt="" />
               <h2 className="my-10">Odlum Brown VanOpen</h2>
-              <p className="lg:w-1/2">
+              <p className="lg:pl-40 lg:pr-40">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
                 porro quo architecto nulla quisquam provident, nesciunt sit
                 placeat neque modi.
@@ -124,8 +124,8 @@ const Watch = () => {
             ref={ref}
             style={
               isMobile
-                ? { width: "100%", height: "20rem" }
-                : { width: "50%", height: "40rem" }
+                ? { width: "25rem", height: "20rem" }
+                : { width: "60rem", height: "40rem" }
             }
           >
             <SimpleImageSlider

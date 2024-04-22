@@ -41,7 +41,7 @@ const Home = () => {
           <h1 className="lg:text-[8rem] text-[5rem]  font-bold m-0">TENNIS</h1>
         </div>
       </div>
-      <div className="text-center mt-20 lg:px-40 sm:px-3">
+      <div className="text-center mt-20 lg:mt-40 pl-3 pr-3 lg:pl-40 lg:pr-40">
         <h2 className="text-[3rem] font-bold">Tennis in Vancouver</h2>
         <div className="lg:flex">
           <div className="lg:w-1/2 py-20 flex flex-col items-center">
@@ -71,7 +71,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="mt-20 lg:px-40 sm:px-3">
+      <div className="mt-20 lg:px-40">
         <div className="text-center">
           <h2 className="text-[3rem] font-bold my-10">Let's enjoy!</h2>
         </div>
@@ -160,12 +160,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="py-32 flex flex-col items-center lg:px-40 sm:px-3">
+      <div className="pl-3 pr-3 lg:pl-40 lg:pr-40 py-32 flex flex-col items-center">
         <div className="text-center">
           <h2 className="text-[3rem] font-bold my-10">Let's connect!</h2>
         </div>
         <img
-          className="rounded w-[20rem] lg:w-1/4 h-auto my-10 p-1 border"
+          className="rounded w-[20rem] lg:w-[30rem] h-auto my-10 p-1 border"
           src={Profile}
           alt=""
         />

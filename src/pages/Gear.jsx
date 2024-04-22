@@ -17,7 +17,7 @@ const Gear = () => {
       <div className="text-white font-bold bg-gearHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">GEAR</h1>
       </div>
-      <div className="sm:px-3 lg:px-40 flex flex-col items-center text-center my-40">
+      <div className="pl-3 pr-3 lg:pl-40 lg:pr-40 flex flex-col items-center text-center my-40">
         <h2 className="text-[3rem] font-bold">What you need to play?</h2>
         <p className="lg:px-40 my-20">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta unde
@@ -80,7 +80,11 @@ const Gear = () => {
             </div>
             <div className="mb-10">
               <div className="flex flex-col items-center">
-                <img className="w-[20rem] h-[20rem]" src={Towel} alt="" />
+                <img
+                  className="w-[20rem] h-[20rem] rounded"
+                  src={Towel}
+                  alt=""
+                />
               </div>
               <h4 className="mt-5">Other equipments</h4>
               <p>
@@ -92,7 +96,7 @@ const Gear = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#0f375d] text-white flex flex-col items-center text-center sm:px-3 lg:px-40 py-20">
+      <div className="bg-[#0f375d] text-white flex flex-col items-center text-center pl-3 pr-3 lg:pl-40 lg:pr-40 py-20">
         <h3>How to select rackets and strings?</h3>
         <p className="text-center lg:px-40 lg:my-20 my-10">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut tempora
@@ -103,7 +107,7 @@ const Gear = () => {
         <div>
           <div className="lg:flex my-20">
             <div className="lg:w-1/2 flex flex-col items-center">
-              <img className="w-[40rem]" src={Rackets} alt="" />
+              <img className="w-[40rem] rounded" src={Rackets} alt="" />
             </div>
             <div className="lg:w-1/2">
               <h3 className="my-10">Racket weight/face size</h3>
@@ -117,7 +121,7 @@ const Gear = () => {
           </div>
           <div className="lg:flex">
             <div className="lg:w-1/2 flex flex-col items-center">
-              <img className="w-[40rem]" src={String} alt="" />
+              <img className="w-[40rem] rounded" src={String} alt="" />
             </div>
             <div className="lg:w-1/2">
               <h3 className="my-10">Strings types/tension</h3>
@@ -131,7 +135,7 @@ const Gear = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center my-40 sm:px-3 lg:px-28 text-center">
+      <div className="flex flex-col items-center my-40 text-center pl-3 pr-3 lg:pl-40 lg:pr-40">
         <h2 className="text-[3rem] font-bold">Tennis shops in Vancouver</h2>
         <p className="text-center lg:px-40 my-10">
           sm: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
@@ -141,7 +145,11 @@ const Gear = () => {
         </p>
         <div className="lg:my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-10 lg:px-32">
           <div className="flex flex-col items-center text-center">
-            <img className="w-full lg:w-[30rem] lg:h-[20rem]" src={RR} alt="" />
+            <img
+              className="w-full lg:w-[30rem] lg:h-[20rem] rounded"
+              src={RR}
+              alt=""
+            />
             <h2 className="my-10">Rackets & Runners</h2>
             <p className="px-10">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
@@ -150,7 +158,11 @@ const Gear = () => {
             </p>
           </div>
           <div className="flex flex-col items-center text-center">
-            <img className="w-full lg:w-[30rem] lg:h-[20rem]" src={K8} alt="" />
+            <img
+              className="w-full lg:w-[30rem] lg:h-[20rem] rounded"
+              src={K8}
+              alt=""
+            />
             <h2 className="my-10">K8 Strings</h2>
             <p className="px-10">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
@@ -160,7 +172,7 @@ const Gear = () => {
           </div>
           <div className="flex flex-col items-center text-center">
             <img
-              className="w-full lg:w-[30rem] lg:h-[20rem]"
+              className="w-full lg:w-[30rem] lg:h-[20rem] rounded"
               src={Tad}
               alt=""
             />
