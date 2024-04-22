@@ -59,10 +59,10 @@ const Home = () => {
                 onClick={() => {
                   navigate("/about");
                 }}
-                className={`lg:w-[15rem] border-2 px-5 py-10 border-[#0f375d] ${
+                className={`lg:w-[15rem] mt-5 border-2 border-[#0f375d] ${
                   isMobile
-                    ? "hover:bg-white bg:text-black"
-                    : "transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-[#0f375d] hover:text-white"
+                    ? "hover:bg-white bg:text-black px-8 py-4"
+                    : "px-5 py-10 transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-[#0f375d] hover:text-white"
                 } `}
               >
                 ABOUT VTG
@@ -180,10 +180,10 @@ const Home = () => {
             href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
             target="_blank"
             rel="noreferrer"
-            className="mr-10"
           >
             <img className="w-[3rem] lg:w-[4rem]" src={LinkedIn} alt="" />
           </a>
+          <div className="w-[3rem] lg:w-[4rem]"></div>
           <a
             href="https://www.facebook.com/tomoyk113"
             target="_blank"

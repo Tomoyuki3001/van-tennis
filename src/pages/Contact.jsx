@@ -99,7 +99,7 @@ const Contact = () => {
           If you have any concerns about tennis, just let me know!
         </p>
         <div className="flex flex-col items-center">
-          <div className="lg:w-1/12 flex justify-around">
+          <div className="flex justify-around">
             <a
               href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
               target="_blank"
@@ -107,6 +107,7 @@ const Contact = () => {
             >
               <img className="w-[3rem] lg:w-[4rem]" src={LinkedIn} alt="" />
             </a>
+            <div className="w-[3rem] lg:w-[4rem]"></div>
             <a
               href="https://www.facebook.com/tomoyk113"
               target="_blank"
@@ -116,13 +117,15 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="flex w-full lg:mb-20 sm:mb-0">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.37148313464!2d-123.20630488144621!3d49.2578181906132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1710879539088!5m2!1sen!2sca"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            className="w-full p-28 google-map"
-          ></iframe>
+        <div className="flex w-full lg:mb-20 mb-0">
+          <div className="google-map p-32">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.37148313464!2d-123.20630488144621!3d49.2578181906132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1710879539088!5m2!1sen!2sca"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              className="w-[600px] h-[600px]"
+            ></iframe>
+          </div>
           <div className="w-full flex flex-col items-center">
             <form
               ref={form}
