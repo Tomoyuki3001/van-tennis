@@ -19,7 +19,7 @@ const Gear = () => {
       </div>
       <div className="pl-3 pr-3 lg:pl-40 lg:pr-40 flex flex-col items-center text-center my-40">
         <h2 className="text-[3rem] font-bold">What you need to play?</h2>
-        <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl leading-relaxed">
+        <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
           To play tennis, you will need a racket and other equipment. Here is a
           summary of what you need to pay attention to and what you need to
           prepare to play tennis.
@@ -34,7 +34,7 @@ const Gear = () => {
               />
             </div>
             <h4 className="mt-5">Balls</h4>
-            <p className="text-lg lg:text-xl leading-relaxed">
+            <p className="text-lg lg:text-xl lg:leading-relaxed">
               Balls are indispensable for playing tennis. There are practice
               balls and match balls. A practice ball is sufficient and less
               expensive than a match ball. You can use it several times, but
@@ -44,14 +44,10 @@ const Gear = () => {
           </div>
           <div className="mb-10">
             <div className="flex flex-col items-center">
-              <img
-                className="w-[9rem] lg:w-[8rem] h-[20rem]"
-                src={Racket}
-                alt=""
-              />
+              <img className="w-[8rem] h-[20rem]" src={Racket} alt="" />
             </div>
             <h4 className="mt-5">Rackets</h4>
-            <p className="text-lg lg:text-xl leading-relaxed">
+            <p className="text-lg lg:text-xl lg:leading-relaxed">
               This is another essential piece of equipment for playing tennis.
               Using a racket with the right weight and head size for you will
               help prevent injuries and speed up your improvement. Please check
@@ -63,7 +59,7 @@ const Gear = () => {
               <img className="w-[25rem] h-[20rem]" src={Shoes} alt="" />
             </div>
             <h4 className="mt-5">Shoes</h4>
-            <p className="text-lg lg:text-xl leading-relaxed">
+            <p className="text-lg lg:text-xl lg:leading-relaxed">
               I don’t recommend playing tennis in sneakers or other casual
               shoes. Tennis is a sport that involves moving back and forth, left
               and right, and if you don’t wear shoes suitable for exercise, it
@@ -73,7 +69,7 @@ const Gear = () => {
           </div>
         </div>
         <div>
-          <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl leading-relaxed">
+          <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
             There are other pieces of equipment you might need to play tennis.
             These will help you play more comfortably.
           </p>
@@ -83,7 +79,7 @@ const Gear = () => {
                 <img className="w-[20rem] h-[20rem]" src={Wear} alt="" />
               </div>
               <h4 className="mt-5">Clothes</h4>
-              <p className="lg:pl-20 lg:pr-20 text-lg lg:text-xl leading-relaxed">
+              <p className="lg:pl-20 lg:pr-20 text-lg lg:text-xl lg:leading-relaxed">
                 Wear tennis clothes or other sportswear suitable for exercise.
                 Also, after playing, you may get cold, so an extra jacket or
                 similar one will be helpful.
@@ -98,7 +94,7 @@ const Gear = () => {
                 />
               </div>
               <h4 className="mt-5">Other equipments</h4>
-              <p className="lg:pl-20 lg:pr-20 text-lg lg:text-xl leading-relaxed">
+              <p className="lg:pl-20 lg:pr-20 text-lg lg:text-xl lg:leading-relaxed">
                 Bring any other items needed for exercise, such as a water
                 bottle and towel. Hydration is especially important, so it’s a
                 good idea to have a large bottle every time.
@@ -109,7 +105,7 @@ const Gear = () => {
       </div>
       <div className="bg-[#0f375d] text-white flex flex-col items-center text-center pl-3 pr-3 lg:pl-40 lg:pr-40 py-20">
         <h3>How to select rackets and strings?</h3>
-        <p className="text-center lg:px-40 lg:my-20 my-10 text-lg lg:text-xl leading-relaxed">
+        <p className="text-center lg:px-40 lg:my-20 my-10 text-lg lg:text-xl lg:leading-relaxed">
           Incorrect racket weight and string tension can lead to unexpected
           injuries and make tennis less enjoyable. Here is a summary of points
           to keep in your mind.
@@ -120,8 +116,8 @@ const Gear = () => {
               <img className="w-[40rem] rounded" src={Rackets} alt="" />
             </div>
             <div className="lg:w-1/2">
-              <h3 className="my-10">Racket weight/head size</h3>
-              <p className="lg:pl-20 lg:pr-20 text-center text-lg lg:text-xl leading-relaxed">
+              <h3 className="mt-10 mb-10 lg:mt-0">Racket weight/head size</h3>
+              <p className="lg:pl-20 lg:pr-20 text-center text-lg lg:text-xl lg:leading-relaxed">
                 If you’re new to tennis, around 280g is recommended. If you
                 don’t play any other sport and have never used a racket before,
                 start with less than 280g. It's also safe to say that the head
@@ -137,8 +133,8 @@ const Gear = () => {
               <img className="w-[40rem] rounded" src={String} alt="" />
             </div>
             <div className="lg:w-1/2">
-              <h3 className="my-10">Strings types/tension</h3>
-              <p className="lg:pl-20 lg:pr-20 text-center text-lg lg:text-xl leading-relaxed">
+              <h3 className="mt-10 mb-10 lg:mt-0">String type/tension</h3>
+              <p className="lg:pl-20 lg:pr-20 text-center text-lg lg:text-xl lg:leading-relaxed">
                 For beginners, multifilament strings make the ball fly better
                 and are easier on the hands. Polyester is usually for
                 intermediate or advanced players. Using polyester string when
@@ -154,7 +150,7 @@ const Gear = () => {
       </div>
       <div className="flex flex-col items-center my-40 text-center pl-3 pr-3 lg:pl-40 lg:pr-40">
         <h2 className="text-[3rem] font-bold">Tennis shops in Vancouver</h2>
-        <p className="text-center lg:px-40 my-10 text-lg lg:text-xl leading-relaxed">
+        <p className="text-center lg:px-40 my-10 text-lg lg:text-xl lg:leading-relaxed">
           Here is a list of tennis stores in Vancouver. I have been there, and
           when you have a problem about gear, the best thing to do is to ask an
           expert. It’s safer to consult with an expert than to make a mistake by
