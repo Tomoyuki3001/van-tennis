@@ -36,47 +36,48 @@ const About = () => {
               <p className="m-0 text-lg lg:text-xl lg:leading-relaxed">
                 I started playing tennis when I was 15 years old. After
                 graduating from university, I have worked at a tennis brand
-                (DUNLOP/BabolaT). <br />
-                I’m currently studying programming in Vancouver and looking for
-                a job to become a web developer.
+                (DUNLOP/BabolaT). I’m currently studying programming in
+                Vancouver and looking for a job to become a web developer. With
+                this project, I have used my skills from what I learnt and
+                experiences to create the website that I wanted.
               </p>
               <p className="mt-5 text-lg lg:text-xl lg:leading-relaxed">
-                This time I have shaped what I’m learning and what I can use
-                from my experience. I have compiled not only information on how
-                to improve your tennis, but also advice on gear, information on
-                tennis, and other information that you should keep in mind when
-                enjoying tennis in Vancouver.
+                I have compiled information on how to improve your tennis skills
+                by providing some advice on gear, tennis games that are held at
+                a moment in Vancouver, and also some key points that you could
+                keep in mind while enjoying playing tennis in Vancouver.
               </p>
               <p className="mt-5 text-lg lg:text-xl lg:leading-relaxed">
-                This will be helpful to enjoy tennis more and give you the right
-                advice for those who are thinking about starting to play tennis.
+                I hope this website would be helpful for you to enjoy playing
+                tennis more and give the right advice to those of you who are
+                thinking about starting to play tennis.
               </p>
             </div>
           </div>
         </div>
         <div className="my-20 lg:my-40">
           <h3 className="text-center font-bold text-[2rem]">
-            I think Tennis makes...
+            I think tennis is a key for...
           </h3>
           <div className="my-20 grid lg:grid-rows-1 grid-rows-2 grid-flow-col">
             <div className="flex flex-col items-center text-center">
               <img className="w-[5rem] lg:w-[7rem]" src={Health} alt="" />
               <h2 className="my-10">Health</h2>
-              <p className="text-xl lg:text-2xl lg:leading-relaxed lg:pl-20 lg:pr-20">
+              <p className="text-lg lg:text-xl lg:leading-relaxed lg:pl-20 lg:pr-20">
                 Creating opportunities to exercise through tennis and other
-                sports can keep your body and mental health well and improve
-                your physical. Tennis is a great opportunity to try other
-                racquet sports.
+                sports can keep your good physical and mental health good.
+                Tennis is a great opportunity to try other racquet sports as
+                well.
               </p>
             </div>
             <div className="flex flex-col items-center text-center mt-10 lg:mt-0">
               <img className="w-[5rem] lg:w-[7rem]" src={Group} alt="" />
               <h2 className="my-10">Social</h2>
-              <p className="text-xl lg:text-2xl lg:leading-relaxed lg:pl-20 lg:pr-20">
-                Tennis cannot be played without a partner or opponent. You can
-                enjoy playing tennis with someone close to you, or you can try
-                to meet new people through tennis. Sports is like a language
-                that connects people.
+              <p className="text-lg lg:text-xl lg:leading-relaxed lg:pl-20 lg:pr-20">
+                Tennis cannot be played without a partner. You can enjoy playing
+                tennis with someone close to you, or you could try to meet new
+                people through tennis. Sports is like a language that connects
+                people.
               </p>
             </div>
           </div>

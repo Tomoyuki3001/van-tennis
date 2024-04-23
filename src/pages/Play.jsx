@@ -21,11 +21,11 @@ const Play = () => {
         <div className="flex flex-col items-center my-40 text-center pl-3 pr-3 lg:pl-40 lg:pr-40">
           <h2 className="text-[3rem] font-bold">Where can we play?</h2>
           <div>
-            <p className="lg:pl-40 lg:pr-40 my-20">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
-              unde optio possimus aperiam quas quidem vel accusamus cumque
-              placeat quisquam debitis ipsum, facilis, inventore, enim quis
-              ratione totam vitae dignissimos!
+            <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl leading-relaxed">
+              Where can we play tennis in Vancouver? Tennis courts can be found
+              in parks and other places, so anyone can play tennis. You may also
+              want to check out indoor courts, where you can enjoy playing
+              tennis even on rainy days.
             </p>
             <div>
               <h3 className="my-20 underline">Outdoor courts</h3>
@@ -91,51 +91,50 @@ const Play = () => {
           <h2 className="text-[3rem] font-bold text-center">
             How to find tennis lovers?
           </h2>
-          <p className="text-center lg:px-40 my-20">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            ipsum quaerat at repellat dolore illo earum expedita suscipit odio
-            dolores reiciendis, iusto similique nesciunt explicabo nobis ad
-            esse, natus velit?
+          <p className="text-center lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl leading-relaxed">
+            If there is no one around you who plays tennis, how can you find a
+            partner? In this case, you might use social media such as Facebook
+            or Meetup to find tennis players nearby.
           </p>
           <div className="my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-16">
             <div className="flex flex-col items-center text-center my-3">
-              <img className="lg:w-36 w-28" src={Facebook} alt="" />
+              <img className="w-[4rem] lg:w-[8rem]" src={Facebook} alt="" />
               <h2 className="my-10">Facebook</h2>
               <p className="w-full lg:w-[25rem]">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
-                porro quo architecto nulla quisquam provident, nesciunt sit
-                placeat neque modi.
+                There is a tennis community page where you can post and members
+                in the community will respond. Many people are looking for a
+                partner, so be sure to check it out.
               </p>
             </div>
             <div className="flex flex-col items-center text-center my-3">
-              <img className="lg:w-36 w-28" src={Meetup} alt="" />
+              <img className="w-[4rem] lg:w-[8rem]" src={Meetup} alt="" />
               <h2 className="my-10">Meetup</h2>
               <p className="w-full lg:w-[25rem]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quisquam harum quos deleniti voluptas fugit officiis voluptatem
-                necessitatibus adipisci, qui explicabo!
+                There are organizers who create events to play tennis, so search
+                for tennis in the events and attend an upcoming meetup at a park
+                near you.
               </p>
             </div>
             <div className="flex flex-col items-center text-center my-3">
-              <img className="lg:w-36 w-28" src={VTA} alt="" />
+              <img className="w-[4rem] lg:w-[8rem]" src={VTA} alt="" />
               <h2 className="my-10">VTA</h2>
               <p className="w-full lg:w-[25rem]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quisquam harum quos deleniti voluptas fugit officiis voluptatem
-                necessitatibus adipisci, qui explicabo!
+                The Vancouver Tennis Association provides information on tennis
+                matches and practice opportunities. It's also a good way to join
+                and find a partner.
               </p>
             </div>
           </div>
         </div>
         <div className="text-center flex flex-col items-center my-40 pl-3 pr-3 lg:pl-40 lg:pr-40">
           <h2 className="text-[3rem] font-bold text-center">
-            How to level up your tennis?
+            How to level up your tennis skills?
           </h2>
-          <p className="text-center lg:px-40 my-10">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
-            tempora molestias dolore iusto autem error fuga neque explicabo,
-            amet voluptas quia assumenda adipisci! Atque veritatis ipsa totam
-            mollitia, fugiat dolore!
+          <p className="text-center lg:px-40 my-10 text-lg lg:text-xl leading-relaxed">
+            You might take practice to improve your tennis skills. If you have
+            the opportunity to learn from someone else, you will improve
+            correctly and quickly more. Try taking tennis lessons or private
+            lessons to improve your tennis skills.
           </p>
           <div>
             <div className="lg:flex my-20">
@@ -144,11 +143,21 @@ const Play = () => {
               </div>
               <div className="lg:w-1/2">
                 <h3 className="mt-10 lg:mt-0">Lessons/Coaches</h3>
-                <p className="mt-10">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Natus libero sapiente doloribus itaque sunt quasi porro ipsam
-                  aliquid quidem tenetur minus odio, aspernatur, debitis
-                  repellat perferendis, at vel distinctio quis.
+                <p className="mt-10 text-lg lg:text-xl leading-relaxed">
+                  This is a way to improve your tennis skills by learning from a
+                  nearby tennis club or from a private tennis coach. You can
+                  find a B.C.certificated tennis coach{" "}
+                  <span>
+                    <a
+                      href="https://www.tennisbc.org/coaching/tennis-professionals-association/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="no-underline"
+                    >
+                      here
+                    </a>
+                  </span>
+                  .
                 </p>
               </div>
             </div>
@@ -157,12 +166,23 @@ const Play = () => {
                 <img className="w-[30rem]" src={Youtube} alt="" />
               </div>
               <div className="lg:w-1/2">
-                <h3 className="mt-10 lg:mt-0">Online</h3>
-                <p className="mt-10">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Natus libero sapiente doloribus itaque sunt quasi porro ipsam
-                  aliquid quidem tenetur minus odio, aspernatur, debitis
-                  repellat perferendis, at vel distinctio quis.
+                <h3 className="mt-10 lg:mt-0">Online contents</h3>
+                <p className="mt-10 text-lg lg:text-xl leading-relaxed">
+                  You can find many tennis lesson videos on YouTube and social
+                  media. There are also many short videos, so it is a good idea
+                  to watch the videos you need, according to your own practice!
+                  My favorite content is{" "}
+                  <span>
+                    <a
+                      href="https://www.instagram.com/yuki1998takamura/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="no-underline"
+                    >
+                      Yuki Takamura
+                    </a>
+                  </span>
+                  .
                 </p>
               </div>
             </div>

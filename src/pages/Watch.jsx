@@ -35,11 +35,9 @@ const Watch = () => {
         <div className="flex flex-col items-center my-40 text-center">
           <h2 className="text-[3rem] font-bold">Tennis games</h2>
           <div>
-            <p className="lg:pl-40 lg:pr-40 my-10">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
-              unde optio possimus aperiam quas quidem vel accusamus cumque
-              placeat quisquam debitis ipsum, facilis, inventore, enim quis
-              ratione totam vitae dignissimos!
+            <p className="lg:pl-40 lg:pr-40 my-10 text-lg lg:text-xl lg:leading-relaxed">
+              You can also enjoy watching professional tournaments. Here are
+              some of the famous professional tournaments held annually.
             </p>
             <div>
               <h3 className="my-10">Grand Slam</h3>
@@ -76,11 +74,11 @@ const Watch = () => {
                 </div>
               </div>
               <h3 className="my-10">ATP/WTA Tournaments</h3>
-              <p className="lg:pl-40 lg:pr-40 my-20">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident a, odit consequatur sint quis, accusamus ratione
-                sapiente repellendus odio et minima beatae ipsum cumque ipsa
-                labore quibusdam ullam adipisci aut.
+              <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
+                In addition to the Grand Slams mentioned above, many
+                professional tennis tournaments are held annually in the world.
+                Based on the organizations listed below, there are many matches,
+                so perhaps you can watch a tennis tournament on your vacation.
               </p>
               <div className="lg:flex justify-center">
                 <div className="lg:mr-16 flex flex-col items-center">
@@ -105,20 +103,30 @@ const Watch = () => {
         </div>
         <div className="flex flex-col items-center my-40 text-center">
           <h2 className="text-[3rem] font-bold">Tournaments in Vancouver</h2>
-          <p className="text-center lg:pl-40 lg:pr-40 my-10">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            ipsum quaerat at repellat dolore illo earum expedita suscipit odio
-            dolores reiciendis, iusto similique nesciunt explicabo nobis ad
-            esse, natus velit?
+          <p className="text-center lg:pl-40 lg:pr-40 my-10 text-lg lg:text-xl lg:leading-relaxed">
+            There is also an international tournament that can be seen in
+            Vancouver. This is a great opportunity to see high-level
+            international competitions up close, and to experience the vibes of
+            the games live, which is difficult to feel through a screen.
           </p>
           <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col lg:px-32">
             <div className="flex flex-col items-center text-center">
               <img className="w-[20rem] lg:w-[30rem]" src={Van} alt="" />
               <h2 className="my-10">Odlum Brown VanOpen</h2>
-              <p className="lg:pl-40 lg:pr-40">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
-                porro quo architecto nulla quisquam provident, nesciunt sit
-                placeat neque modi.
+              <p className="lg:pl-40 lg:pr-40 text-lg lg:text-xl lg:leading-relaxed">
+                <span>
+                  <a
+                    href="https://vanopen.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="no-underline"
+                  >
+                    The Odlum Brown VanOpen
+                  </a>
+                </span>
+                , a Tennis Canada Event, is the largest and most celebrated
+                Men’s and Women’s professional tennis tournament in Western
+                Canada and the Pacific Northwest.
               </p>
             </div>
           </div>
