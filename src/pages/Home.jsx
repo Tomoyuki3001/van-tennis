@@ -165,7 +165,7 @@ const Home = () => {
           <h2 className="text-[3rem] font-bold my-10">Let's connect!</h2>
         </div>
         <img
-          className="rounded w-[20rem] lg:w-[30rem] h-auto my-10 p-1 border"
+          className="rounded w-[15rem] lg:w-[25rem] h-auto my-10 p-1 border"
           src={Profile}
           alt=""
         />

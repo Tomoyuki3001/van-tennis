@@ -59,11 +59,9 @@ const NavbarComponent = () => {
 
   return (
     <nav className={`${scrollNav} nav-container`}>
-      <div className="nav-logo">
-        <a href="/">
-          <img className={scrollLogo} src={Logo} alt="" />
-        </a>
-      </div>
+      <a className="ml-6 lg:ml-16" href="/">
+        <img className={scrollLogo} src={Logo} alt="" />
+      </a>
       <div className="nav-links-container">
         <div className={`${isMobile ? remove : `nav-links ${scrollLink}`}`}>
           <a
