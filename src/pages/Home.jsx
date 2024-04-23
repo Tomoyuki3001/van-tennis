@@ -48,11 +48,12 @@ const Home = () => {
             <img className="w-full rounded" src={TopImage} alt="Iamge" />
           </div>
           <div className="lg:w-1/2 py-20 lg:pl-20 flex flex-col justify-between">
-            <p className="text-lg lg:text-right">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-              itaque, enim iure officiis ducimus veritatis aperiam laborum! Eos
-              iste maiores deserunt corrupti tempora quas ex ab repellendus,
-              amet cum iusto?
+            <p className="text-lg lg:text-2xl lg:text-right lg:leading-relaxed">
+              VTG(Vancouver Tennis Guide) is a website designed for anyone who
+              is interested in playing tennis in Vancouver, whether they want to
+              start playing or improve their tennis level. It is a place where
+              you can not only play tennis, but also enjoy watching and
+              shopping.
             </p>
             <div className="lg:flex flex-col items-end">
               <button
