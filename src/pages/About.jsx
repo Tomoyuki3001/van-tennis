@@ -27,7 +27,7 @@ const About = () => {
           <div className="lg:flex">
             <div className="lg:w-1/2 flex flex-col items-center">
               <img
-                className="w-[20rem] lg:w-[30rem] rounded p-1 border mb-16 lg:mb-0"
+                className="w-[15rem] lg:w-[25rem] rounded p-1 border mb-16 lg:mb-0"
                 src={Profile}
                 alt=""
               />
@@ -60,7 +60,7 @@ const About = () => {
           <h3 className="text-center font-bold text-[2rem]">
             I think Tennis makes...
           </h3>
-          <div className="my-20 grid lg:grid-rows-1 grid-rows-2 grid-flow-col lg:px-32">
+          <div className="my-20 grid lg:grid-rows-1 grid-rows-2 grid-flow-col">
             <div className="flex flex-col items-center text-center">
               <img className="w-[5rem] lg:w-[7rem]" src={Health} alt="" />
               <h2 className="my-10">Health</h2>
