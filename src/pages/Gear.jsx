@@ -24,10 +24,14 @@ const Gear = () => {
           summary of what you need to pay attention to and what you need to
           prepare to play tennis.
         </p>
-        <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-10 lg:px-20">
+        <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-6 lg:px-20">
           <div className="mb-10">
             <div className="flex flex-col items-center">
-              <img className="lg:w-[13rem] h-[20rem]" src={Ball} alt="" />
+              <img
+                className="w-[12rem] lg:w-[13rem] h-[20rem]"
+                src={Ball}
+                alt=""
+              />
             </div>
             <h4 className="mt-5">Balls</h4>
             <p className="text-lg lg:text-xl leading-relaxed">
@@ -40,7 +44,11 @@ const Gear = () => {
           </div>
           <div className="mb-10">
             <div className="flex flex-col items-center">
-              <img className="lg:w-[9rem] h-[20rem]" src={Racket} alt="" />
+              <img
+                className="w-[9rem] lg:w-[8rem] h-[20rem]"
+                src={Racket}
+                alt=""
+              />
             </div>
             <h4 className="mt-5">Rackets</h4>
             <p className="text-lg lg:text-xl leading-relaxed">
@@ -52,7 +60,7 @@ const Gear = () => {
           </div>
           <div className="mb-10">
             <div className="flex flex-col items-center">
-              <img className="lg:w-[30rem] h-[20rem]" src={Shoes} alt="" />
+              <img className="w-[25rem] h-[20rem]" src={Shoes} alt="" />
             </div>
             <h4 className="mt-5">Shoes</h4>
             <p className="text-lg lg:text-xl leading-relaxed">
@@ -112,8 +120,8 @@ const Gear = () => {
               <img className="w-[40rem] rounded" src={Rackets} alt="" />
             </div>
             <div className="lg:w-1/2">
-              <h3 className="my-10">Racket weight/face size</h3>
-              <p className="text-center text-lg lg:text-xl leading-relaxed">
+              <h3 className="my-10">Racket weight/head size</h3>
+              <p className="lg:pl-20 lg:pr-20 text-center text-lg lg:text-xl leading-relaxed">
                 If you’re new to tennis, around 280g is recommended. If you
                 don’t play any other sport and have never used a racket before,
                 start with less than 280g. It's also safe to say that the head
@@ -130,7 +138,7 @@ const Gear = () => {
             </div>
             <div className="lg:w-1/2">
               <h3 className="my-10">Strings types/tension</h3>
-              <p className="text-center text-lg lg:text-xl leading-relaxed">
+              <p className="lg:pl-20 lg:pr-20 text-center text-lg lg:text-xl leading-relaxed">
                 For beginners, multifilament strings make the ball fly better
                 and are easier on the hands. Polyester is usually for
                 intermediate or advanced players. Using polyester string when
@@ -152,7 +160,7 @@ const Gear = () => {
           expert. It’s safer to consult with an expert than to make a mistake by
           buying something easily on the Internet.
         </p>
-        <div className="lg:my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-10 lg:px-32">
+        <div className="lg:my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-4">
           <div className="flex flex-col items-center text-center">
             <img
               className="w-full lg:w-[30rem] lg:h-[20rem] rounded"
