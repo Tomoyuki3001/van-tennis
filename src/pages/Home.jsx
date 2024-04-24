@@ -86,10 +86,9 @@ const Home = () => {
             <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-blue-600">
               <h2>PLAY</h2>
               <p className="text-sm lg:text-lg">
-                Where can we play tennis in Vancouver? Tennis courts can be
-                found in parks and other places, so anyone can play tennis. You
-                may also want to check out indoor courts, where you can enjoy
-                playing tennis even on rainy days.
+                Tennis courts can be found in parks and other places, so anyone
+                can play tennis. You may also want to check out indoor courts,
+                where you can enjoy playing tennis even on rainy days.
               </p>
               <button
                 onClick={() => {
