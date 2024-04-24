@@ -9,12 +9,12 @@ const About = () => {
   return (
     <div>
       <div className="text-white font-bold bg-aboutTop bg-cover bg-center py-40">
-        <h1 className="lg:text-[8rem] font-bold m-0 text-center">ABOUT VTG</h1>
+        <h1 className="lg:text-[7rem] font-bold m-0 text-center">ABOUT VTG</h1>
       </div>
       <div className="pl-3 pr-3 lg:pl-40 lg:pr-40">
-        <div className="flex flex-col items-center my-40 lg:pl-40 lg:pr-40">
+        <div className="flex flex-col items-center mt-20 mb-20 lg:mt-40 lg:mb-40 lg:pl-40 lg:pr-40">
           <h2 className="text-[3rem] font-bold">What's VTG?</h2>
-          <img className="w-[15rem] lg:w-[30rem] my-20" src={Logo} alt="" />
+          <img className="w-[15rem] lg:w-[25rem] my-20" src={Logo} alt="" />
           <p className="text-center lg:pl-20 lg:pr-20 text-lg lg:text-xl lg:leading-relaxed">
             VTG(Vancouver Tennis Guide) is a website designed for anyone who is
             interested in playing tennis in Vancouver, whether they want to
@@ -35,11 +35,32 @@ const About = () => {
             <div className="lg:w-1/2 text-center lg:py-5 lg:px-10">
               <p className="m-0 text-lg lg:text-xl lg:leading-relaxed">
                 I started playing tennis when I was 15 years old. After
-                graduating from university, I have worked at a tennis brand
-                (DUNLOP/BabolaT). I’m currently studying programming in
-                Vancouver and looking for a job to become a web developer. With
-                this project, I have used my skills from what I learnt and
-                experiences to create the website that I wanted.
+                graduating from university, I have worked at tennis brands (
+                <span>
+                  <a
+                    href="https://dunlopsports.com/tennis/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="no-underline"
+                  >
+                    DUNLOP
+                  </a>
+                </span>{" "}
+                /{" "}
+                <span>
+                  <a
+                    href="https://www.babolat.ca"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="no-underline"
+                  >
+                    BabolaT
+                  </a>
+                </span>
+                ). I’m currently studying computer programming in Vancouver and
+                looking for a job to become a web developer. With this project,
+                I have used my skills from what I learned and experienced to
+                create the website that I wanted.
               </p>
               <p className="mt-5 text-lg lg:text-xl lg:leading-relaxed">
                 I have compiled information on how to improve your tennis skills
@@ -65,9 +86,8 @@ const About = () => {
               <h2 className="my-10">Health</h2>
               <p className="text-lg lg:text-xl lg:leading-relaxed lg:pl-20 lg:pr-20">
                 Creating opportunities to exercise through tennis and other
-                sports can keep your good physical and mental health good.
-                Tennis is a great opportunity to try other racquet sports as
-                well.
+                sports can keep your good physical and mental health. Tennis is
+                a great opportunity to try other racquet sports as well.
               </p>
             </div>
             <div className="flex flex-col items-center text-center mt-10 lg:mt-0">

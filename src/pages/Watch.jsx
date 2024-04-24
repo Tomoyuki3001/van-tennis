@@ -32,7 +32,7 @@ const Watch = () => {
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">WATCH</h1>
       </div>
       <div className="pl-3 pr-3 lg:pl-40 lg:pr-40">
-        <div className="flex flex-col items-center my-40 text-center">
+        <div className="flex flex-col items-center mt-20 mb-20 lg:mt-40 lg:mb-40 text-center">
           <h2 className="text-[3rem] font-bold">Tennis games</h2>
           <div>
             <p className="lg:pl-40 lg:pr-40 my-10 text-lg lg:text-xl lg:leading-relaxed">
@@ -85,7 +85,7 @@ const Watch = () => {
                   <div className="w-[10rem] lg:w-[15rem] lg:h-[10rem]">
                     <img src={Atp} alt="" />
                   </div>
-                  <h4 className="font-bold lg:text-xl text-base">
+                  <h4 className="font-bold lg:text-xl text-base mt-3">
                     ATP (Association of Tennis Professionals)
                   </h4>
                 </div>
@@ -93,7 +93,7 @@ const Watch = () => {
                   <div className="w-[10rem] lg:w-[15rem] lg:h-[10rem]">
                     <img src={Wta} alt="" />
                   </div>
-                  <h4 className="font-bold lg:text-xl text-base">
+                  <h4 className="font-bold lg:text-xl text-base mt-3">
                     WTA (Women's Tennis Association)
                   </h4>
                 </div>
@@ -101,9 +101,9 @@ const Watch = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center my-40 text-center">
+        <div className="flex flex-col items-center mt-20 mb-20 lg:mt-40 lg:mb-40 text-center">
           <h2 className="text-[3rem] font-bold">Tournaments in Vancouver</h2>
-          <p className="text-center lg:pl-40 lg:pr-40 my-10 text-lg lg:text-xl lg:leading-relaxed">
+          <p className="text-center lg:pl-40 lg:pr-40 mt-5 mb-0 lg:mt-40 lg:mb-40 text-lg lg:text-xl lg:leading-relaxed">
             There is also an international tournament that can be seen in
             Vancouver. This is a great opportunity to see high-level
             international competitions up close, and to experience the vibes of

@@ -23,10 +23,11 @@ const ContactPage = () => {
         <h2 className="lg:text-[3rem] text-center lg:text-right font-bold">
           Do you have any questions?
         </h2>
+        <br />
         <h2 className="lg:text-[3rem] text-center lg:text-right font-bold">
           Let's talk!
         </h2>
-        <div className="flex flex-col items-center lg:items-end mt-5">
+        <div className="flex flex-col items-center lg:items-end mt-3">
           <button
             onClick={() => {
               navigate("/contact");

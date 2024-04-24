@@ -29,16 +29,16 @@ const Home = () => {
     <div>
       <div className="text-white font-bold bg-top bg-cover bg-center h-screen flex flex-col justify-center py-10">
         <div className="lg:pl-20 pl-5">
-          <h1 className="lg:text-[8rem] text-[5rem] font-bold m-0">WE</h1>
-          <h1 className="lg:text-[8rem] text-[5rem]  font-bold m-0 uppercase">
+          <h1 className="lg:text-[7rem] text-[5rem] font-bold m-0">WE</h1>
+          <h1 className="lg:text-[7rem] text-[5rem]  font-bold m-0 uppercase">
             <ReactTyped
-              strings={["play", "enjoy", "love"]}
+              strings={["play", "love"]}
               typeSpeed={250}
               loop
               backSpeed={50}
             />
           </h1>
-          <h1 className="lg:text-[8rem] text-[5rem]  font-bold m-0">TENNIS</h1>
+          <h1 className="lg:text-[7rem] text-[5rem]  font-bold m-0">TENNIS</h1>
         </div>
       </div>
       <div className="text-center mt-20 lg:mt-40 pl-3 pr-3 lg:pl-40 lg:pr-40">

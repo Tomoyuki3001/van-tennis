@@ -18,7 +18,7 @@ const Play = () => {
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">PLAY</h1>
       </div>
       <div>
-        <div className="flex flex-col items-center my-40 text-center pl-3 pr-3 lg:pl-40 lg:pr-40">
+        <div className="flex flex-col items-center mt-20 mb-20 lg:mt-40 lg:mb-40 text-center pl-3 pr-3 lg:pl-40 lg:pr-40">
           <h2 className="text-[3rem] font-bold">Where can we play?</h2>
           <div>
             <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
@@ -91,14 +91,14 @@ const Play = () => {
           <h2 className="text-[3rem] font-bold text-center">
             How to find tennis lovers?
           </h2>
-          <p className="text-center lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
+          <p className="text-center lg:pl-40 lg:pr-40 mt-20 lg:mb-20 text-lg lg:text-xl lg:leading-relaxed">
             If there is no one around you who plays tennis, how can you find a
             partner? In this case, you might use social media such as Facebook
             or Meetup to find tennis players nearby.
           </p>
           <div className="my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-16">
             <div className="flex flex-col items-center text-center my-3">
-              <img className="w-[4rem] lg:w-[8rem]" src={Facebook} alt="" />
+              <img className="w-[5rem] lg:w-[8rem]" src={Facebook} alt="" />
               <h2 className="my-10">Facebook</h2>
               <p className="w-full lg:w-[25rem] text-lg lg:text-xl lg:leading-relaxed">
                 There is a tennis community page where you can post and members
@@ -118,7 +118,7 @@ const Play = () => {
               </p>
             </div>
             <div className="flex flex-col items-center text-lg lg:text-xl text-center my-3">
-              <img className="w-[4rem] lg:w-[8rem]" src={Meetup} alt="" />
+              <img className="w-[5rem] lg:w-[8rem]" src={Meetup} alt="" />
               <h2 className="my-10">Meetup</h2>
               <p className="w-full lg:w-[25rem] lg:leading-relaxed">
                 There are organizers who create events to play tennis, so search
@@ -127,7 +127,7 @@ const Play = () => {
               </p>
             </div>
             <div className="flex flex-col items-center text-center my-3">
-              <img className="w-[4rem] lg:w-[8rem]" src={VTA} alt="" />
+              <img className="w-[5rem] lg:w-[8rem]" src={VTA} alt="" />
               <h2 className="my-10">VTA</h2>
               <p className="w-full lg:w-[25rem] text-lg lg:text-xl lg:leading-relaxed">
                 <span>
