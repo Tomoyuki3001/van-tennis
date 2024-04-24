@@ -126,8 +126,8 @@ const Contact = () => {
         </p>
         <p className="lg:px-40 mb-12 text-lg lg:text-xl lg:leading-relaxed">
           I can give you my suggestions about rackets, strings, and other
-          equipments! Feel free to ask me through social media or email! I can
-          also help your Japanese learning if you want:)
+          equipments! Feel free to ask me through my social media or email! I
+          can also help you learn Japanese if you want:)
         </p>
         <div className="flex flex-col items-center">
           <div className="flex justify-around">

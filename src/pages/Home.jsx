@@ -203,8 +203,8 @@ const Home = () => {
         </p>
         <p className="lg:w-1/2 text-center m-0 text-lg lg:text-xl lg:leading-relaxed">
           I can give you my suggestions about rackets, strings, and other
-          equipments! Feel free to ask me through social media or email! I can
-          also help your Japanese learning if you want:)
+          equipments! Feel free to ask me through my social media or email! I
+          can also help you learn Japanese if you want:)
         </p>
         <div className="my-10 flex">
           <a
