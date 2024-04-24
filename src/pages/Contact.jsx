@@ -103,7 +103,7 @@ const Contact = () => {
         >
           RESUME
         </a>
-        <p className="lg:px-40 mt-12 text-lg lg:text-xl lg:leading-relaxed">
+        <p className="lg:px-[20%] mt-12 text-lg lg:text-xl lg:leading-relaxed">
           I started playing tennis when I was 15 years old. After graduating
           from university, I have worked at tennis brands (
           <span>
@@ -133,7 +133,7 @@ const Contact = () => {
           With this project, I have used my skills from what I learned and
           experienced to create the website that I wanted.
         </p>
-        <p className="lg:px-40 mb-12 text-lg lg:text-xl lg:leading-relaxed">
+        <p className="lg:px-[20%] mb-12 text-lg lg:text-xl lg:leading-relaxed">
           I can give you my suggestions about rackets, strings, and other
           equipments! Feel free to ask me through my social media or email! I
           can also help you learn Japanese if you want:)
