@@ -27,7 +27,7 @@ const About = () => {
           <div className="lg:flex">
             <div className="lg:w-1/2 flex flex-col items-center">
               <img
-                className="w-[15rem] lg:w-[22rem] rounded p-1 border mb-16 lg:mb-0"
+                className="w-[15rem] lg:w-[22rem] rounded p-1 border"
                 src={Profile}
                 alt=""
               />
@@ -37,7 +37,7 @@ const About = () => {
                 href="https://drive.google.com/file/d/1WPhK0XO1r5hqr7XrPmwZC1FLmIAuy6Mp/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
-                className="no-underline hover:text-white hover:bg-[#0f375d] border-2 border-[#0f375d] py-4 px-8 mt-3"
+                className="no-underline hover:text-white hover:bg-[#0f375d] border-2 border-[#0f375d] py-4 px-8 mt-3 mb-5 lg:mb-0"
               >
                 RESUME
               </a>
