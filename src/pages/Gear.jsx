@@ -24,7 +24,7 @@ const Gear = () => {
           summary of what you need to pay attention to and what you need to
           prepare to play tennis.
         </p>
-        <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-6 lg:px-20">
+        <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-6">
           <div className="mb-10">
             <div className="flex flex-col items-center">
               <img
