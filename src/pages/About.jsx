@@ -32,7 +32,9 @@ const About = () => {
                 alt=""
               />
             </div>
-            <div className="lg:w-1/2 text-center lg:py-5 lg:px-10">
+            <div className="lg:w-1/2 text-center lg:px-10">
+              <h2 className="mt-10 lg:mt-0">Tomoyuki Fujii</h2>
+              <p>Junior Front-end developer</p>
               <p className="m-0 text-lg lg:text-xl lg:leading-relaxed">
                 I started playing tennis when I was 15 years old. After
                 graduating from university, I have worked at tennis brands (
