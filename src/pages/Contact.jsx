@@ -84,19 +84,50 @@ const Contact = () => {
       <div className="text-white font-bold bg-contactHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">CONTACT</h1>
       </div>
-      <div className="pl-3 pr-3 lg:pl-40 lg:pr-40 text-center">
-        <h2 className="lg:text-[4rem] font-bold my-20">Let's connect!</h2>
+      <div className="w-full pl-3 pr-3 lg:pl-40 lg:pr-40 text-center">
+        <h2 className="text-[3rem] font-bold my-20">Let's connect!</h2>
         <div className="flex flex-col items-center">
           <img
-            className="w-[15rem] lg:w-[25rem] h-auto rounded p-1 border"
+            className="w-[15rem] lg:w-[22rem] h-auto rounded p-1 border"
             src={Profile}
             alt=""
           />
         </div>
         <h2 className="mt-10">Tomoyuki Fujii</h2>
-        <p>Worked at DUNLOP (Tennis)</p>
-        <p className="my-10">
-          If you have any concerns about tennis, just let me know!
+        <p className="lg:px-40 mt-12 text-lg lg:text-xl lg:leading-relaxed">
+          I started playing tennis when I was 15 years old. After graduating
+          from university, I have worked at tennis brands (
+          <span>
+            <a
+              href="https://dunlopsports.com/tennis/"
+              target="_blank"
+              rel="noreferrer"
+              className="no-underline"
+            >
+              DUNLOP
+            </a>
+          </span>{" "}
+          /{" "}
+          <span>
+            <a
+              href="https://www.babolat.ca"
+              target="_blank"
+              rel="noreferrer"
+              className="no-underline"
+            >
+              BabolaT
+            </a>
+          </span>
+          ). <br />
+          I’m currently studying computer programming in Vancouver and looking
+          for a job to become a web developer. <br />
+          With this project, I have used my skills from what I learned and
+          experienced to create the website that I wanted.
+        </p>
+        <p className="lg:px-40 mb-12 text-lg lg:text-xl lg:leading-relaxed">
+          I can give you my suggestions about rackets, strings, and other
+          equipments! Feel free to ask me through social media or email! I can
+          also help your Japanese learning if you want:)
         </p>
         <div className="flex flex-col items-center">
           <div className="flex justify-around">

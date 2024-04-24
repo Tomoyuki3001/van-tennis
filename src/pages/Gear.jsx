@@ -17,7 +17,7 @@ const Gear = () => {
       <div className="text-white font-bold bg-gearHeader bg-cover bg-center py-40">
         <h1 className="lg:text-[8rem] font-bold m-0 text-center">GEAR</h1>
       </div>
-      <div className="pl-3 pr-3 lg:pl-40 lg:pr-40 flex flex-col items-center text-center my-40">
+      <div className="pl-3 pr-3 lg:pl-40 lg:pr-40 flex flex-col items-center text-center mt-20 mb-20 lg:mt-40 lg:mb-40">
         <h2 className="text-[3rem] font-bold">What you need to play?</h2>
         <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
           To play tennis, you will need a racket and other equipment. Here is a
@@ -76,7 +76,11 @@ const Gear = () => {
           <div className="grid lg:grid-rows-1 grid-rows-2 grid-flow-col lg:px-20">
             <div className="mb-10">
               <div className="flex flex-col items-center">
-                <img className="w-[20rem] h-[20rem]" src={Wear} alt="" />
+                <img
+                  className="w-[20rem] h-[20rem] rounded-sm"
+                  src={Wear}
+                  alt=""
+                />
               </div>
               <h4 className="mt-5">Clothes</h4>
               <p className="lg:pl-20 lg:pr-20 text-lg lg:text-xl lg:leading-relaxed">
@@ -85,10 +89,10 @@ const Gear = () => {
                 similar one will be helpful.
               </p>
             </div>
-            <div className="mb-10">
+            <div className="mb-0 lg:mb-10">
               <div className="flex flex-col items-center">
                 <img
-                  className="w-[20rem] h-[20rem] rounded"
+                  className="w-[20rem] h-[20rem] rounded-sm"
                   src={Towel}
                   alt=""
                 />
@@ -105,7 +109,7 @@ const Gear = () => {
       </div>
       <div className="bg-[#0f375d] text-white flex flex-col items-center text-center pl-3 pr-3 lg:pl-40 lg:pr-40 py-20">
         <h3>How to select rackets and strings?</h3>
-        <p className="text-center lg:px-40 lg:my-20 my-10 text-lg lg:text-xl lg:leading-relaxed">
+        <p className="text-center lg:px-40 lg:mt-20 lb:mb-20 mt-10 mb-0 text-lg lg:text-xl lg:leading-relaxed">
           Incorrect racket weight and string tension can lead to unexpected
           injuries and make tennis less enjoyable. Here is a summary of points
           to keep in your mind.
@@ -113,7 +117,7 @@ const Gear = () => {
         <div>
           <div className="lg:flex my-20">
             <div className="lg:w-1/2 flex flex-col items-center">
-              <img className="w-[40rem] rounded" src={Rackets} alt="" />
+              <img className="w-[40rem] rounded-sm" src={Rackets} alt="" />
             </div>
             <div className="lg:w-1/2">
               <h3 className="mt-10 mb-10 lg:mt-0">Racket weight/head size</h3>
@@ -130,7 +134,7 @@ const Gear = () => {
           </div>
           <div className="lg:flex">
             <div className="lg:w-1/2 flex flex-col items-center">
-              <img className="w-[40rem] rounded" src={String} alt="" />
+              <img className="w-[40rem] rounded-sm" src={String} alt="" />
             </div>
             <div className="lg:w-1/2">
               <h3 className="mt-10 mb-10 lg:mt-0">String type/tension</h3>
@@ -148,7 +152,7 @@ const Gear = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center my-40 text-center pl-3 pr-3 lg:pl-40 lg:pr-40">
+      <div className="flex flex-col items-center mt-20 mb-20 lg:mt-40 lg:mb-40 text-center pl-3 pr-3 lg:pl-40 lg:pr-40">
         <h2 className="text-[3rem] font-bold">Tennis shops in Vancouver</h2>
         <p className="text-center lg:px-40 my-10 text-lg lg:text-xl lg:leading-relaxed">
           Here is a list of tennis stores in Vancouver. I have been there, and
@@ -159,7 +163,7 @@ const Gear = () => {
         <div className="lg:my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-4">
           <div className="flex flex-col items-center text-center">
             <img
-              className="w-full lg:w-[30rem] lg:h-[20rem] rounded"
+              className="w-full lg:w-[30rem] lg:h-[20rem] rounded-sm"
               src={RR}
               alt=""
             />
@@ -179,7 +183,7 @@ const Gear = () => {
           </div>
           <div className="flex flex-col items-center text-center">
             <img
-              className="w-full lg:w-[30rem] lg:h-[20rem] rounded"
+              className="w-full lg:w-[30rem] lg:h-[20rem] rounded-sm"
               src={K8}
               alt=""
             />
@@ -199,7 +203,7 @@ const Gear = () => {
           </div>
           <div className="flex flex-col items-center text-center">
             <img
-              className="w-full lg:w-[30rem] lg:h-[20rem] rounded"
+              className="w-full lg:w-[30rem] lg:h-[20rem] rounded-sm"
               src={Tad}
               alt=""
             />

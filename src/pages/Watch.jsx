@@ -24,7 +24,7 @@ const Watch = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-  const images = [van1, van2, van3, van4];
+  const images = [van4, van2, van3, van1];
   const { ref, width = 1, height = 1 } = useResizeObserver();
   return (
     <div>
@@ -44,7 +44,11 @@ const Watch = () => {
               <div className="grid lg:grid-rows-2 grid-rows-4 grid-flow-col lg:px-20">
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
-                    <img className="lg:w-[30rem] h-[20rem]" src={Ao} alt="" />
+                    <img
+                      className="lg:w-[30rem] h-[20rem] rounded-sm"
+                      src={Ao}
+                      alt=""
+                    />
                   </div>
                   <h4 className="font-bold mt-5">
                     Australian Open - Australia
@@ -53,21 +57,33 @@ const Watch = () => {
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
-                    <img className="lg:w-[30rem] h-[20rem]" src={Rg} alt="" />
+                    <img
+                      className="lg:w-[30rem] h-[20rem] rounded-sm"
+                      src={Rg}
+                      alt=""
+                    />
                   </div>
                   <h4 className="font-bold mt-5">French Open - France</h4>
                   <h5>Late May to Early June</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
-                    <img className="lg:w-[30rem] h-[20rem]" src={Wb} alt="" />
+                    <img
+                      className="lg:w-[30rem] h-[20rem] rounded-sm"
+                      src={Wb}
+                      alt=""
+                    />
                   </div>
                   <h4 className="font-bold mt-5">Wimbledon - UK</h4>
                   <h5>Late June to Early July</h5>
                 </div>
                 <div className="mb-10">
                   <div className="flex flex-col items-center">
-                    <img className="lg:w-[30rem] h-[20rem]" src={Uo} alt="" />
+                    <img
+                      className="lg:w-[30rem] h-[20rem] rounded-sm"
+                      src={Uo}
+                      alt=""
+                    />
                   </div>
                   <h4 className="font-bold mt-5">US Open - USA</h4>
                   <h5>Late August to Early September</h5>
@@ -111,7 +127,11 @@ const Watch = () => {
           </p>
           <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col lg:px-32">
             <div className="flex flex-col items-center text-center">
-              <img className="w-[20rem] lg:w-[30rem]" src={Van} alt="" />
+              <img
+                className="w-[20rem] lg:w-[30rem] rounded-sm"
+                src={Van}
+                alt=""
+              />
               <h2 className="my-10">Odlum Brown VanOpen</h2>
               <p className="lg:pl-40 lg:pr-40 text-lg lg:text-xl lg:leading-relaxed">
                 <span>
@@ -135,7 +155,7 @@ const Watch = () => {
             style={
               isMobile
                 ? { width: "25rem", height: "20rem" }
-                : { width: "60rem", height: "40rem" }
+                : { width: "50rem", height: "30rem" }
             }
           >
             <SimpleImageSlider

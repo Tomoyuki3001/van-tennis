@@ -32,7 +32,7 @@ const Home = () => {
           <h1 className="lg:text-[7rem] text-[5rem] font-bold m-0">WE</h1>
           <h1 className="lg:text-[7rem] text-[5rem]  font-bold m-0 uppercase">
             <ReactTyped
-              strings={["play", "love"]}
+              strings={["play", "enjoy", "love"]}
               typeSpeed={250}
               loop
               backSpeed={50}
@@ -45,9 +45,9 @@ const Home = () => {
         <h2 className="text-[3rem] font-bold">Tennis in Vancouver</h2>
         <div className="lg:flex">
           <div className="lg:w-1/2 py-20 flex flex-col items-center">
-            <img className="w-full rounded" src={TopImage} alt="Iamge" />
+            <img className="w-full rounded-sm" src={TopImage} alt="Iamge" />
           </div>
-          <div className="lg:w-1/2 py-20 lg:pl-20 flex flex-col justify-between">
+          <div className="lg:w-1/2 lg:py-20 lg:pl-20 flex flex-col justify-between">
             <p className="text-lg lg:text-2xl lg:text-right lg:leading-relaxed">
               VTG(Vancouver Tennis Guide) is a website designed for anyone who
               is interested in playing tennis in Vancouver, whether they want to
@@ -86,9 +86,10 @@ const Home = () => {
             <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-blue-600">
               <h2>PLAY</h2>
               <p className="text-sm lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo
-                quis accusantium illum, officia fugiat natus distinctio sunt
-                exercitationem quia similique facilis dignissimos
+                Where can we play tennis in Vancouver? Tennis courts can be
+                found in parks and other places, so anyone can play tennis. You
+                may also want to check out indoor courts, where you can enjoy
+                playing tennis even on rainy days.
               </p>
               <button
                 onClick={() => {
@@ -109,9 +110,9 @@ const Home = () => {
             <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-gray-600">
               <h2>GEAR</h2>
               <p className="text-sm lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo
-                quis accusantium illum, officia fugiat natus distinctio sunt
-                exercitationem quia similique facilis dignissimos
+                To play tennis, you will need a racket and other equipment. Here
+                is a summary of what you need to pay attention to and what you
+                need to prepare to play tennis.
               </p>
               <button
                 onClick={() => {
@@ -132,9 +133,8 @@ const Home = () => {
             <div className="flex flex-col items-center lg:hidden p-3 lg:group-hover:block absolute bottom-0 text-white lg:bg-opacity-70 lg:bg-stone-600">
               <h2>WATCH</h2>
               <p className="text-sm lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo
-                quis accusantium illum, officia fugiat natus distinctio sunt
-                exercitationem quia similique facilis dignissimos
+                You can also enjoy watching professional tournaments. Here are
+                some of the famous professional tournaments held annually.
               </p>
               <button
                 onClick={() => {
@@ -166,15 +166,45 @@ const Home = () => {
           <h2 className="text-[3rem] font-bold my-10">Let's connect!</h2>
         </div>
         <img
-          className="rounded w-[15rem] lg:w-[25rem] h-auto my-10 p-1 border"
+          className="rounded w-[15rem] lg:w-[22rem] h-auto my-10 p-1 border"
           src={Profile}
           alt=""
         />
         <h2 className="mt-10">Tomoyuki Fujii</h2>
-        <p>Worked at DUNLOP (Tennis)</p>
-        <p className="lg:w-1/2 text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ad
-          hic numquam dolor fugit dicta ratione amet quod nemo delectus.
+        <p className="lg:w-1/2 text-center m-0 text-lg lg:text-xl lg:leading-relaxed">
+          I started playing tennis when I was 15 years old. After graduating
+          from university, I have worked at tennis brands (
+          <span>
+            <a
+              href="https://dunlopsports.com/tennis/"
+              target="_blank"
+              rel="noreferrer"
+              className="no-underline"
+            >
+              DUNLOP
+            </a>
+          </span>{" "}
+          /{" "}
+          <span>
+            <a
+              href="https://www.babolat.ca"
+              target="_blank"
+              rel="noreferrer"
+              className="no-underline"
+            >
+              BabolaT
+            </a>
+          </span>
+          ). <br />
+          I’m currently studying computer programming in Vancouver and looking
+          for a job to become a web developer. <br />
+          With this project, I have used my skills from what I learned and
+          experienced to create the website that I wanted.
+        </p>
+        <p className="lg:w-1/2 text-center m-0 text-lg lg:text-xl lg:leading-relaxed">
+          I can give you my suggestions about rackets, strings, and other
+          equipments! Feel free to ask me through social media or email! I can
+          also help your Japanese learning if you want:)
         </p>
         <div className="my-10 flex">
           <a

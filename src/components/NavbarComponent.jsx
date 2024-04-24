@@ -65,35 +65,45 @@ const NavbarComponent = () => {
       <div className="nav-links-container">
         <div className={`${isMobile ? remove : `nav-links ${scrollLink}`}`}>
           <a
-            className={`${isMobile ? "nav-link-tag-mobile" : "nav-link-tag"}`}
+            className={`font-bold ${
+              isMobile ? "nav-link-tag-mobile" : "nav-link-tag"
+            }`}
             href="/about"
             onClick={() => removeMenus()}
           >
             About
           </a>
           <a
-            className={`${isMobile ? "nav-link-tag-mobile" : "nav-link-tag"}`}
+            className={`font-bold ${
+              isMobile ? "nav-link-tag-mobile" : "nav-link-tag"
+            }`}
             href="/play"
             onClick={() => removeMenus()}
           >
             Play
           </a>
           <a
-            className={`${isMobile ? "nav-link-tag-mobile" : "nav-link-tag"}`}
+            className={`font-bold ${
+              isMobile ? "nav-link-tag-mobile" : "nav-link-tag"
+            }`}
             href="/watch"
             onClick={() => removeMenus()}
           >
             Watch
           </a>
           <a
-            className={`${isMobile ? "nav-link-tag-mobile" : "nav-link-tag"}`}
+            className={`font-bold ${
+              isMobile ? "nav-link-tag-mobile" : "nav-link-tag"
+            }`}
             href="/gear"
             onClick={() => removeMenus()}
           >
             Gear
           </a>
           <a
-            className={`${isMobile ? "nav-link-tag-mobile" : "nav-link-tag"}`}
+            className={`font-bold ${
+              isMobile ? "nav-link-tag-mobile" : "nav-link-tag"
+            }`}
             href="/contact"
             onClick={() => removeMenus()}
           >

@@ -27,7 +27,7 @@ const About = () => {
           <div className="lg:flex">
             <div className="lg:w-1/2 flex flex-col items-center">
               <img
-                className="w-[15rem] lg:w-[25rem] rounded p-1 border mb-16 lg:mb-0"
+                className="w-[15rem] lg:w-[22rem] rounded p-1 border mb-16 lg:mb-0"
                 src={Profile}
                 alt=""
               />

@@ -29,11 +29,11 @@ const Play = () => {
             </p>
             <div>
               <h3 className="my-20 underline">Outdoor courts</h3>
-              <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-16">
+              <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-4">
                 <div>
                   <div className="flex flex-col items-center">
                     <img
-                      className="w-[30rem] h-[20rem] rounded"
+                      className="w-[30rem] h-[20rem] rounded-sm"
                       src={Stanley}
                       alt=""
                     />
@@ -43,7 +43,7 @@ const Play = () => {
                 <div>
                   <div className="flex flex-col items-center">
                     <img
-                      className="w-[30rem] h-[20rem] rounded"
+                      className="w-[30rem] h-[20rem] rounded-sm"
                       src={Queen}
                       alt=""
                     />
@@ -53,7 +53,7 @@ const Play = () => {
                 <div>
                   <div className="flex flex-col items-center">
                     <img
-                      className="w-[30rem] h-[20rem] rounded"
+                      className="w-[30rem] h-[20rem] rounded-sm"
                       src={Slocan}
                       alt=""
                     />
@@ -66,7 +66,7 @@ const Play = () => {
                 <div className="lg:mr-16">
                   <div className="flex flex-col items-center">
                     <img
-                      className="w-[30rem] h-[20rem] rounded"
+                      className="w-[30rem] h-[20rem] rounded-sm"
                       src={North}
                       alt=""
                     />
@@ -76,7 +76,7 @@ const Play = () => {
                 <div className="lg:ml-16">
                   <div className="flex flex-col items-center">
                     <img
-                      className="w-[30rem] h-[20rem] rounded"
+                      className="w-[30rem] h-[20rem] rounded-sm"
                       src={UBC}
                       alt=""
                     />
@@ -159,7 +159,7 @@ const Play = () => {
           <div>
             <div className="lg:flex my-20">
               <div className="lg:w-1/2 flex flex-col items-center">
-                <img className="w-[30rem]" src={Coach} alt="" />
+                <img className="w-[30rem] rounded-sm" src={Coach} alt="" />
               </div>
               <div className="lg:w-1/2">
                 <h3 className="mt-10 lg:mt-0">Lessons/Coaches</h3>
@@ -183,7 +183,7 @@ const Play = () => {
             </div>
             <div className="lg:flex">
               <div className="lg:w-1/2 flex flex-col items-center">
-                <img className="w-[30rem]" src={Youtube} alt="" />
+                <img className="w-[30rem] rounded-sm" src={Youtube} alt="" />
               </div>
               <div className="lg:w-1/2">
                 <h3 className="mt-10 lg:mt-0">Online contents</h3>
