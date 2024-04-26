@@ -22,10 +22,9 @@ const Play = () => {
           <h2 className="text-[3rem] font-bold">Where can we play?</h2>
           <div>
             <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
-              Where can we play tennis in Vancouver? Tennis courts can be found
-              in parks and other places, so anyone can play tennis. You may also
-              want to check out indoor courts, where you can enjoy playing
-              tennis even on rainy days.
+              Tennis courts can be found in parks and other places, so anyone
+              can play tennis. You may also want to check out indoor courts,
+              where you can enjoy playing tennis even on rainy days.
             </p>
             <div>
               <h3 className="my-20 underline">Outdoor courts</h3>
@@ -94,7 +93,7 @@ const Play = () => {
           <p className="text-center lg:pl-40 lg:pr-40 mt-20 lg:mb-20 text-lg lg:text-xl lg:leading-relaxed">
             If there is no one around you who plays tennis, how can you find a
             partner? In this case, you might use social media such as Facebook
-            or Meetup to find tennis players nearby.
+            and Meetup to find tennis players nearby.
           </p>
           <div className="my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-16">
             <div className="flex flex-col items-center text-center my-3">
@@ -111,7 +110,7 @@ const Play = () => {
                     rel="noreferrer"
                     className="no-underline text-blue-400"
                   >
-                    here
+                    "Tennis Vancouver!"
                   </a>
                 </span>
                 .
@@ -166,7 +165,7 @@ const Play = () => {
                 <p className="mt-10 text-lg lg:text-xl lg:leading-relaxed">
                   This is a way to improve your tennis skills by learning from a
                   nearby tennis club or from a private tennis coach. You can
-                  find a B.C.certificated tennis coach{" "}
+                  find B.C.certificated tennis coaches{" "}
                   <span>
                     <a
                       href="https://www.tennisbc.org/coaching/tennis-professionals-association/"
@@ -188,10 +187,9 @@ const Play = () => {
               <div className="lg:w-1/2">
                 <h3 className="mt-10 lg:mt-0">Online contents</h3>
                 <p className="mt-10 text-lg lg:text-xl lg:leading-relaxed">
-                  You can find many tennis lesson videos on YouTube and social
-                  media. There are also many short videos, so it is a good idea
-                  to watch the videos you need, according to your own practice!
-                  My favorite content is{" "}
+                  You can find many tennis tutorial videos on YouTube and social
+                  media. It is a good idea to watch the videos you need,
+                  according to your own practice! My favorite content is{" "}
                   <span>
                     <a
                       href="https://www.instagram.com/yuki1998takamura/"

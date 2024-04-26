@@ -33,7 +33,7 @@ const Watch = () => {
       </div>
       <div className="pl-3 pr-3 lg:pl-40 lg:pr-40">
         <div className="flex flex-col items-center mt-20 mb-20 lg:mt-40 lg:mb-40 text-center">
-          <h2 className="text-[3rem] font-bold">Tennis games</h2>
+          <h2 className="text-[3rem] font-bold">Tennis tournaments</h2>
           <div>
             <p className="lg:pl-40 lg:pr-40 my-10 text-lg lg:text-xl lg:leading-relaxed">
               You can also enjoy watching professional tournaments. Here are
@@ -93,8 +93,7 @@ const Watch = () => {
               <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
                 In addition to the Grand Slams mentioned above, many
                 professional tennis tournaments are held annually in the world.
-                Based on the organizations listed below, there are many matches,
-                so perhaps you can watch a tennis tournament on your vacation.
+                Based on the organizations listed below.
               </p>
               <div className="lg:flex justify-center">
                 <div className="lg:mr-16 flex flex-col items-center">

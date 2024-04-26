@@ -21,8 +21,8 @@ const Gear = () => {
         <h2 className="text-[3rem] font-bold">What you need to play?</h2>
         <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
           To play tennis, you will need a racket and other equipment. Here is a
-          summary of what you need to pay attention to and what you need to
-          prepare to play tennis.
+          summary of what you need to pay attention to and prepare to play
+          tennis.
         </p>
         <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-6">
           <div className="mb-10">
@@ -100,8 +100,8 @@ const Gear = () => {
               <h4 className="mt-5">Other equipments</h4>
               <p className="lg:pl-20 lg:pr-20 text-lg lg:text-xl lg:leading-relaxed">
                 Bring any other items needed for exercise, such as a water
-                bottle and towel. Hydration is especially important, so it’s a
-                good idea to have a large bottle every time.
+                bottle and a towel. Hydration is especially important, so
+                bringing a large water bottle is always good.
               </p>
             </div>
           </div>
@@ -127,7 +127,7 @@ const Gear = () => {
                 start with less than 280g. It's also safe to say that the head
                 size should be at least 100 inches. It does not have to be too
                 big, so try to choose 100 to 110 inches as a standard. Using a
-                racquet with a weight that is not particularly suitable for you
+                racket with a weight that is not particularly suitable for you
                 will reduce the quality of your play and may even cause injury.
               </p>
             </div>
@@ -139,14 +139,13 @@ const Gear = () => {
             <div className="lg:w-1/2">
               <h3 className="mt-10 mb-10 lg:mt-0">String type/tension</h3>
               <p className="lg:pl-20 lg:pr-20 text-center text-lg lg:text-xl lg:leading-relaxed">
-                For beginners, multifilament strings make the ball fly better
-                and are easier on the hands. Polyester is usually for
-                intermediate or advanced players. Using polyester string when
-                you are not used to it can be a potential of causing injury. I
-                recommend a tension of 45 pounds or less. If the tension is too
-                high, the ball will not fly as far, so let's start with 45
-                pounds. Also, it’s very good to consult with a stringer at a
-                tennis store or sport shop.
+                For beginner level players, multifilament strings are one of my
+                suggestions because that makes the ball fly better. Polyester
+                strings are usually for intermediate or advanced level players.
+                Using polyester string when you are not used to it can be a
+                potential of causing injury. Also, I recommend a tension of 45
+                pounds or less. If the tension is too high, the ball will not
+                fly as far, so let's start with 45 pounds.
               </p>
             </div>
           </div>
