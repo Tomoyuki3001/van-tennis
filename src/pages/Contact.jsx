@@ -108,7 +108,7 @@ const Contact = () => {
 
         <p className="lg:px-[20%] pt-12 text-lg lg:text-xl lg:leading-relaxed">
           I started playing tennis when I was 15 years old. After graduating
-          from university, I have worked at tennis brands (
+          from university, I worked at tennis companies such as{" "}
           <span>
             <a
               href="https://dunlopsports.com/tennis/"
@@ -119,7 +119,7 @@ const Contact = () => {
               DUNLOP
             </a>
           </span>{" "}
-          /{" "}
+          and{" "}
           <span>
             <a
               href="https://www.babolat.ca"
@@ -130,16 +130,16 @@ const Contact = () => {
               BabolaT
             </a>
           </span>
-          ). <br />
-          I’m currently studying computer programming in Vancouver and looking
-          for a job to become a web developer. <br />
-          With this project, I have used my skills from what I learned and
-          experienced to create the website that I wanted.
+          . I am currently studying computer programming in Vancouver and
+          looking for a job to become a web developer.
         </p>
         <p className="lg:px-[20%] mb-12 text-lg lg:text-xl lg:leading-relaxed">
-          I can give you my suggestions about rackets, strings, and other
-          equipments! Feel free to ask me through my social media or email! I
-          can also help you learn Japanese if you want:)
+          Vancouver Tennis Guide is a project that I have created using my
+          skills in programming and my passion for tennis. I hope you would find
+          the information and advice shared on this website helpful,
+          particularly for those who are new to tennis. Feel free to ask me
+          through my social media or email! I can also help you learn Japanese
+          if you want:)
         </p>
         <div className="flex flex-col items-center">
           <div className="flex justify-around">

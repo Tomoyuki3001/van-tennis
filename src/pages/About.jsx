@@ -74,7 +74,8 @@ const About = () => {
                 . I am currently studying computer programming in Vancouver and
                 looking for a job to become a web developer.
               </p>
-              <p className="mt-5 text-lg lg:text-xl lg:leading-relaxed">
+              <br />
+              <p className="text-lg lg:text-xl lg:leading-relaxed">
                 Vancouver Tennis Guide is a project that I have created using my
                 skills in programming and my passion for tennis. I hope you
                 would find the information and advice shared on this website
