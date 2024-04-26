@@ -101,10 +101,10 @@ const About = () => {
               <img className="w-[5rem] lg:w-[7rem]" src={Group} alt="" />
               <h2 className="my-10">Social</h2>
               <p className="text-lg lg:text-xl lg:leading-relaxed lg:pl-20 lg:pr-20">
-                Tennis cannot be played without a partner. You can enjoy playing
-                tennis with someone close to you, or you could try to meet new
-                people through tennis. Sports is like a language that connects
-                people.
+                Tennis can not be played without a partner. You can enjoy
+                playing tennis with someone close to you, or you could try to
+                meet new people through tennis. Sports is like a language that
+                connects people.
               </p>
             </div>
           </div>

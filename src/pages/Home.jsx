@@ -50,10 +50,8 @@ const Home = () => {
           <div className="lg:w-1/2 lg:py-20 lg:pl-20 flex flex-col justify-between">
             <p className="text-lg lg:text-2xl lg:text-right lg:leading-relaxed">
               VTG (Vancouver Tennis Guide) is a website designed for anyone who
-              is interested in playing tennis in Vancouver, whether they want to
-              start playing or improve their tennis level. It is a place where
-              you can not only play tennis, but also enjoy watching and
-              shopping.
+              is interested in playing tennis in Vancouver, whether you are a
+              beginner or you want to improve your tennis skills.
             </p>
             <div className="lg:flex flex-col items-end">
               <button
@@ -182,7 +180,7 @@ const Home = () => {
 
         <p className="lg:w-1/2 text-center m-0 text-lg lg:text-xl lg:leading-relaxed">
           I started playing tennis when I was 15 years old. After graduating
-          from university, I have worked at tennis brands (
+          from university, I worked at tennis companies such as{" "}
           <span>
             <a
               href="https://dunlopsports.com/tennis/"
@@ -193,7 +191,7 @@ const Home = () => {
               DUNLOP
             </a>
           </span>{" "}
-          /{" "}
+          and{" "}
           <span>
             <a
               href="https://www.babolat.ca"
@@ -204,16 +202,15 @@ const Home = () => {
               BabolaT
             </a>
           </span>
-          ). <br />
-          I’m currently studying computer programming in Vancouver and looking
+          . <br />
+          I am currently studying computer programming in Vancouver and looking
           for a job to become a web developer. <br />
-          With this project, I have used my skills from what I learned and
-          experienced to create the website that I wanted.
         </p>
         <p className="lg:w-1/2 text-center m-0 text-lg lg:text-xl lg:leading-relaxed">
-          I can give you my suggestions about rackets, strings, and other
-          equipments! Feel free to ask me through my social media or email! I
-          can also help you learn Japanese if you want:)
+          Vancouver Tennis Guide is a project that I have created using my
+          skills in programming and my passion for tennis. I hope you would find
+          the information and advice shared on this website helpful,
+          particularly for those who are new to tennis.
         </p>
         <div className="my-10 flex">
           <a
