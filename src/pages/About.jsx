@@ -13,13 +13,17 @@ const About = () => {
       </div>
       <div className="pl-3 pr-3 lg:pl-40 lg:pr-40">
         <div className="flex flex-col items-center mt-20 mb-20 lg:mt-40 lg:mb-40 lg:pl-40 lg:pr-40">
-          <h2 className="text-[3rem] font-bold">What's VTG?</h2>
+          <h2 className="text-[3rem] font-bold">What is VTG?</h2>
           <img className="w-[15rem] lg:w-[25rem] my-20" src={Logo} alt="" />
           <p className="text-center lg:pl-20 lg:pr-20 text-lg lg:text-xl lg:leading-relaxed">
-            VTG(Vancouver Tennis Guide) is a website designed for anyone who is
-            interested in playing tennis in Vancouver, whether they want to
-            start playing or improve their tennis level. It is a place where you
-            can not only play tennis, but also enjoy watching and shopping.
+            VTG (Vancouver Tennis Guide) is a website designed for anyone who is
+            interested in playing tennis in Vancouver, whether you are a
+            beginner or you want to improve your tennis skills.
+          </p>
+          <p className="text-center lg:pl-20 lg:pr-20 text-lg lg:text-xl lg:leading-relaxed">
+            This platform provides information on tennis games that are held in
+            Vancouver, and my advice on how to choose proper gear for your game
+            and improve your tennis skills.
           </p>
         </div>
         <div className="my-10">
@@ -45,7 +49,7 @@ const About = () => {
             <div className="lg:w-1/2 text-center lg:px-10">
               <p className="m-0 text-lg lg:text-xl lg:leading-relaxed">
                 I started playing tennis when I was 15 years old. After
-                graduating from university, I have worked at tennis brands (
+                graduating from university, I worked at tennis companies such as{" "}
                 <span>
                   <a
                     href="https://dunlopsports.com/tennis/"
@@ -56,7 +60,7 @@ const About = () => {
                     DUNLOP
                   </a>
                 </span>{" "}
-                /{" "}
+                and{" "}
                 <span>
                   <a
                     href="https://www.babolat.ca"
@@ -67,21 +71,14 @@ const About = () => {
                     BabolaT
                   </a>
                 </span>
-                ). I’m currently studying computer programming in Vancouver and
-                looking for a job to become a web developer. With this project,
-                I have used my skills from what I learned and experienced to
-                create the website that I wanted.
+                . I am currently studying computer programming in Vancouver and
+                looking for a job to become a web developer.
               </p>
               <p className="mt-5 text-lg lg:text-xl lg:leading-relaxed">
-                I have compiled information on how to improve your tennis skills
-                by providing some advice on gear, tennis games that are held at
-                a moment in Vancouver, and also some key points that you could
-                keep in mind while enjoying playing tennis in Vancouver.
-              </p>
-              <p className="mt-5 text-lg lg:text-xl lg:leading-relaxed">
-                I hope this website would be helpful for you to enjoy playing
-                tennis more and give the right advice to those of you who are
-                thinking about starting to play tennis.
+                Vancouver Tennis Guide is a project that I have created using my
+                skills in programming and my passion for tennis. I hope you
+                would find the information and advice shared on this website
+                helpful, particularly for those who are new to tennis.
               </p>
             </div>
           </div>

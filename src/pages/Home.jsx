@@ -49,7 +49,7 @@ const Home = () => {
           </div>
           <div className="lg:w-1/2 lg:py-20 lg:pl-20 flex flex-col justify-between">
             <p className="text-lg lg:text-2xl lg:text-right lg:leading-relaxed">
-              VTG(Vancouver Tennis Guide) is a website designed for anyone who
+              VTG (Vancouver Tennis Guide) is a website designed for anyone who
               is interested in playing tennis in Vancouver, whether they want to
               start playing or improve their tennis level. It is a place where
               you can not only play tennis, but also enjoy watching and
