@@ -59,11 +59,11 @@ const Gear = () => {
             </div>
             <h4 className="mt-5">Shoes</h4>
             <p className="text-lg lg:text-xl lg:leading-relaxed">
-              I don't recommend wearing sneakers or other casual shoes because
-              you need to move side-to-side while playing tennis and those types
-              of shoes are not designed for the movements. So, you might not
-              play tennis comfortably, if you don't wear tennis shoes. Also, it
-              will be a reason to lead to injuries to your feet and ankles.
+              I don't recommend wearing sneakers or other casual shoes while
+              playing tennis because you need to move side-to-side and those
+              types of shoes are not designed for the movements. So, you might
+              not play tennis comfortably, if you don't wear tennis shoes. Also,
+              it will be a reason to lead to injuries to your feet and ankles.
             </p>
           </div>
         </div>
