@@ -20,9 +20,8 @@ const Gear = () => {
       <div className="pl-3 pr-3 lg:pl-40 lg:pr-40 flex flex-col items-center text-center mt-20 mb-20 lg:mt-40 lg:mb-40">
         <h2 className="text-[3rem] font-bold">What you need to play?</h2>
         <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
-          To play tennis, you will need a racket and other equipment. Here is a
-          summary of what you need to pay attention to and prepare to play
-          tennis.
+          You will need a racket and other equipment. Here is a summary of what
+          you need to pay attention to and prepare to play tennis.
         </p>
         <div className="grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-6">
           <div className="mb-10">
@@ -60,18 +59,18 @@ const Gear = () => {
             </div>
             <h4 className="mt-5">Shoes</h4>
             <p className="text-lg lg:text-xl lg:leading-relaxed">
-              I don’t recommend playing tennis in sneakers or other casual
-              shoes. Tennis is a sport that involves moving back and forth, left
-              and right, and if you don’t wear shoes suitable for exercise, it
-              can lead to injuries to your feet and ankles. It’s a good idea to
-              have a pair of tennis shoes.
+              I don't recommend wearing sneakers or other casual shoes because
+              you need to move side-to-side while playing tennis and those types
+              of shoes are not designed for the movements. So, you might not
+              play tennis comfortably, if you don't wear tennis shoes. Also, it
+              will be a reason to lead to injuries to your feet and ankles.
             </p>
           </div>
         </div>
         <div>
           <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
             There are other pieces of equipment you might need to play tennis.
-            These will help you play more comfortably.
+            These items will help you play more comfortably.
           </p>
           <div className="grid lg:grid-rows-1 grid-rows-2 grid-flow-col lg:px-20">
             <div className="mb-10">
@@ -123,7 +122,7 @@ const Gear = () => {
               <h3 className="mt-10 mb-10 lg:mt-0">Racket weight/head size</h3>
               <p className="lg:pl-20 lg:pr-20 text-center text-lg lg:text-xl lg:leading-relaxed">
                 If you’re new to tennis, around 280g is recommended. If you
-                don’t play any other sport and have never used a racket before,
+                don’t play any other sports and have never used a racket before,
                 start with less than 280g. It's also safe to say that the head
                 size should be at least 100 inches. It does not have to be too
                 big, so try to choose 100 to 110 inches as a standard. Using a

@@ -36,8 +36,9 @@ const Watch = () => {
           <h2 className="text-[3rem] font-bold">Tennis tournaments</h2>
           <div>
             <p className="lg:pl-40 lg:pr-40 my-10 text-lg lg:text-xl lg:leading-relaxed">
-              You can also enjoy watching professional tournaments. Here are
-              some of the famous professional tournaments held annually.
+              You can enjoy watching professional tennis tournaments. These are
+              the four biggest professional tennis tournaments held annually in
+              the world.
             </p>
             <div>
               <h3 className="my-10">Grand Slam</h3>
@@ -91,7 +92,7 @@ const Watch = () => {
               </div>
               <h3 className="my-10">ATP/WTA Tournaments</h3>
               <p className="lg:pl-40 lg:pr-40 my-20 text-lg lg:text-xl lg:leading-relaxed">
-                In addition to the Grand Slams mentioned above, many
+                In addition to the Grand Slam tournaments mentioned above, many
                 professional tennis tournaments are held annually in the world.
                 Based on the organizations listed below.
               </p>
@@ -119,10 +120,10 @@ const Watch = () => {
         <div className="flex flex-col items-center mt-20 mb-20 lg:mt-40 lg:mb-40 text-center">
           <h2 className="text-[3rem] font-bold">Tournaments in Vancouver</h2>
           <p className="text-center lg:pl-40 lg:pr-40 mt-5 mb-0 lg:mt-40 lg:mb-40 text-lg lg:text-xl lg:leading-relaxed">
-            There is also an international tournament that can be seen in
-            Vancouver. This is a great opportunity to see high-level
-            international competitions up close, and to experience the vibes of
-            the games live, which is difficult to feel through a screen.
+            There is also an international tournament that we can watch in
+            Vancouver. This is a great opportunity to watch high-level
+            international competitions up close and to feel the vibes of the
+            games live, which is a different feeling through a screen.
           </p>
           <div className="my-20 grid lg:grid-rows-1 sm:grid-rows-2 grid-flow-col lg:px-32">
             <div className="flex flex-col items-center text-center">
