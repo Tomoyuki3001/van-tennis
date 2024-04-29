@@ -156,7 +156,7 @@ const Gear = () => {
           Here is a list of tennis stores I have been in Vancouver. When you
           have a problem about gear, the best thing to do is to ask an expert.
           It’s safer to consult with an expert than to make a mistake by buying
-          something easily on the Internet (Facebook Marketplace).
+          something easily on the Internet (e.g. Facebook Marketplace).
         </p>
         <div className="lg:my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-4">
           <div className="flex flex-col items-center text-center">
