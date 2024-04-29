@@ -62,8 +62,7 @@ const Gear = () => {
               I don't recommend wearing sneakers or other casual shoes while
               playing tennis because you need to move side-to-side and those
               types of shoes are not designed for the movements. So, you might
-              not play tennis comfortably, if you don't wear tennis shoes. Also,
-              it will be a reason to lead to injuries to your feet and ankles.
+              not play tennis comfortably, if you don't wear tennis shoes.
             </p>
           </div>
         </div>
@@ -127,7 +126,8 @@ const Gear = () => {
                 size should be at least 100 inches. It does not have to be too
                 big, so try to choose 100 to 110 inches as a standard. Using a
                 racket with a weight that is not particularly suitable for you
-                will reduce the quality of your play and may even cause injury.
+                will reduce the quality of your play and may even cause elbow
+                and arm pain.
               </p>
             </div>
           </div>
@@ -142,9 +142,9 @@ const Gear = () => {
                 suggestions because that makes the ball fly better. Polyester
                 strings are usually for intermediate or advanced level players.
                 Using polyester string when you are not used to it can be a
-                potential of causing injury. Also, I recommend a tension of 45
-                pounds or less. If the tension is too high, the ball will not
-                fly as far, so let's start with 45 pounds.
+                potential of causing elbow and arm pain. Also, I recommend a
+                tension of 45 pounds or less. If the tension is too high, the
+                ball will not fly as far, so let's start with 45 pounds.
               </p>
             </div>
           </div>
@@ -153,10 +153,10 @@ const Gear = () => {
       <div className="flex flex-col items-center mt-20 mb-20 lg:mt-40 lg:mb-40 text-center pl-3 pr-3 lg:pl-40 lg:pr-40">
         <h2 className="text-[3rem] font-bold">Tennis shops in Vancouver</h2>
         <p className="text-center lg:px-40 my-10 text-lg lg:text-xl lg:leading-relaxed">
-          Here is a list of tennis stores in Vancouver. I have been there, and
-          when you have a problem about gear, the best thing to do is to ask an
-          expert. It’s safer to consult with an expert than to make a mistake by
-          buying something easily on the Internet.
+          Here is a list of tennis stores I have been in Vancouver. When you
+          have a problem about gear, the best thing to do is to ask an expert.
+          It’s safer to consult with an expert than to make a mistake by buying
+          something easily on the Internet (Facebook Marketplace).
         </p>
         <div className="lg:my-20 grid lg:grid-rows-1 grid-rows-3 grid-flow-col gap-4">
           <div className="flex flex-col items-center text-center">
