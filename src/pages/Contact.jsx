@@ -97,7 +97,7 @@ const Contact = () => {
         <p className="mb-5">Junior Front-end developer</p>
         <button className="my-3">
           <a
-            href="https://drive.google.com/file/d/1E42gK6lAurKPr22iMrqU1RqnSj5_s1-5/view?usp=sharing"
+            href="https://drive.google.com/file/d/1nVLlo1WB5NGVWhpVARZHhIerwr9rdmu9/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="no-underline hover:text-white hover:bg-[#0f375d] border-2 border-[#0A58CA] hover:border-[#0f375d] py-4 px-8"
