@@ -94,10 +94,10 @@ const Contact = () => {
           />
         </div>
         <h2 className="mt-10">Tomoyuki Fujii</h2>
-        <p className="mb-5">Junior Front-end developer</p>
+        <p className="mb-5">Junior Full-Stack Developer</p>
         <button className="my-3">
           <a
-            href="https://drive.google.com/file/d/1nVLlo1WB5NGVWhpVARZHhIerwr9rdmu9/view?usp=sharing"
+            href="https://drive.google.com/file/d/12fLbKoKIkQv8YCNzzt2KaUfFsQ7vTwoR/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="no-underline hover:text-white hover:bg-[#0f375d] border-2 border-[#0A58CA] hover:border-[#0f375d] py-4 px-8"
