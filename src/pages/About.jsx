@@ -38,7 +38,7 @@ const About = () => {
               <h2 className="mt-10">Tomoyuki Fujii</h2>
               <p>Junior Full-Stack Developer</p>
               <a
-                href="https://drive.google.com/file/d/12fLbKoKIkQv8YCNzzt2KaUfFsQ7vTwoR/view?usp=sharing"
+                href="https://drive.google.com/file/d/1-GXrZ3jiKdoURKbdlyDMNX9scKJQUXc3/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className="no-underline hover:text-white hover:bg-[#0f375d] border-2 border-[#0A58CA] hover:border-[#0f375d] py-4 px-8 mt-3 mb-5 lg:mb-0"
